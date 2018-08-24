@@ -23,16 +23,11 @@ namespace DiscordBotTest
         private CommandService _commands;
         private IServiceProvider _services;
         private readonly string _botToken = Configuration.GetAppSettings().Keys.BotToken;
-        private Timer TotalLevelUpdateTimer = new Timer(60 * 60 * 1000);
+        private readonly Timer TotalLevelUpdateTimer = new Timer(60 * 1000);
         private readonly ulong _myServerId = 199189022894063627;
         private readonly ulong _testServerId = 430643719880835072;
         private static readonly ulong _myUserId = 198806112852508672;
         private static readonly string _testUser = "TheSweMasterX#5203";
-
-        public static Dictionary<string, string> RunescapeAccounts = new Dictionary<string, string>()
-        {
-            { _testUser, "theswemaster" },
-        };
 
         public async Task RunBotAsync()
         {
@@ -62,40 +57,48 @@ namespace DiscordBotTest
             await Task.Delay(-1);
         }
 
-        private async void UpdateTotalLevelOnEveryHourEvent(object source, ElapsedEventArgs e)
+        private void UpdateTotalLevelOnEveryHourEvent(object source, ElapsedEventArgs e)
+        {
+            UpdateAllNickNameTotalLevel().Wait();
+        }
+
+        public async Task UpdateAllNickNameTotalLevel()
         {
             var guild = _client.GetGuild(_testServerId);
 
-            foreach (var keyPair in RunescapeAccounts)
+            foreach (var keyPair in RunescapeAccountList.GetRunescapeAccountList())
             {
-                var username = keyPair.Key.Split('#')[0];
-                var discriminator = keyPair.Key.Split('#')[1];
-                var user = _client.GetUser(username, discriminator);
-                var guildUser = guild.GetUser(user.Id);
-                var oldNickname = guildUser.Nickname ?? guildUser.Username;
-
-                string newNickname = "";
-                var res = oldNickname.Split('(');
-                if (oldNickname.Split('(') != null || oldNickname.Split('(').Count() == 2)
-                {
-                    newNickname = oldNickname.Split('(')[0] + $"({await GetHighScoreData(keyPair.Value)}/2277)";
-                }
-                else
-                {
-                    newNickname = oldNickname + $" ({await GetHighScoreData(keyPair.Value)}/2277)";
-                }
-                await guildUser.ModifyAsync(x => x.Nickname = $"{newNickname}");
+                await UpdateNickNameOnUser(guild, keyPair, _client);
             }
         }
 
-        private async Task<string> GetHighScoreData(string rsUsername)
+        public static async Task UpdateNickNameOnUser(SocketGuild guild, KeyValuePair<string, string> keyPair, DiscordSocketClient client)
         {
-            var stringData = await _httpClient.GetStringAsync($"http://services.runescape.com/m=hiscore_oldschool/index_lite.ws?player={rsUsername}");
-            stringData = stringData.Substring(0, 20);
-            var dataArray = stringData.Split(',');
-            var currentTotalLevel = dataArray[1];
+            var username = keyPair.Key.Split('#')[0];
+            var discriminator = keyPair.Key.Split('#')[1];
+            var user = client.GetUser(username, discriminator);
+            var guildUser = guild.GetUser(user.Id);
+            var oldNickname = guildUser.Nickname ?? guildUser.Username;
 
-            return currentTotalLevel;
+            string newNickname = "";
+
+            if (oldNickname.Split('(') != null || oldNickname.Split('(').Count() == 2)
+            {
+                newNickname = oldNickname.Split('(')[0] + $"({await GetHighScoreTotalLevel(keyPair.Value)}/2277)";
+            }
+            else
+            {
+                newNickname = oldNickname + $" ({await GetHighScoreTotalLevel(keyPair.Value)}/2277)";
+            }
+            await guildUser.ModifyAsync(x => x.Nickname = $"{newNickname}");
+        }
+
+        private static async Task<string> GetHighScoreTotalLevel(string rsUsername)
+        {
+            var streamData = await RSHighScoreReaderHelper.TryGetStreamData(rsUsername);
+            var lines = RSHighScoreReaderHelper.ReadLines(() => streamData).ToList();
+            var skillDataList = RSHighScoreReaderHelper.GetSkillTotalLevel(lines);
+            return skillDataList.ToString();
         }
 
         private async Task SetBotGameStatus()
