@@ -1,17 +1,13 @@
 ﻿using Discord;
 using Discord.Commands;
 using Discord.WebSocket;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace DiscordBotTest.Modules
 {
-    //[Group("ping")]
     public class PingModule : ModuleBase<SocketCommandContext>
     {
-        private readonly string botInviteLink = "https://discordapp.com/api/oauth2/authorize?client_id=437972563876904970&scope=bot&permissions=1";
+        private readonly string botInviteLink = "https://discordapp.com/api/oauth2/authorize?client_id=437972563876904970&scope=bot&permissions=1813466177";
 
         [Command("botlink")]
         public async Task BotInviteLinkCommand()
@@ -43,33 +39,33 @@ namespace DiscordBotTest.Modules
         [Command("ping")]
         public async Task PingCommand()
         {
-            await MakeNicePing();
+            await SendPingMessage();
         }
 
-        private async Task TestContext()
+        private async Task SendPingMessage()
         {
-            EmbedBuilder builder = new EmbedBuilder();
+            var latency = Context.Client.Latency;
 
-            //The Discord Bot Entity: Context.Client;
-            //The Discord Server-Channel: Context.Guild;    
-            //The Discord User (writing the command): Context.User;
-            //The Message the bots sends: Context.Message;
-            // Context.Channel;
+            Color color;
+            if (latency <= 100)
+            {
+                color = Color.Green;
+            }
+            else if (latency <= 250)
+            {
+                color = Color.LightOrange;
+            }
+            else
+            {
+                color = Color.Red;
+            }
 
-            await ReplyAsync($"{Context.Client.CurrentUser.Mention} || {Context.User.Mention} sent " +
-                $"{Context.Message.Content} in {Context.Guild.Name}!");
+            var builder = new EmbedBuilder()
+                .WithTitle("Pong!")
+                .WithDescription($"The latency is {latency}ms.")
+                .WithColor(color);
+
+            await ReplyAsync("", embed: builder.Build());
         }
-
-        private async Task MakeNicePing()
-        {
-            EmbedBuilder builder = new EmbedBuilder();
-
-            builder.WithTitle("Ping!")
-                .WithDescription("This is a really nice ping!")
-                .WithColor(Color.Green);
-
-            await ReplyAsync("", false, builder.Build());
-        }
-        
     }
 }
