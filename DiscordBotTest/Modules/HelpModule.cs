@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 
 namespace DiscordBotTest.Modules
 {
-    public class Helper : ModuleBase<SocketCommandContext>
+    public class HelpModule : ModuleBase<SocketCommandContext>
     {
         [Command("help")]
         public async Task HelpCommand()
@@ -18,6 +18,7 @@ namespace DiscordBotTest.Modules
                 .AddField("!!opencase", "Opens a random CSGO case.")
                 .AddField("!!opencases <amount>", "Open a specific amout of CSGO cases.")
                 .AddField("!!weather <city>", "Shows the current weather at the specified city.")
+                .AddField("!!rolldice", "Roll a dice and see what you get.")
                 .AddField("!!message <@user> <message here>", "Bot sends a private message to a user.")
                 .AddField("!!reminder <time> <message>", "Sends you a PM after the time has passed with a message. Timeformat: 'HH:mm:ss'")
                 .AddField("!!reminderuser <@user> <time> <message>", "Sends the user a PM after the time has passed with a message. Timeformat: 'HH:mm:ss'")

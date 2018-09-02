@@ -9,10 +9,10 @@ using System.Threading.Tasks;
 
 namespace DiscordBotTest.Modules
 {
-    public class DiceSimulator : ModuleBase<SocketCommandContext>
+    public class DiceSimulatorModule : ModuleBase<SocketCommandContext>
     {
         [Command("rolldices")]
-        public async Task RollDices(string amount = "1")
+        public async Task RollDicesCommand(string amount = "1")
         {
             int amountValue = ValidateInput(amount);
             var diceList = RollDices(amountValue);
@@ -30,7 +30,7 @@ namespace DiscordBotTest.Modules
         }
 
         [Command("rolldice")]
-        public async Task RollDice()
+        public async Task RollDiceCommand()
         {
             var r = new Random();
             var dice = r.Next(1, 7);

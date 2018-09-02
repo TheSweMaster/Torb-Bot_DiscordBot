@@ -9,10 +9,11 @@ using System.Web;
 using System.Threading.Tasks;
 using System.Net.Http;
 using System.Timers;
+using DiscordBotTest.Models;
 
 namespace DiscordBotTest.Modules
 {
-    public class SetReminder : ModuleBase<SocketCommandContext>
+    public class SetReminderModule : ModuleBase<SocketCommandContext>
     {
         [Command("reminder")]
         public async Task SetReminderCommand(string time, [Remainder]string message)

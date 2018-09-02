@@ -1,9 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Timers;
 
-namespace DiscordBotTest
+namespace DiscordBotTest.Models
 {
     public class UserReminder
     {
@@ -12,6 +10,5 @@ namespace DiscordBotTest
         public TimeSpan TimeSpan { get; set; }
         public Timer Timer { get; set; }
         public bool HasReminded { get; set; }
-
     }
 }

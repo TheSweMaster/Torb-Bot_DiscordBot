@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DiscordBotTest
+namespace DiscordBotTest.Helpers
 {
     public static class RunescapeAccountList
     {

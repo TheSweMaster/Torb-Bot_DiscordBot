@@ -12,11 +12,11 @@ using System.Threading.Tasks;
 
 namespace DiscordBotTest.Modules
 {
-    public class RSPriceHelper : ModuleBase<SocketCommandContext>
+    public class RSPriceModule : ModuleBase<SocketCommandContext>
     {
         private readonly HttpClient _client = new HttpClient();
         [Command("rsprice")]
-        public async Task GetCurrentRSPrice([Remainder]string itemName = "Rune Platebody")
+        public async Task CurrentRSPriceCommand([Remainder]string itemName = "Rune Platebody")
         {
             var exhangeDataList = await GetExchangeDataList();
 

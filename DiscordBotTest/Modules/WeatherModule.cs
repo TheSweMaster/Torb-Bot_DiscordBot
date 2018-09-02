@@ -1,5 +1,4 @@
-﻿using APIXULib;
-using Discord;
+﻿using Discord;
 using Discord.Commands;
 using Discord.WebSocket;
 using System;
@@ -9,29 +8,30 @@ using System.Web;
 using System.Threading.Tasks;
 using System.Net.Http;
 using Newtonsoft.Json;
+using DiscordBotTest.Models.APIXULib;
 
 namespace DiscordBotTest.Modules
 {
-    public class Weather : ModuleBase<SocketCommandContext>
+    public class WeatherModule : ModuleBase<SocketCommandContext>
     {
         //Replace this with your own key from https://www.apixu.com/ 
         private readonly string key = Configuration.GetAppSettings().Keys.ApiuxKey;
         private readonly HttpClient _client = new HttpClient();
 
         [Command("weather")]
-        public async Task WeatherByCity([Remainder]string city = "goeteborg")
+        public async Task WeatherByCityCommand([Remainder]string city = "goeteborg")
         {
             var result = await GetWeatherData(city.ToLower());
 
             EmbedBuilder builder = new EmbedBuilder();
 
-            builder.WithTitle($"Current Weather at {result.location.name} - {result.location.country}")
-                .WithDescription($"Condition: {result.current.condition.text} \nTemp: {result.current.temp_c}C " +
-                $"\nHumidity: {result.current.humidity}% \nWind Direction: {result.current.wind_dir} \nWind Speed: {result.current.wind_kph}km/h")
-                .WithFooter($"Updated: {result.current.last_updated}")
+            builder.WithTitle($"Current Weather at {result.Location.Name} - {result.Location.Country}")
+                .WithDescription($"Condition: {result.Current.Condition.Text} \nTemp: {result.Current.Temp_c}C " +
+                $"\nHumidity: {result.Current.Humidity}% \nWind Direction: {result.Current.Wind_dir} \nWind Speed: {result.Current.Wind_kph}km/h")
+                .WithFooter($"Updated: {result.Current.Last_updated}")
                 .WithColor(Color.Blue)
                 .WithCurrentTimestamp()
-                .WithImageUrl("http:" + result.current.condition.icon);
+                .WithImageUrl("http:" + result.Current.Condition.Icon);
 
             await ReplyAsync("", false, builder.Build());
         }

@@ -1,6 +1,8 @@
 ﻿using Discord;
 using Discord.Commands;
 using Discord.WebSocket;
+using DiscordBotTest.Helpers;
+using DiscordBotTest.Models;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -12,17 +14,17 @@ using System.Timers;
 
 namespace DiscordBotTest.Modules
 {
-    public class RSHighScore : ModuleBase<SocketCommandContext>
+    public class RSHighScoreModule : ModuleBase<SocketCommandContext>
     {
         private static readonly HttpClient _httpClient = new HttpClient();
 
         [Command("rshighscore")]
-        public async Task GetOSRSHighScoreData([Remainder]string rsUsername = "TheSweMaster")
+        public async Task OSRSHighScoreCommand([Remainder]string rsUsername = "TheSweMaster")
         {
             var stream = await TryGetStreamData(rsUsername);
 
-            var lines = RSHighScoreReaderHelper.ReadLines(() => stream).ToList();
-            var skillDataList = RSHighScoreReaderHelper.GetSkillDataList(lines);
+            var lines = RSHighScoreHelper.ReadLines(() => stream).ToList();
+            var skillDataList = RSHighScoreHelper.GetSkillDataList(lines);
 
             var builder = GetMessage(rsUsername, skillDataList);
 
@@ -30,7 +32,7 @@ namespace DiscordBotTest.Modules
         }
 
         [Command("rstotallevel")]
-        public async Task UpdateTotalLevelList([Remainder]string rsUsername = "swemasterx")
+        public async Task UpdateTotalLevelListCommand([Remainder]string rsUsername = "swemasterx")
         {
             var userName = Context.User.Username + "#" + Context.User.Discriminator;
 
@@ -38,7 +40,7 @@ namespace DiscordBotTest.Modules
 
             if (result)
             {
-                await Program.UpdateNickNameOnUser(Context.Guild, new KeyValuePair<string, string>(userName, rsUsername), Context.Client);
+                await RSUpdateListHelper.UpdateNickNameOnUser(Context.Guild, new KeyValuePair<string, string>(userName, rsUsername), Context.Client);
                 return;
             }
             await ReplyAsync("Something went wrong! :(");

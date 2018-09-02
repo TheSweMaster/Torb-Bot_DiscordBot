@@ -9,12 +9,12 @@ using System.Threading.Tasks;
 
 namespace DiscordBotTest.Modules
 {
-    public class CaseSimulator : ModuleBase<SocketCommandContext>
+    public class CaseSimulatorModule : ModuleBase<SocketCommandContext>
     {
         private static Color _color;
 
         [Command("opencase")]
-        public async Task OpenCase()
+        public async Task OpenCaseCommand()
         {
             var caseResult = OpenOneCase();
 
@@ -26,7 +26,7 @@ namespace DiscordBotTest.Modules
         }
 
         [Command("opencases")]
-        public async Task OpenCases(string input = "1")
+        public async Task OpenCasesCommand(string input = "1")
         {
             var result = RunCaseSimulator(input);
 

@@ -18,7 +18,7 @@ namespace DiscordBotTest.Modules
         private static readonly string[] ValidRegions = { "eu", "us", "asia" };
 
         [Command("owstats")]
-        public async Task GetOverwatchStatsCommand(string platform, string region, [Remainder]string battletag)
+        public async Task OverwatchStatsCommand(string platform, string region, [Remainder]string battletag)
         {
             platform = platform.ToLower();
             region = region.ToLower();

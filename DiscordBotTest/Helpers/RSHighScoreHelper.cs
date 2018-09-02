@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DiscordBotTest.Models;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -6,9 +7,9 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DiscordBotTest
+namespace DiscordBotTest.Helpers
 {
-    public static class RSHighScoreReaderHelper
+    public static class RSHighScoreHelper
     {
         private static readonly HttpClient _httpClient = new HttpClient();
         public static Encoding Encoding => Encoding.UTF8;

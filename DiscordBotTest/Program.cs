@@ -1,12 +1,9 @@
 ﻿using Discord;
 using Discord.Commands;
 using Discord.WebSocket;
+using DiscordBotTest.Helpers;
 using Microsoft.Extensions.DependencyInjection;
-using Newtonsoft.Json;
 using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
 using System.Net.Http;
 using System.Reflection;
 using System.Threading.Tasks;
@@ -23,7 +20,7 @@ namespace DiscordBotTest
         private CommandService _commands;
         private IServiceProvider _services;
         private readonly string _botToken = Configuration.GetAppSettings().Keys.BotToken;
-        private readonly Timer TotalLevelUpdateTimer = new Timer(60 * 1000);
+        private readonly Timer TotalLevelUpdateTimer = new Timer(60 * 60 * 1000);
         private readonly ulong _myServerId = 199189022894063627;
         private readonly ulong _testServerId = 430643719880835072;
         private static readonly ulong _myUserId = 198806112852508672;
@@ -39,12 +36,12 @@ namespace DiscordBotTest
                 .AddSingleton(_commands)
                 .BuildServiceProvider();
 
-            //event subsciptions
+            // Event subsciptions
             _client.Log += Log;
             _client.UserJoined += AnnouceUserJoined;
 
             TotalLevelUpdateTimer.Enabled = true;
-            TotalLevelUpdateTimer.Elapsed += new ElapsedEventHandler(UpdateTotalLevelOnEveryHourEvent);
+            TotalLevelUpdateTimer.Elapsed += new ElapsedEventHandler(UpdateTotalLevelTimerEvent);
 
             await SetBotGameStatus();
 
@@ -57,48 +54,9 @@ namespace DiscordBotTest
             await Task.Delay(-1);
         }
 
-        private void UpdateTotalLevelOnEveryHourEvent(object source, ElapsedEventArgs e)
+        private void UpdateTotalLevelTimerEvent(object source, ElapsedEventArgs e)
         {
-            UpdateAllNickNameTotalLevel().Wait();
-        }
-
-        public async Task UpdateAllNickNameTotalLevel()
-        {
-            var guild = _client.GetGuild(_testServerId);
-
-            foreach (var keyPair in RunescapeAccountList.GetRunescapeAccountList())
-            {
-                await UpdateNickNameOnUser(guild, keyPair, _client);
-            }
-        }
-
-        public static async Task UpdateNickNameOnUser(SocketGuild guild, KeyValuePair<string, string> keyPair, DiscordSocketClient client)
-        {
-            var username = keyPair.Key.Split('#')[0];
-            var discriminator = keyPair.Key.Split('#')[1];
-            var user = client.GetUser(username, discriminator);
-            var guildUser = guild.GetUser(user.Id);
-            var oldNickname = guildUser.Nickname ?? guildUser.Username;
-
-            string newNickname = "";
-
-            if (oldNickname.Split('(') != null || oldNickname.Split('(').Count() == 2)
-            {
-                newNickname = oldNickname.Split('(')[0] + $"({await GetHighScoreTotalLevel(keyPair.Value)}/2277)";
-            }
-            else
-            {
-                newNickname = oldNickname + $" ({await GetHighScoreTotalLevel(keyPair.Value)}/2277)";
-            }
-            await guildUser.ModifyAsync(x => x.Nickname = $"{newNickname}");
-        }
-
-        private static async Task<string> GetHighScoreTotalLevel(string rsUsername)
-        {
-            var streamData = await RSHighScoreReaderHelper.TryGetStreamData(rsUsername);
-            var lines = RSHighScoreReaderHelper.ReadLines(() => streamData).ToList();
-            var skillDataList = RSHighScoreReaderHelper.GetSkillTotalLevel(lines);
-            return skillDataList.ToString();
+            RSUpdateListHelper.UpdateAllNickNameTotalLevel(_client, _testServerId).Wait();
         }
 
         private async Task SetBotGameStatus()
@@ -110,7 +68,7 @@ namespace DiscordBotTest
         {
             var guild = user.Guild;
             var channel = guild.DefaultChannel;
-            await channel.SendMessageAsync($"Welcome, {user.Mention}");
+            await channel.SendMessageAsync($"<:wave:> Welcome {user.Mention} to {guild.Name}!");
         }
 
         private Task Log(LogMessage arg)
