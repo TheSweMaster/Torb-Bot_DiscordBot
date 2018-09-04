@@ -2,6 +2,7 @@
 using Discord.Commands;
 using DiscordBotTest.OverwatchModels;
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
@@ -72,7 +73,7 @@ namespace DiscordBotTest.Modules
         private static EmbedBuilder GetMessage(OverwatchStats overwatchStats)
         {
             var raiting = overwatchStats.Rating != 0 
-                ? $"{overwatchStats.RatingName} - {overwatchStats.Rating}"
+                ? $"<:{overwatchStats.RatingName}:{GetEmojiCode(overwatchStats.RatingName)}> {overwatchStats.RatingName} - {overwatchStats.Rating}"
                 : "Unranked";
 
             EmbedBuilder builder = new EmbedBuilder()
@@ -88,5 +89,23 @@ namespace DiscordBotTest.Modules
             
             return builder;
         }
+
+        private static string GetEmojiCode(string key)
+        {
+            return owSkillsIcons.ContainsKey(key)
+                ? owSkillsIcons[key].Substring(34, 18)
+                : "";
+        }
+
+        private static readonly Dictionary<string, string> owSkillsIcons = new Dictionary<string, string>()
+        {
+            { "Bronze", "https://cdn.discordapp.com/emojis/486599611310669837.png?v=1" },
+            { "Silver", "https://cdn.discordapp.com/emojis/486599610912210966.png?v=1" },
+            { "Gold", "https://cdn.discordapp.com/emojis/486599612011118633.png?v=1" },
+            { "Platinum", "https://cdn.discordapp.com/emojis/486599611415265290.png?v=1" },
+            { "Diamond", "https://cdn.discordapp.com/emojis/486599612338012162.png?v=1" },
+            { "Master", "https://cdn.discordapp.com/emojis/486599611147091969.png?v=1" },
+            { "Grandmaster", "https://cdn.discordapp.com/emojis/486599612589670400.png?v=1" }
+        };
     }
 }

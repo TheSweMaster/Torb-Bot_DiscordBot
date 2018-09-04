@@ -68,7 +68,7 @@ namespace DiscordBotTest
         {
             var guild = user.Guild;
             var channel = guild.DefaultChannel;
-            await channel.SendMessageAsync($"<:wave:> Welcome {user.Mention} to {guild.Name}!");
+            await channel.SendMessageAsync($":wave: Welcome {user.Mention} to {guild.Name}!");
         }
 
         private Task Log(LogMessage arg)
