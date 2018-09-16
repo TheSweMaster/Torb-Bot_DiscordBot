@@ -15,6 +15,8 @@ namespace DiscordBotTest.Modules
                 .WithDescription("The bot is still under development, If you have any suggestions let me know! :)")
                 .AddField("!!botlink", "Gets the invite link for the bot (Only for Admins).")
                 .AddField("!!ping", "Ping the bot and get a responds with the latency.")
+                .AddField("!!icons <message>", "Converts the message to a series of icons/emojis.")
+                .AddField("!!emojis <message>", "Converts the message to a series of icons/emojis.")
                 .AddField("!!opencase", "Opens a random CSGO case.")
                 .AddField("!!opencases <amount>", "Open a specific amout of CSGO cases.")
                 .AddField("!!weather <city>", "Shows the current weather at the specified city.")
