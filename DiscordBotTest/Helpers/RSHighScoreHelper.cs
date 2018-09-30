@@ -54,8 +54,10 @@ namespace DiscordBotTest.Helpers
                 {
                     Skill = skillNamesList[i],
                     Level = int.TryParse(dataList[1], out int level) ? level : -1,
+                    Xp = int.TryParse(dataList[2], out int xp) ? xp : -1,
                 });
             }
+            SetHitpointsLevelData(skillDataList);
             return CalculateTotalLevel(skillDataList);
         }
 
@@ -97,6 +99,7 @@ namespace DiscordBotTest.Helpers
                     EmojiCode = $"<:skill_icon_{skillNamesList[i].ToLower()}1:{GetEmojiCode(i)}>",
                 });
             }
+            SetHitpointsLevelData(skillDataList);
             SetOverallSkillLevelData(skillDataList);
 
             return skillDataList;
@@ -147,6 +150,16 @@ namespace DiscordBotTest.Helpers
             "Slayer",   "Farming",  "Runecraft",
             "Hunter",   "Construction",
         };
+
+        private static void SetHitpointsLevelData(List<SkillData> skillDataList)
+        {
+            var hitpointSkill = skillDataList.Find(x => x.Skill == "Hitpoints");
+            if (hitpointSkill.Level < 10 || hitpointSkill.Xp < 1154)
+            {
+                hitpointSkill.Level = 10;
+                hitpointSkill.Xp = 1154;
+            }
+        }
 
         private static void SetOverallSkillLevelData(List<SkillData> skillDataList)
         {

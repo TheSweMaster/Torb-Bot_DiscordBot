@@ -20,7 +20,7 @@ namespace DiscordBotTest
         private CommandService _commands;
         private IServiceProvider _services;
         private readonly string _botToken = Configuration.GetAppSettings().Keys.BotToken;
-        private readonly Timer TotalLevelUpdateTimer = new Timer(60 * 60 * 1000);
+        private readonly Timer TotalLevelUpdateTimer = new Timer(30 * 60 * 1000);
         private readonly ulong _myServerId = 199189022894063627;
         private readonly ulong _testServerId = 430643719880835072;
         private static readonly ulong _myUserId = 198806112852508672;
@@ -42,6 +42,7 @@ namespace DiscordBotTest
 
             TotalLevelUpdateTimer.Enabled = true;
             TotalLevelUpdateTimer.Elapsed += new ElapsedEventHandler(UpdateTotalLevelTimerEvent);
+            TotalLevelUpdateTimer.Elapsed += new ElapsedEventHandler(SendUpdateNotifications);
 
             await SetBotGameStatus();
 
@@ -52,6 +53,11 @@ namespace DiscordBotTest
             await _client.StartAsync();
 
             await Task.Delay(-1);
+        }
+
+        private void SendUpdateNotifications(object sender, ElapsedEventArgs e)
+        {
+            RSNotificationHelper.LevelUpNotification(_client, _myServerId);
         }
 
         private void UpdateTotalLevelTimerEvent(object source, ElapsedEventArgs e)
