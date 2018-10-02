@@ -61,7 +61,7 @@ namespace DiscordBotTest.Helpers
             return CalculateTotalLevel(skillDataList);
         }
 
-        private static int CalculateTotalLevel(List<SkillData> skillDataList)
+        public static int CalculateTotalLevel(List<SkillData> skillDataList)
         {
             var overallSkillLevel = skillDataList.Find(x => x.Skill == "Overall").Level;
             if (overallSkillLevel == 0)

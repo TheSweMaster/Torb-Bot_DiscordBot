@@ -17,7 +17,7 @@ namespace DiscordBotTest.Modules
         [Command("rslevelup")]
         public async Task OSRSLevelUpNotificationCommand([Remainder]string rsUsername)
         {
-            var result = RunescapeAccountWatchList.TryUpdateList(rsUsername.ToLower(), -1);
+            var result = RunescapeAccountWatchList.TryUpdateList(rsUsername.ToLower(), RunescapeAccountWatchList.InitialSkillDataList());
 
             if (result)
             {
