@@ -30,8 +30,9 @@ namespace DiscordBotTest.Helpers
         private static async Task SendNotificationByAccount(SocketGuild guild, KeyValuePair<string, List<SkillData>> keyPair, DiscordSocketClient client)
         {
             var channel = guild.TextChannels.SingleOrDefault(c => c.Name == "rs_log");
+            var scrubsChannelId = 202956682932912129ul;
             var jonteUserId = 199879807947898880ul;
-            var jonteUser = guild.Users.FirstOrDefault(x => x.Id == jonteUserId);
+            var jonteUser = client.GetGuild(scrubsChannelId).GetUser(jonteUserId);
 
             var rsUsername = keyPair.Key;
             var oldSkillDataList = keyPair.Value;
