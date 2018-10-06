@@ -13,31 +13,33 @@ namespace DiscordBotTest.Helpers
         private static List<KeyValuePair<string, List<SkillData>>> _ListToUpdate = new List<KeyValuePair<string, List<SkillData>>>();
         public static void LevelUpNotification(DiscordSocketClient client, ulong serverId)
         {
+            _ListToUpdate.Clear();
             var guild = client.GetGuild(serverId);
 
             foreach (var keyPair in RunescapeAccountWatchList.GetRunescapeAccountWatchList())
             {
-                SendNotificationByAccount(guild, keyPair, client).Wait();
+                SendNotificationByAccount(guild, keyPair, client);
             }
 
             foreach (var item in _ListToUpdate)
             {
                 RunescapeAccountWatchList.TryUpdateList(item);
             }
-            _ListToUpdate.Clear();
         }
 
-        private static async Task SendNotificationByAccount(SocketGuild guild, KeyValuePair<string, List<SkillData>> keyPair, DiscordSocketClient client)
+        private static void SendNotificationByAccount(SocketGuild guild, KeyValuePair<string, List<SkillData>> keyPair, DiscordSocketClient client)
         {
-            var channel = guild.TextChannels.SingleOrDefault(c => c.Name == "rs_log");
-            var scrubsChannelId = 202956682932912129ul;
-            var jonteUserId = 199879807947898880ul;
-            var jonteUser = client.GetGuild(scrubsChannelId).GetUser(jonteUserId);
+            const string rs_log = "rs_log";
+            const ulong scrubsServerId = 202956682932912129;
+            var scrubsGuild = client.GetGuild(scrubsServerId);
+
+            var myChannel = guild.TextChannels.SingleOrDefault(c => c.Name == rs_log);
+            var scrubsChannel = scrubsGuild.TextChannels.SingleOrDefault(c => c.Name == rs_log);
 
             var rsUsername = keyPair.Key;
             var oldSkillDataList = keyPair.Value;
 
-            var stream = await RSHighScoreHelper.TryGetStreamData(rsUsername);
+            var stream = RSHighScoreHelper.TryGetStreamData(rsUsername).Result;
             var lines = RSHighScoreHelper.ReadLines(() => stream).ToList();
             var skillDataList = RSHighScoreHelper.GetSkillDataList(lines);
 
@@ -46,11 +48,8 @@ namespace DiscordBotTest.Helpers
 
             if (totalLevel > oldTotalLevel && oldTotalLevel != -1)
             {
-                await channel.SendMessageAsync("", embed: GetMessage(rsUsername, skillDataList, oldSkillDataList, totalLevel, oldTotalLevel));
-                if (rsUsername == "skorpish")
-                {
-                    await jonteUser.SendMessageAsync("", embed: GetMessage(rsUsername, skillDataList, oldSkillDataList, totalLevel, oldTotalLevel));
-                }
+                myChannel.SendMessageAsync("", embed: GetMessage(rsUsername, skillDataList, oldSkillDataList, totalLevel, oldTotalLevel)).Wait();
+                scrubsChannel.SendMessageAsync("", embed: GetMessage(rsUsername, skillDataList, oldSkillDataList, totalLevel, oldTotalLevel)).Wait();
             };
             _ListToUpdate.Add(new KeyValuePair<string, List<SkillData>>(rsUsername, skillDataList));
         }

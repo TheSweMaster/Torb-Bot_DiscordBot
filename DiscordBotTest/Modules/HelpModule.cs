@@ -28,7 +28,7 @@ namespace DiscordBotTest.Modules
                 .AddField("!!rshighscore <username>", "Shows the current Runescape levels by username.")
                 .AddField("!!owstats <platform> <region> <battletag>", "Shows the current Overwatch stat by profile." +
                 "\n Platforms:(pc, xbox, playstation), Regions:(eu, us, asia), Battletag is case sensetive")
-                .WithFooter("Created and Hosted by @theswemaster#8595")
+                .WithFooter("Created and Hosted by @TheSweMaster#8595")
                 .WithColor(Color.Orange);
 
             await ReplyAsync("", false, builder.Build());

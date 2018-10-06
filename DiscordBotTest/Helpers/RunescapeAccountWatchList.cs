@@ -25,17 +25,6 @@ namespace DiscordBotTest.Helpers
             return RunescapeAccountWatchingList;
         }
 
-        public static bool TryUpdateList(string rsUsername, List<SkillData> newSkillData)
-        {
-            if (RunescapeAccountWatchingList.ContainsKey(rsUsername))
-            {
-                RunescapeAccountWatchingList[rsUsername] = newSkillData;
-                return true;
-            }
-
-            return RunescapeAccountWatchingList.TryAdd(rsUsername, newSkillData);
-        }
-
         public static bool TryUpdateList(KeyValuePair<string, List<SkillData>> keyValuePair)
         {
             if (RunescapeAccountWatchingList.ContainsKey(keyValuePair.Key))
@@ -85,6 +74,13 @@ namespace DiscordBotTest.Helpers
                     Level = 1,
                     Xp = 300,
                     Rank = 5000000
+                },
+                new SkillData()
+                {
+                    Skill = "Cooking",
+                    Level = 4,
+                    Xp = 600,
+                    Rank = 5000001
                 },
                 new SkillData()
                 {
