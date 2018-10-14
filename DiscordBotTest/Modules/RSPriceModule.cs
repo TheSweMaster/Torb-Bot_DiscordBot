@@ -15,19 +15,35 @@ namespace DiscordBotTest.Modules
     public class RSPriceModule : ModuleBase<SocketCommandContext>
     {
         private readonly HttpClient _client = new HttpClient();
+        private const string exchangeUrl = "https://rsbuddy.com/exchange/summary.json";
+
         [Command("rsprice")]
         public async Task CurrentRSPriceCommand([Remainder]string itemName = "Rune Platebody")
         {
             var exhangeDataList = await GetExchangeDataList();
 
-            var itemId = GetItemIdByName(exhangeDataList, itemName);
+            if (exhangeDataList == null)
+            {
+                await ReplyAsync($"Could retrieve any exchange data from '{exchangeUrl}'.");
+                return;
+            }
 
-            var priceData = await GetPriceDetails(itemId);
+            var exchangeData = GetExchangeItemByName(exhangeDataList, itemName);
 
-            EmbedBuilder builder = new EmbedBuilder();
+            if (exchangeData == null)
+            {
+                await ReplyAsync($"Could not find any item named '{itemName}'.");
+                return;
+            }
 
-            builder.WithTitle($"Runescape Price Data")
-                .AddField($"Current price for item '{itemName}'", $"{priceData.Overall}gp")
+            await SendPriceMessage(exchangeData);
+        }
+
+        private async Task SendPriceMessage(RsExchangeData exchangeData)
+        {
+            var builder = new EmbedBuilder()
+                .WithTitle($"Runescape Price Data")
+                .AddField($"Current average price for item '{exchangeData.Name}'", $"{exchangeData.OverallAverage}gp")
                 .WithColor(Color.DarkOrange)
                 .WithCurrentTimestamp();
 
@@ -36,18 +52,18 @@ namespace DiscordBotTest.Modules
 
         private async Task<Dictionary<string, RsExchangeData>> GetExchangeDataList()
         {
-            var url = "https://rsbuddy.com/exchange/summary.json";
+            var responds = await _client.GetStringAsync(exchangeUrl);
+            return RsExchangeData.FromJson(responds);
+        }
 
-            var responds = await _client.GetStringAsync(url);
-
-            var exhangeDataList = RsExchangeData.FromJson(responds);
-            return exhangeDataList;
+        private RsExchangeData GetExchangeItemByName(Dictionary<string, RsExchangeData> exhangeDataList, string itemName)
+        {
+            return exhangeDataList.FirstOrDefault(x => x.Value.Name.Equals(itemName, StringComparison.CurrentCultureIgnoreCase)).Value;
         }
 
         private string GetItemIdByName(Dictionary<string, RsExchangeData> exhangeDataList, string itemName)
         {
-            var result = exhangeDataList.FirstOrDefault(x => x.Value.Name.ToLower() == itemName.ToLower()).Key;
-            return result;
+            return exhangeDataList.FirstOrDefault(x => x.Value.Name.ToLower() == itemName.ToLower()).Key;
         }
 
         public class PriceResult
@@ -62,10 +78,7 @@ namespace DiscordBotTest.Modules
 
             var responds = await _client.GetStringAsync(url);
 
-            var result = RSExchangePrice.FromJson(responds);
-
-            return result;
+            return RSExchangePrice.FromJson(responds);
         }
-
     }
 }
