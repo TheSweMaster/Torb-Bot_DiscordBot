@@ -26,7 +26,20 @@ namespace DiscordBotTest.Modules
             var lines = RSHighScoreHelper.ReadLines(() => stream).ToList();
             var skillDataList = RSHighScoreHelper.GetSkillDataList(lines);
 
-            var builder = GetMessage(rsUsername, skillDataList);
+            var builder = GetMessage(rsUsername, skillDataList, false);
+
+            await ReplyAsync("", embed: builder.Build());
+        }
+
+        [Command("rshighscoreall")]
+        public async Task OSRSHighScoreAllCommand([Remainder]string rsUsername = "TheSweMaster")
+        {
+            var stream = await TryGetStreamData(rsUsername);
+
+            var lines = RSHighScoreHelper.ReadLines(() => stream).ToList();
+            var skillDataList = RSHighScoreHelper.GetSkillDataList(lines);
+
+            var builder = GetMessage(rsUsername, skillDataList, true);
 
             await ReplyAsync("", embed: builder.Build());
         }
@@ -62,7 +75,7 @@ namespace DiscordBotTest.Modules
             return stream;
         }
 
-        private static EmbedBuilder GetMessage(string rsUsername, List<SkillData> skillDataList)
+        private static EmbedBuilder GetMessage(string rsUsername, List<SkillData> skillDataList, bool showAll)
         {
             EmbedBuilder builder = new EmbedBuilder()
                 .WithTitle($"OSRS Highscores - {rsUsername} ")
@@ -73,7 +86,15 @@ namespace DiscordBotTest.Modules
 
             foreach (var item in skillDataList)
             {
-                builder.AddInlineField($"{item.EmojiCode} {item.Skill}", item.Level);
+                if (showAll)
+                {
+                    var displayRank = item.Rank == -1 ? "Unranked" : $"{item.Rank} Rank";
+                    builder.AddInlineField($"{item.EmojiCode} {item.Skill}", $"{item.Level} Levels | {item.Xp} Xp | {displayRank}");
+                }
+                else
+                {
+                    builder.AddInlineField($"{item.EmojiCode} {item.Skill}", $"{item.Level} Levels | {item.Xp} Xp");
+                }
                 //.AddInlineField($"{item.Level}", item.Xp.ToString());
             }
 
