@@ -1,6 +1,5 @@
 ﻿using Discord;
 using Discord.Commands;
-using Discord.WebSocket;
 using DiscordBotTest.Helpers;
 using DiscordBotTest.Models;
 using System;
@@ -8,9 +7,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net.Http;
-using System.Text;
 using System.Threading.Tasks;
-using System.Timers;
 
 namespace DiscordBotTest.Modules
 {
@@ -89,11 +86,13 @@ namespace DiscordBotTest.Modules
                 if (showAll)
                 {
                     var displayRank = item.Rank == -1 ? "Unranked" : $"{item.Rank} Rank";
-                    builder.AddInlineField($"{item.EmojiCode} {item.Skill}", $"{item.Level} Levels | {item.Xp} Xp | {displayRank}");
+                    var displayXp = item.Xp == -1 ? 0 : item.Xp;
+                    builder.AddInlineField($"{item.EmojiCode} {item.Skill}", $"{item.Level} Levels | {displayXp} Xp | {displayRank}");
                 }
                 else
                 {
-                    builder.AddInlineField($"{item.EmojiCode} {item.Skill}", $"{item.Level} Levels | {item.Xp} Xp");
+                    var displayXp = item.Xp == -1 ? 0 : item.Xp;
+                    builder.AddInlineField($"{item.EmojiCode} {item.Skill}", $"{item.Level} Levels | {displayXp} Xp");
                 }
                 //.AddInlineField($"{item.Level}", item.Xp.ToString());
             }

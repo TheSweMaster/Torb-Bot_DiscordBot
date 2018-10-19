@@ -37,8 +37,8 @@ namespace DiscordBotTest
                 .BuildServiceProvider();
 
             // Event subsciptions
-            _client.Log += Log;
-            _client.UserJoined += AnnouceUserJoined;
+            _client.Log += LogEvent;
+            _client.UserJoined += UserJoinedEvent;
 
             TotalLevelUpdateTimer.Enabled = true;
             TotalLevelUpdateTimer.Elapsed += new ElapsedEventHandler(UpdateTotalLevelTimerEvent);
@@ -70,14 +70,33 @@ namespace DiscordBotTest
             await _client.SetGameAsync("as Torbjörn | !!help");
         }
 
-        private async Task AnnouceUserJoined(SocketGuildUser user)
+        private async Task UserJoinedEvent(SocketGuildUser user)
         {
+            if (KickBotUser(user))
+                return;
+
             var guild = user.Guild;
             var channel = guild.DefaultChannel;
             await channel.SendMessageAsync($":wave: Welcome {user.Mention} to {guild.Name}!");
         }
 
-        private Task Log(LogMessage arg)
+        private bool KickBotUser(SocketGuildUser user)
+        {
+            var nickname = user.Nickname ?? "";
+            var username = user.Username ?? "";
+
+            if (nickname.Contains("discord.gg/") || username.Contains("discord.gg/"))
+            {
+                user.KickAsync("Kicked by bot for advertising.");
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        private Task LogEvent(LogMessage arg)
         {
             Console.WriteLine(arg);
 

@@ -1,8 +1,5 @@
 ﻿using DiscordBotTest.Models;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace DiscordBotTest.Helpers
 {
@@ -16,7 +13,9 @@ namespace DiscordBotTest.Helpers
                 { "theswemaster", InitialSkillDataList() },
                 { "swemasterx", TestSkillDataList() },
                 { "skorpish", InitialSkillDataList() },
-                { "mudkip btw", InitialSkillDataList() }
+                { "mudkip btw", InitialSkillDataList() },
+                { "zami_ftw", InitialSkillDataList() },
+                { "potatodolan", InitialSkillDataList() },
             };
         }
 
