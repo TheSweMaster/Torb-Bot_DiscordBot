@@ -6,6 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Net.Http;
 using System.Reflection;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Timers;
 
@@ -72,7 +73,7 @@ namespace DiscordBotTest
 
         private async Task UserJoinedEvent(SocketGuildUser user)
         {
-            if (KickBotUser(user))
+            if (KickedBotUser(user))
                 return;
 
             var guild = user.Guild;
@@ -80,14 +81,13 @@ namespace DiscordBotTest
             await channel.SendMessageAsync($":wave: Welcome {user.Mention} to {guild.Name}!");
         }
 
-        private bool KickBotUser(SocketGuildUser user)
+        private bool KickedBotUser(SocketGuildUser user)
         {
-            var nickname = user.Nickname ?? "";
-            var username = user.Username ?? "";
-
-            if (nickname.Contains("discord.gg/") || username.Contains("discord.gg/"))
+            var pattern = @"(twitch.tv\/)|(youtube.com\/)|(discord.gg\/)|(twitter.com\/)|(facebook.com\/)";
+            
+            if (Regex.IsMatch(user.Username, pattern, RegexOptions.IgnoreCase))
             {
-                user.KickAsync("Kicked by bot for advertising.");
+                user.KickAsync("Kicked a user for advertising.");
                 return true;
             }
             else
