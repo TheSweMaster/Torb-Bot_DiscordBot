@@ -2,8 +2,7 @@
 
 A Discord bot made for my own server with some commands.
   
-[![https://gyazo.com/5f14ffdcb7dec1fbb3a16601a92b1b7e](https://i.gyazo.com/5f14ffdcb7dec1fbb3a16601a92b1b7e.png)](https://gyazo.com/5f14ffdcb7dec1fbb3a16601a92b1b7e)
-
+[![Torb-bot Command List](https://i.gyazo.com/9df5c8f8a64c571bf9fe07c58b1b02ce.png)](https://gyazo.com/9df5c8f8a64c571bf9fe07c58b1b02ce)
 
 * **!!rshighscore < username >**
 Shows the current Runescape levels by username.
