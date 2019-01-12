@@ -5,26 +5,33 @@ namespace DiscordBotTest.Helpers
 {
     public class RunescapeAccountWatchList
     {
-        private static readonly Dictionary<string, List<SkillData>> RunescapeAccountWatchingList;
+        private static readonly Dictionary<string, RSAccountData> RunescapeAccountWatchingList;
         static RunescapeAccountWatchList()
         {
-            RunescapeAccountWatchingList = new Dictionary<string, List<SkillData>>()
+            const ulong MyServerId = 199189022894063627ul;
+            const ulong ScrubsServerId = 202956682932912129ul;
+            const ulong TestServerId = 430643719880835072ul;
+
+            RunescapeAccountWatchingList = new Dictionary<string, RSAccountData>()
             {
-                { "theswemaster", InitialSkillDataList() },
-                { "swemasterx", TestSkillDataList() },
-                { "skorpish", InitialSkillDataList() },
-                { "mudkip btw", InitialSkillDataList() },
-                { "zami_ftw", InitialSkillDataList() },
-                { "potatodolan", InitialSkillDataList() },
+                { "theswemaster", new RSAccountData(new []{ MyServerId, ScrubsServerId }, InitialSkillDataList()) },
+                { "swemasterx", new RSAccountData(new []{ MyServerId }, InitialSkillDataList()) },
+                { "lynx titan", new RSAccountData(new []{ TestServerId }, TestSkillDataList()) },
+                { "skorpish", new RSAccountData(new []{ MyServerId, ScrubsServerId }, InitialSkillDataList()) },
+                { "mudkip btw", new RSAccountData(new []{ MyServerId }, InitialSkillDataList()) },
+                { "zami_ftw", new RSAccountData(new []{ MyServerId }, InitialSkillDataList()) },
+                { "potatodolan", new RSAccountData(new []{ MyServerId, ScrubsServerId }, InitialSkillDataList()) },
+                { "paroxysm", new RSAccountData(new []{ MyServerId }, InitialSkillDataList()) },
+                { "sicsy", new RSAccountData(new []{ MyServerId }, InitialSkillDataList()) }
             };
         }
 
-        public static Dictionary<string, List<SkillData>> GetRunescapeAccountWatchList()
+        public static Dictionary<string, RSAccountData> GetRunescapeAccountWatchList()
         {
             return RunescapeAccountWatchingList;
         }
 
-        public static bool TryUpdateList(KeyValuePair<string, List<SkillData>> keyValuePair)
+        public static bool TryUpdateList(KeyValuePair<string, RSAccountData> keyValuePair)
         {
             if (RunescapeAccountWatchingList.ContainsKey(keyValuePair.Key))
             {
@@ -77,7 +84,7 @@ namespace DiscordBotTest.Helpers
                 new SkillData()
                 {
                     Skill = "Cooking",
-                    Level = 4,
+                    Level = -4,
                     Xp = 600,
                     Rank = 5000001
                 },

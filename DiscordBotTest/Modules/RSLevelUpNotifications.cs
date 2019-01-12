@@ -1,13 +1,7 @@
-﻿using Discord;
-using Discord.Commands;
+﻿using Discord.Commands;
 using DiscordBotTest.Helpers;
 using DiscordBotTest.Models;
-using System;
 using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Net.Http;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace DiscordBotTest.Modules
@@ -17,8 +11,9 @@ namespace DiscordBotTest.Modules
         [Command("rslevelup")]
         public async Task OSRSLevelUpNotificationCommand([Remainder]string rsUsername)
         {
-            var result = RunescapeAccountWatchList.TryUpdateList(new KeyValuePair<string, List<SkillData>>(
-                rsUsername.ToLower(), RunescapeAccountWatchList.InitialSkillDataList()));
+            var result = RunescapeAccountWatchList.TryUpdateList(new KeyValuePair<string, RSAccountData>(
+                rsUsername.ToLower(), new RSAccountData(new[] { Context.Guild.Id }, RunescapeAccountWatchList.InitialSkillDataList())));
+            //Todo: Add support to add to more than one RS username to one server by command
 
             if (result)
             {

@@ -21,7 +21,7 @@ namespace DiscordBotTest
         private CommandService _commands;
         private IServiceProvider _services;
         private readonly string _botToken = Configuration.GetAppSettings().Keys.BotToken;
-        private readonly Timer TotalLevelUpdateTimer = new Timer(30 * 60 * 1000);
+        private readonly Timer CheckForUpdateTimer = new Timer(30 * 60 * 1000);
         private readonly ulong _myServerId = 199189022894063627;
         private readonly ulong _testServerId = 430643719880835072;
         private static readonly ulong _myUserId = 198806112852508672;
@@ -41,9 +41,9 @@ namespace DiscordBotTest
             _client.Log += LogEvent;
             _client.UserJoined += UserJoinedEvent;
 
-            TotalLevelUpdateTimer.Enabled = true;
-            TotalLevelUpdateTimer.Elapsed += new ElapsedEventHandler(UpdateTotalLevelTimerEvent);
-            TotalLevelUpdateTimer.Elapsed += new ElapsedEventHandler(SendUpdateNotifications);
+            CheckForUpdateTimer.Enabled = true;
+            CheckForUpdateTimer.Elapsed += new ElapsedEventHandler(UpdateTotalLevelEvent);
+            CheckForUpdateTimer.Elapsed += new ElapsedEventHandler(LevelUpNotificationsEvent);
 
             await SetBotGameStatus();
 
@@ -56,12 +56,12 @@ namespace DiscordBotTest
             await Task.Delay(-1);
         }
 
-        private void SendUpdateNotifications(object sender, ElapsedEventArgs e)
+        private void LevelUpNotificationsEvent(object sender, ElapsedEventArgs e)
         {
-            RSNotificationHelper.LevelUpNotification(_client, _myServerId);
+            RSNotificationHelper.LevelUpNotification(_client);
         }
 
-        private void UpdateTotalLevelTimerEvent(object source, ElapsedEventArgs e)
+        private void UpdateTotalLevelEvent(object source, ElapsedEventArgs e)
         {
             RSUpdateListHelper.UpdateAllNickNameTotalLevel(_client, _testServerId).Wait();
         }
@@ -73,8 +73,8 @@ namespace DiscordBotTest
 
         private async Task UserJoinedEvent(SocketGuildUser user)
         {
-            if (KickedBotUser(user))
-                return;
+            //if (KickedBotUser(user))
+            //    return;
 
             var guild = user.Guild;
             var channel = guild.DefaultChannel;
