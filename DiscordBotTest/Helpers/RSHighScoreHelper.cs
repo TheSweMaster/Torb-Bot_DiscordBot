@@ -57,7 +57,7 @@ namespace DiscordBotTest.Helpers
                     Xp = int.TryParse(dataList[2], out int xp) ? xp : -1,
                 });
             }
-            SetHitpointsLevelData(skillDataList);
+            SetHitpointsSkillData(skillDataList);
             return CalculateTotalLevel(skillDataList);
         }
 
@@ -86,6 +86,11 @@ namespace DiscordBotTest.Helpers
             var skillDataList = new List<SkillData>();
             for (int i = 0; i < skillNamesList.Length; i++)
             {
+                if (i >= 24)
+                {
+                    break;
+                }
+
                 var dataList = lines[i].Split(',');
 
                 skillDataList.Add(
@@ -99,10 +104,73 @@ namespace DiscordBotTest.Helpers
                     EmojiCode = $"<:skill_icon_{skillNamesList[i].ToLower()}1:{GetEmojiCode(i)}>",
                 });
             }
-            SetHitpointsLevelData(skillDataList);
-            SetOverallSkillLevelData(skillDataList);
+
+            SetHitpointsSkillData(skillDataList);
+            SetCombatLevelSkillData(skillDataList);
+            SetOverallSkillData(skillDataList);
 
             return skillDataList;
+        }
+
+        private static void SetCombatLevelSkillData(List<SkillData> skillDataList)
+        {
+            var combatSkill = new SkillData()
+            {
+                Skill = skillNamesList[24],
+                Rank = -1,
+                Level = CalculateCombatLevel(skillDataList),
+                Xp = -1,
+                ImageLink = "",
+                EmojiCode = $"<:skill_icon_combat1:{GetEmojiCode(24)}>",
+            };
+            skillDataList.Add(combatSkill);
+        }
+
+        private static int CalculateCombatLevel(List<SkillData> skillDataList)
+        {
+            var attack = GetSkillDataByName(skillDataList, "Attack").Level;
+            var defence = GetSkillDataByName(skillDataList, "Defence").Level;
+            var strength = GetSkillDataByName(skillDataList, "Strength").Level;
+            var hitpoints = GetSkillDataByName(skillDataList, "Hitpoints").Level;
+            var prayer = GetSkillDataByName(skillDataList, "Prayer").Level;
+            var ranged = GetSkillDataByName(skillDataList, "Ranged").Level;
+            var magic = GetSkillDataByName(skillDataList, "Magic").Level;
+
+            var basee = (defence + hitpoints + Math.Floor(prayer / 2.0)) * 0.25;
+            var melee = (attack + strength) * 0.325;
+            var range = Math.Floor(ranged * 1.5) * 0.325;
+            var mage = Math.Floor(magic * 1.5) * 0.325;
+            var max = new[] { melee, range, mage }.Max();
+
+            var cobmatLevel = (int)Math.Round(basee + max, 2);
+            return cobmatLevel;
+        }
+
+        private static void SetHitpointsSkillData(List<SkillData> skillDataList)
+        {
+            var hitpointSkill = GetSkillDataByName(skillDataList, "Hitpoints");
+
+            if (hitpointSkill.Level < 10 || hitpointSkill.Xp < 1154)
+            {
+                hitpointSkill.Level = 10;
+                hitpointSkill.Xp = 1154;
+            }
+        }
+
+        private static void SetOverallSkillData(List<SkillData> skillDataList)
+        {
+            var overallSkill = GetSkillDataByName(skillDataList, "Overall");
+
+            if (overallSkill.Level == 0 || overallSkill.Xp == 0)
+            {
+                overallSkill.Level = skillDataList.Sum(x => x.Level);
+                overallSkill.Xp = skillDataList.Sum(x => x.Xp);
+            }
+        }
+
+        private static SkillData GetSkillDataByName(List<SkillData> skillDataList, string skillName)
+        {
+            return skillDataList.Find(s => s.Skill == skillName);
         }
 
         private static string GetEmojiCode(int i)
@@ -112,7 +180,7 @@ namespace DiscordBotTest.Helpers
 
         private static readonly string[] skillIconsList =
         {
-            "https://cdn.discordapp.com/emojis/457953594616840215.png?v=1", //Overall
+            "https://cdn.discordapp.com/emojis/457953594616840215.png?v=1", // Overall
             "https://cdn.discordapp.com/emojis/457953594793000992.png?v=1",
             "https://cdn.discordapp.com/emojis/457953594931413023.png?v=1",
             "https://cdn.discordapp.com/emojis/457953595028144131.png?v=1",
@@ -125,7 +193,7 @@ namespace DiscordBotTest.Helpers
             "https://cdn.discordapp.com/emojis/457953595028144129.png?v=1",
             "https://cdn.discordapp.com/emojis/457953594981744642.png?v=1",
             "https://cdn.discordapp.com/emojis/457953594700726275.png?v=1",
-            "https://cdn.discordapp.com/emojis/457953594654851074.png?v=1", //Crafting
+            "https://cdn.discordapp.com/emojis/457953594654851074.png?v=1", // Crafting
             "https://cdn.discordapp.com/emojis/457953595028013078.png?v=1",
             "https://cdn.discordapp.com/emojis/457953594960773120.png?v=1",
             "https://cdn.discordapp.com/emojis/457953594948452362.png?v=1",
@@ -135,7 +203,8 @@ namespace DiscordBotTest.Helpers
             "https://cdn.discordapp.com/emojis/457953594956709910.png?v=1",
             "https://cdn.discordapp.com/emojis/457953595086864415.png?v=1",
             "https://cdn.discordapp.com/emojis/457953594780680225.png?v=1",
-            "https://cdn.discordapp.com/emojis/457953594940063744.png?v=1", //Construction
+            "https://cdn.discordapp.com/emojis/457953594940063744.png?v=1", // Construction
+            "https://cdn.discordapp.com/emojis/541624296389214220.png?v=1", // Combat Level
         };
 
         private static readonly string[] skillNamesList =
@@ -148,28 +217,7 @@ namespace DiscordBotTest.Helpers
             "Crafting", "Smithing", "Mining",
             "Herblore", "Agility",  "Thieving",
             "Slayer",   "Farming",  "Runecraft",
-            "Hunter",   "Construction",
+            "Hunter",   "Construction", "Combat Level",
         };
-
-        private static void SetHitpointsLevelData(List<SkillData> skillDataList)
-        {
-            var hitpointSkill = skillDataList.Find(x => x.Skill == "Hitpoints");
-            if (hitpointSkill.Level < 10 || hitpointSkill.Xp < 1154)
-            {
-                hitpointSkill.Level = 10;
-                hitpointSkill.Xp = 1154;
-            }
-        }
-
-        private static void SetOverallSkillLevelData(List<SkillData> skillDataList)
-        {
-            var overallSkill = skillDataList.Find(x => x.Skill == "Overall");
-            if (overallSkill.Level == 0 || overallSkill.Xp == 0)
-            {
-                overallSkill.Level = skillDataList.Sum(x => x.Level);
-                overallSkill.Xp = skillDataList.Sum(x => x.Xp);
-            }
-        }
-
     }
 }
