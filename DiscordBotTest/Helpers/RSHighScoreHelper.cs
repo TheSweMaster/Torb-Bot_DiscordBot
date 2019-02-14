@@ -47,6 +47,11 @@ namespace DiscordBotTest.Helpers
             var skillDataList = new List<SkillData>();
             for (int i = 0; i < skillNamesList.Length; i++)
             {
+                if (i >= 24)
+                {
+                    break;
+                }
+
                 var dataList = lines[i].Split(',');
 
                 skillDataList.Add(
