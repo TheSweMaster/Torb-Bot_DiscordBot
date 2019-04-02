@@ -11,18 +11,30 @@ namespace DiscordBotTest.Helpers
             const ulong MyServerId = 199189022894063627ul;
             const ulong ScrubsServerId = 202956682932912129ul;
             const ulong TestServerId = 430643719880835072ul;
+            const ulong CynicalAngelsServerId = 365977640806514689ul;
+            const ulong BobbybdennisServerId = 110866213789270016ul;
 
             RunescapeAccountWatchingList = new Dictionary<string, RSAccountData>()
             {
-                { "theswemaster", new RSAccountData(new []{ MyServerId, ScrubsServerId }, InitialSkillDataList()) },
-                { "swemasterx", new RSAccountData(new []{ MyServerId }, InitialSkillDataList()) },
+                { "theswemaster", new RSAccountData(new []{ MyServerId, ScrubsServerId , CynicalAngelsServerId }, InitialSkillDataList()) },
+                { "swemasterx", new RSAccountData(new []{ MyServerId , CynicalAngelsServerId }, InitialSkillDataList()) },
                 { "lynx titan", new RSAccountData(new []{ TestServerId }, TestSkillDataList()) },
                 { "skorpish", new RSAccountData(new []{ MyServerId, ScrubsServerId }, InitialSkillDataList()) },
                 { "mudkip btw", new RSAccountData(new []{ MyServerId }, InitialSkillDataList()) },
                 { "zami_ftw", new RSAccountData(new []{ MyServerId }, InitialSkillDataList()) },
                 { "potatodolan", new RSAccountData(new []{ MyServerId, ScrubsServerId }, InitialSkillDataList()) },
                 { "paroxysm", new RSAccountData(new []{ MyServerId }, InitialSkillDataList()) },
-                { "sicsy", new RSAccountData(new []{ MyServerId }, InitialSkillDataList()) }
+                { "sicsy", new RSAccountData(new []{ MyServerId }, InitialSkillDataList()) },
+                { "sowulo", new RSAccountData(new []{ CynicalAngelsServerId }, InitialSkillDataList()) },
+                { "69catscope69", new RSAccountData(new []{ CynicalAngelsServerId }, InitialSkillDataList()) },
+                { "sukpee", new RSAccountData(new []{ CynicalAngelsServerId }, InitialSkillDataList()) },
+                { "16william", new RSAccountData(new []{ CynicalAngelsServerId }, InitialSkillDataList()) },
+                { "sukpee_3", new RSAccountData(new []{ CynicalAngelsServerId }, InitialSkillDataList()) },
+                { "sukpee_4", new RSAccountData(new []{ CynicalAngelsServerId }, InitialSkillDataList()) },
+                { "bobbybdennis", new RSAccountData(new []{ BobbybdennisServerId }, InitialSkillDataList()) },
+                { "thefcyeti", new RSAccountData(new []{ BobbybdennisServerId }, InitialSkillDataList()) },
+                { "zero pets", new RSAccountData(new []{ BobbybdennisServerId }, InitialSkillDataList()) },
+
             };
         }
 

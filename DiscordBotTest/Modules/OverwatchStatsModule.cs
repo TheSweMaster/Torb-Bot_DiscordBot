@@ -81,7 +81,6 @@ namespace DiscordBotTest.Modules
                 .WithDescription($"Raiting: {raiting}\n" +
                 $"Total Level: {overwatchStats.Prestige * 100 + overwatchStats.Level}\n" +
                 $"Games Won: {overwatchStats.GamesWon}")
-                // Todo: Add rank emoji icons
                 .WithFooter($"Data from https://ow-api.com/")
                 .WithCurrentTimestamp()
                 .WithColor(Color.LightOrange)
