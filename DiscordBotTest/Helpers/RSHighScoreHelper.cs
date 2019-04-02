@@ -47,11 +47,6 @@ namespace DiscordBotTest.Helpers
             var skillDataList = new List<SkillData>();
             for (int i = 0; i < skillNamesList.Length; i++)
             {
-                if (i >= 24)
-                {
-                    break;
-                }
-
                 var dataList = lines[i].Split(',');
 
                 skillDataList.Add(
@@ -91,11 +86,6 @@ namespace DiscordBotTest.Helpers
             var skillDataList = new List<SkillData>();
             for (int i = 0; i < skillNamesList.Length; i++)
             {
-                if (i >= 24)
-                {
-                    break;
-                }
-
                 var dataList = lines[i].Split(',');
 
                 skillDataList.Add(
@@ -111,7 +101,7 @@ namespace DiscordBotTest.Helpers
             }
 
             SetHitpointsSkillData(skillDataList);
-            SetCombatLevelSkillData(skillDataList);
+            //SetCombatLevelSkillData(skillDataList);
             SetOverallSkillData(skillDataList);
 
             return skillDataList;
@@ -209,7 +199,7 @@ namespace DiscordBotTest.Helpers
             "https://cdn.discordapp.com/emojis/457953595086864415.png?v=1",
             "https://cdn.discordapp.com/emojis/457953594780680225.png?v=1",
             "https://cdn.discordapp.com/emojis/457953594940063744.png?v=1", // Construction
-            "https://cdn.discordapp.com/emojis/541624296389214220.png?v=1", // Combat Level
+            //"https://cdn.discordapp.com/emojis/541624296389214220.png?v=1", // Combat Level
         };
 
         private static readonly string[] skillNamesList =
@@ -222,7 +212,7 @@ namespace DiscordBotTest.Helpers
             "Crafting", "Smithing", "Mining",
             "Herblore", "Agility",  "Thieving",
             "Slayer",   "Farming",  "Runecraft",
-            "Hunter",   "Construction", "Combat Level",
+            "Hunter",   "Construction", //"Combat Level",
         };
     }
 }
