@@ -1,5 +1,4 @@
 ﻿using Newtonsoft.Json;
-using System;
 using System.IO;
 using System.Linq;
 
@@ -41,7 +40,7 @@ namespace DiscordBotTest
         [JsonProperty("botToken")]
         public string BotToken { get; set; }
 
-        [JsonProperty("apiuxKey")]
-        public string ApiuxKey { get; set; }
+        [JsonProperty("weatherstackKey")]
+        public string WeatherstackKey { get; set; }
     }
 }

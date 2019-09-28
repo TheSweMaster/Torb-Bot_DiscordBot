@@ -1,44 +1,40 @@
 ﻿using Discord;
 using Discord.Commands;
-using Discord.WebSocket;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Web;
 using System.Threading.Tasks;
 using System.Net.Http;
 using Newtonsoft.Json;
-using DiscordBotTest.Models.APIXULib;
+using DiscordBotTest.Models.WeatherstackLib;
+using System.Linq;
 
 namespace DiscordBotTest.Modules
 {
     public class WeatherModule : ModuleBase<SocketCommandContext>
     {
-        //Replace this with your own key from https://www.apixu.com/ 
-        private readonly string key = Configuration.GetAppSettings().Keys.ApiuxKey;
+        // Replace this with your own key from https://weatherstack.com 
+        private readonly string key = Configuration.GetAppSettings().Keys.WeatherstackKey;
         private readonly HttpClient _client = new HttpClient();
 
         [Command("weather")]
         public async Task WeatherByCityCommand([Remainder]string city = "goeteborg")
         {
-            var result = await GetWeatherData(city.ToLower());
+            var result = await GetCurrentWeather(city.ToLower());
 
             EmbedBuilder builder = new EmbedBuilder();
 
             builder.WithTitle($"Current Weather at {result.Location.Name} - {result.Location.Country}")
-                .WithDescription($"Condition: {result.Current.Condition.Text} \nTemp: {result.Current.Temp_c}C " +
-                $"\nHumidity: {result.Current.Humidity}% \nWind Direction: {result.Current.Wind_dir} \nWind Speed: {result.Current.Wind_kph}km/h")
-                .WithFooter($"Updated: {result.Current.Last_updated}")
+                .WithDescription($"Condition: {string.Join(", ", result.Current.Weather_descriptions)} \nTemperature: {result.Current.Temperature} °C " +
+                $"\nHumidity: {result.Current.Humidity}% \nPrecipitation level: {result.Current.Precip} mm" +
+                $"\nWind Direction: {result.Current.Wind_dir} \nWind Speed: {result.Current.Wind_speed} km/h")
+                .WithFooter($"Local time: {result.Location.Localtime}")
                 .WithColor(Color.Blue)
-                .WithCurrentTimestamp()
-                .WithImageUrl("http:" + result.Current.Condition.Icon);
+                .WithImageUrl(result.Current.Weather_icons.FirstOrDefault());
 
             await ReplyAsync("", false, builder.Build());
         }
 
-        public async Task<WeatherModel> GetWeatherData(string city)
+        public async Task<WeatherModel> GetCurrentWeather(string city)
         {
-            var url = "http://api.apixu.com/v1/current.json?key=" + key + "&q=" + city;
+            var url = "http://api.weatherstack.com/current?access_key=" + key + "&query=" + city;
 
             var jsonResponds = await _client.GetStringAsync(url);
 
