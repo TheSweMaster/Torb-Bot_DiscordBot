@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace DiscordBotTest
+﻿namespace DiscordBotTest
 {
     public static class AppSettingsData
     {
@@ -12,8 +8,8 @@ namespace DiscordBotTest
             {
                 Keys = new Key()
                 {
-                    BotToken = "<YourBotToken>",
-                    ApiuxKey = "<YouAPIKey>"
+                    BotToken = "your_key",
+                    WeatherstackKey = "your_key"
                 }
             };
         }
