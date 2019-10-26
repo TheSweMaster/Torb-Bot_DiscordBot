@@ -26,6 +26,7 @@ namespace DiscordBotTest.Modules
                 .AddField("!!reminderuser <@user> <time> <message>", "Sends the user a PM after the time has passed with a message. Timeformat: 'HH:mm:ss'")
                 .AddField("!!rsprice <item name>", "Gets the current market price of a Runescape item.")
                 .AddField("!!rshighscore <username>", "Shows the current Runescape levels by username.")
+                .AddField("!!floorball", "Shows the current stats from the Swedish floor ball league Allsvenskan Södra.")
                 .AddField("!!owstats <platform> <region> <battletag>", "Shows the current Overwatch stat by profile." +
                 "\n Platforms:(pc, xbox, playstation), Regions:(eu, us, asia), Battletag is case sensetive")
                 .WithFooter("Created and Hosted by @TheSweMaster#8595")
