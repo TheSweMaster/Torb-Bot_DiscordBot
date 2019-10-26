@@ -4,6 +4,7 @@ using DiscordBotTest.Models;
 using HtmlAgilityPack;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 
 namespace DiscordBotTest.Modules
@@ -58,15 +59,54 @@ namespace DiscordBotTest.Modules
                 .WithCurrentTimestamp()
                 .WithColor(Color.Blue);
 
-            var dummyEmoji = "<:Lindas:637452238977237012>";
-
             foreach (var item in floorBallTableList)
             {
-                builder.AddField(title: $"{item.Rank} {dummyEmoji} {item.Team}", 
+                builder.AddField(title: $"{item.Rank} {GetTeamEmoji(item.Team)} {item.Team}",
                     text: $"Played: {item.Played}, Wins: {item.Wins}, Draws: {item.Draws}, Losses: {item.Losses}, Goal Diff: {item.GoalDifferens}, Points: {item.Points}");
             }
 
             return builder;
         }
+
+
+        private static string GetTeamEmoji(string teamName)
+        {
+            var builder = new StringBuilder(teamName);
+            builder.Replace(" ", "");
+            builder.Replace("\t", "");
+            builder.Replace("å", "");
+            builder.Replace("ä", "");
+            builder.Replace("ö", "");
+            builder.Replace("Å", "");
+            builder.Replace("Ä", "");
+            builder.Replace("Ö", "");
+            builder.Replace("/", "");
+
+            var key = builder.ToString();
+            var result = EmojiCodekeyValues.TryGetValue(key, out var value);
+
+            if (!result)
+            {
+                return "";
+            }
+
+            return $"<:{key}:{value}>";
+        }
+
+        private static Dictionary<string, string> EmojiCodekeyValues => new Dictionary<string, string>
+            {
+                {"storpKvidingeIBS", "637452238557806594" },
+                {"FagerhultHaboIBK", "637452239627354112" },
+                {"KarlstadIBF", "637452238528315406" },
+                {"LaganIBK", "637452238620721174" },
+                {"LillnIBK", "637452239145009182" },
+                {"LindsRastaIBK", "637452238977237012" },
+                {"IBKLidkping", "637452239140683787" },
+                {"IBKLockerudMariestad", "637452238851276840" },
+                {"NykvarnsIBFUngdom", "637452239136620560" },
+                {"OnyxIBK", "637452239577022489" },
+                {"IBFrebro", "637452239627092002" },
+                {"CraftstadensIBKOskarshamn", "637452239115517963" },
+            };
     }
 }
