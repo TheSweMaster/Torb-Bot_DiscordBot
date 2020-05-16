@@ -24,7 +24,7 @@ namespace DiscordBotTest
         private readonly Timer CheckForUpdateTimer = new Timer(30 * 60 * 1000);
         private readonly ulong _myServerId = 199189022894063627;
         private readonly ulong _testServerId = 430643719880835072;
-        private static readonly ulong _myUserId = 198806112852508672;
+        public static readonly ulong MyUserId = 198806112852508672;
         private static readonly string _testUser = "TheSweMasterX#5203";
 
         public async Task RunBotAsync()

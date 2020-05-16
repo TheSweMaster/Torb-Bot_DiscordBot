@@ -30,8 +30,17 @@ namespace DiscordBotTest.Modules
                 builder.WithThumbnailUrl(caseResult.WeaponSkin.ImageUrl);
             }
 
-            await ReplyAsync("", false, builder.Build());
+            await ReplyAsync("", embed: builder.Build());
         }
 
+        [Command("getskinsdata")]
+        public async Task GetSkinsData()
+        {
+            if (Context.User.Id == Program.MyUserId)
+            {
+                var result = await new SkinInfoGetter().GetAsync();
+                Console.WriteLine(result);
+            }
+        }
     }
 }

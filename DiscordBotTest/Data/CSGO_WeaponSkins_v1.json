@@ -1,0 +1,2936 @@
+[
+	{
+		"Name": "★ Bayonet Knife",
+		"Rarity": 4,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapons/base_weapons/weapon_bayonet.515de291204d6d896724d9fbb6856fcc6054a787.png",
+		"CaseName": "-"
+	},
+	{
+		"Name": "M4A1-S | Player Two",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_silencer_cu_m4a1s_csgo2048_light_large.6531225ca224416df4dc6aa12c6ecea582b1e110.png",
+		"CaseName": "Prisma 2 Case"
+	},
+	{
+		"Name": "Glock-18 | Bullet Queen",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_glock_cu_glock18_warmaiden_light_large.d99a6fdb4c1469d164182a74edba8de055726aa5.png",
+		"CaseName": "Prisma 2 Case"
+	},
+	{
+		"Name": "AK-47 | Phantom Disruptor",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_cu_ak-47_phantom_disruptor_light_large.c14fcebe17a4c1a509edc597b33dcb9b5dcda32b.png",
+		"CaseName": "Prisma 2 Case"
+	},
+	{
+		"Name": "MAC-10 | Disco Tech",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mac10_cu_mac10_nacre_light_large.80fa2f0691e37e6e2a2755b8a7f6ccd6bfa83f3b.png",
+		"CaseName": "Prisma 2 Case"
+	},
+	{
+		"Name": "MAG-7 | Justice",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mag7_gs_mag7_justice_light_large.fcdc73ab779ab093ee7d90d91c1e3c369bbc8d65.png",
+		"CaseName": "Prisma 2 Case"
+	},
+	{
+		"Name": "SG 553 | Darkwing",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_sg556_cu_sg553_darkwing_light_large.f9c302279afebdd221344fa59f738f9317dc4122.png",
+		"CaseName": "Prisma 2 Case"
+	},
+	{
+		"Name": "SSG 08 | Fever Dream",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ssg08_cu_ssg08_fever_dream_light_large.cec554a86204344d6476b9071158fd02963a1aac.png",
+		"CaseName": "Prisma 2 Case"
+	},
+	{
+		"Name": "Sawed-Off | Apocalypto",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_sawedoff_cu_sawedoff_apocalypto_light_large.fc0f69fec04cf4d6955ef4aa6629d083aa554af6.png",
+		"CaseName": "Prisma 2 Case"
+	},
+	{
+		"Name": "P2000 | Acid Etched",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_hkp2000_aq_p2000_acid_clover_light_large.9b6c7f2c0bd30dc66570c41101129e1a624ab7b8.png",
+		"CaseName": "Prisma 2 Case"
+	},
+	{
+		"Name": "SCAR-20 | Enforcer",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_scar20_gs_scar20_enforcer_light_large.20eba3a5a84f35019ceb7faae45a0b4246a72998.png",
+		"CaseName": "Prisma 2 Case"
+	},
+	{
+		"Name": "AWP | Capillary",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_awp_cu_awp_vein_light_large.8665dc4b4231298e9bbcab7aad3abbbf22e3edd8.png",
+		"CaseName": "Prisma 2 Case"
+	},
+	{
+		"Name": "Desert Eagle | Blue Ply",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_deagle_cu_deagle_replica_light_large.900a30787dd7f4f32435cc55e56dc345d780baae.png",
+		"CaseName": "Prisma 2 Case"
+	},
+	{
+		"Name": "AUG | Tom Cat",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_aug_gs_aug_thunderstorm_light_large.127ba1a9f7c7eef6b701bf01ad50b3b146f9b951.png",
+		"CaseName": "Prisma 2 Case"
+	},
+	{
+		"Name": "MP5-SD | Desert Strike",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mp5sd_cu_mp5_desert_strike_light_large.44958e2a47446043d6c929d5f4b4e3bea10f41c9.png",
+		"CaseName": "Prisma 2 Case"
+	},
+	{
+		"Name": "CZ75-Auto | Distressed",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_cz75a_cu_cz75_cerakote_light_large.2f8286a9ca2313c23c6d9ad8d1c94650ef856c37.png",
+		"CaseName": "Prisma 2 Case"
+	},
+	{
+		"Name": "Negev | Prototype",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_negev_cu_negev_prototype_light_large.d1e542d85756bfc96bb32e6d2f8b548fbb26b2ad.png",
+		"CaseName": "Prisma 2 Case"
+	},
+	{
+		"Name": "R8 Revolver | Bone Forged",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_revolver_gs_r8_leviathan_light_large.656b77eecd4ef8f55f11866cce3da2778d6cc7d5.png",
+		"CaseName": "Prisma 2 Case"
+	},
+	{
+		"Name": "AWP | Wildfire",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_awp_cu_awp_wildfire_light_large.61e36b12eb45a39836cdb5badb5a536737684861.png",
+		"CaseName": "CS20 Case"
+	},
+	{
+		"Name": "FAMAS | Commemoration",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_famas_gs_famas_legacy_gold_light_large.34013884c12276d1c83ceb4ea9fb83428df02920.png",
+		"CaseName": "CS20 Case"
+	},
+	{
+		"Name": "MP9 | Hydra",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mp9_cu_mp9_hydra_light_large.b7763a811b3bc9d19d04502fba0edc6cbe355766.png",
+		"CaseName": "CS20 Case"
+	},
+	{
+		"Name": "AUG | Death by Puppy",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_aug_am_aug_death_by_doggy_light_large.eb9b56273d30c50b93d2cb0a2e2843b525012878.png",
+		"CaseName": "CS20 Case"
+	},
+	{
+		"Name": "P90 | Nostalgia",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_p90_cu_p90_nostalgia_light_large.8d1cfe3582915ab9702b57e1376eb0d0ffab2331.png",
+		"CaseName": "CS20 Case"
+	},
+	{
+		"Name": "MP5-SD | Agent",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mp5sd_gs_mp5_fbi_light_large.98c397d31feb201fd3d754a2e0b1d1508d75b2b9.png",
+		"CaseName": "CS20 Case"
+	},
+	{
+		"Name": "P250 | Inferno",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_p250_gs_p250_inferno_light_large.89b435cf4b1eab8a9fed8f7aa19228fe9421b4eb.png",
+		"CaseName": "CS20 Case"
+	},
+	{
+		"Name": "UMP-45 | Plastique",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ump45_cu_ump_bomb_light_large.48162f997295cb72c35acb2eafbef620b60a1659.png",
+		"CaseName": "CS20 Case"
+	},
+	{
+		"Name": "Five-SeveN | Buddy",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_fiveseven_cu_fiveseven_gsg9_light_large.870dec48f951d3a6420bdb332f0acd25ee1254b1.png",
+		"CaseName": "CS20 Case"
+	},
+	{
+		"Name": "M249 | Aztec",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m249_aq_m249_aztec_light_large.81173c5b61be806039e643a0c273e4dce33bd5ee.png",
+		"CaseName": "CS20 Case"
+	},
+	{
+		"Name": "Glock-18 | Sacrifice",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_glock_cu_glock_hero_light_large.7b0f5975c7e0ba3ce1694c4795520184fc56c367.png",
+		"CaseName": "CS20 Case"
+	},
+	{
+		"Name": "FAMAS | Decommissioned",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_famas_cu_famas_nuke_tension_light_large.0cf9412e22f626e675b76506cf2f240a64a05b22.png",
+		"CaseName": "CS20 Case"
+	},
+	{
+		"Name": "MAC-10 | Classic Crate",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mac10_gs_mac10_dust_crate_light_large.988816a75bc41f34cb18aff91ce6256299a9a52c.png",
+		"CaseName": "CS20 Case"
+	},
+	{
+		"Name": "Tec-9 | Flash Out",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_tec9_cu_tec9_flash_light_large.977076b5fe7a2fdb9337de2a3ff7c4b867e9b674.png",
+		"CaseName": "CS20 Case"
+	},
+	{
+		"Name": "Dual Berettas | Elite 1.6",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_elite_gs_dual_elites_classic_light_large.a899ad9f2e1bb8522fdeb022c99c64c2456826d1.png",
+		"CaseName": "CS20 Case"
+	},
+	{
+		"Name": "MAG-7 | Popdog",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mag7_gs_mag7_popdog_light_large.3c45fd23cd1947bb9b1747e36823980a44feaed4.png",
+		"CaseName": "CS20 Case"
+	},
+	{
+		"Name": "SCAR-20 | Assault",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_scar20_cu_scar_assault_light_large.57aa89979dfaab334bb3e91c09f54269e98cf47a.png",
+		"CaseName": "CS20 Case"
+	},
+	{
+		"Name": "P250 | X-Ray",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_p250_cu_xray_p250_light_large.4b9f603e1a1dd4de2d64e05bf21168bc8b070bf2.png",
+		"CaseName": "X-Ray P250 Package"
+	},
+	{
+		"Name": "AWP | Containment Breach",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_awp_cu_awp_virus_light_large.00307f818d425d94cb8e4eeda1e27699f713fb45.png",
+		"CaseName": "Shattered Web Case"
+	},
+	{
+		"Name": "MAC-10 | Stalker",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mac10_gs_mac10_stalker_light_large.cb4d7a60a69978f1575526f979be8e1e1538a673.png",
+		"CaseName": "Shattered Web Case"
+	},
+	{
+		"Name": "SSG 08 | Bloodshot",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ssg08_cu_ssg08_tickler_light_large.b6a73afa62f8983211740a1570410df4864f45f6.png",
+		"CaseName": "Shattered Web Case"
+	},
+	{
+		"Name": "SG 553 | Colony IV",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_sg556_cu_sg553_reactor_light_large.af5c07d2528198641adf32cf3498aa7d2823b048.png",
+		"CaseName": "Shattered Web Case"
+	},
+	{
+		"Name": "Tec-9 | Decimator",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_tec9_gs_tec9_decimator_light_large.11236163667e1dd46c3d869d844e384a23544513.png",
+		"CaseName": "Shattered Web Case"
+	},
+	{
+		"Name": "AK-47 | Rat Rod",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_gs_ak47_nibbler_light_large.1c402d395b628aa5667239eec44640d7f603d754.png",
+		"CaseName": "Shattered Web Case"
+	},
+	{
+		"Name": "AUG | Arctic Wolf",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_aug_cu_aug_whitefang_light_large.051b21da4e56c64ad78ee8a67a0e9e237a4e01b1.png",
+		"CaseName": "Shattered Web Case"
+	},
+	{
+		"Name": "MP7 | Neon Ply",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mp7_cu_mp7_replica_light_large.f56c050cb5147918efb6872ce61fda358a684cf5.png",
+		"CaseName": "Shattered Web Case"
+	},
+	{
+		"Name": "P2000 | Obsidian",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_hkp2000_cu_p2000_obsidian_light_large.0a6ad31fe8f70401ffdd377c289309d0256282c6.png",
+		"CaseName": "Shattered Web Case"
+	},
+	{
+		"Name": "PP-Bizon | Embargo",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_bizon_cu_bizon_road_warrior_light_large.92dd3aa0346010a6e3a625d01ae4f965195a05d2.png",
+		"CaseName": "Shattered Web Case"
+	},
+	{
+		"Name": "Dual Berettas | Balance",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_elite_gs_dual_elites_rose_light_large.8df8980203b198879875be44656361ccbb41791e.png",
+		"CaseName": "Shattered Web Case"
+	},
+	{
+		"Name": "MP5-SD | Acid Wash",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mp5sd_gs_mp5_etch_light_large.a86867a43e3607c1826b6d106870bf69642687b0.png",
+		"CaseName": "Shattered Web Case"
+	},
+	{
+		"Name": "SCAR-20 | Torn",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_scar20_sp_scar20_striker_dust_light_large.0842dbdf0fe714c92f634b376e15c2f8c21b6d56.png",
+		"CaseName": "Shattered Web Case"
+	},
+	{
+		"Name": "M249 | Warbird",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m249_gs_m249_warbird_veteran_light_large.29a2ee22222b037e6825fb0c230aa799718e4115.png",
+		"CaseName": "Shattered Web Case"
+	},
+	{
+		"Name": "R8 Revolver | Memento",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_revolver_gs_r8_memento_light_large.8ca600a94c72b5a3b33bb826a1a588f7e48d5e78.png",
+		"CaseName": "Shattered Web Case"
+	},
+	{
+		"Name": "G3SG1 | Black Sand",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_g3sg1_cu_g3sg1_blacksand_light_large.8a9b364779493ae19a87eb4e73aa47f4432d3f41.png",
+		"CaseName": "Shattered Web Case"
+	},
+	{
+		"Name": "Nova | Plume",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_nova_cu_nova_featherswing_light_large.49e81792746dc7844ff18c45fb23030cd8b66d59.png",
+		"CaseName": "Shattered Web Case"
+	},
+	{
+		"Name": "M4A4 | The Emperor",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_gs_m4a4_emperor_light_large.61be48559b0a5d57e04108f876f5cf755ec8acc8.png",
+		"CaseName": "Prisma Case"
+	},
+	{
+		"Name": "Five-SeveN | Angry Mob",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_fiveseven_cu_five_seven_angry_light_large.54986e86178e0462d34fe78b6b726292813541f5.png",
+		"CaseName": "Prisma Case"
+	},
+	{
+		"Name": "AUG | Momentum",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_aug_cu_aug_momentum_light_large.1f36037cec707a957785625f04b3740bb5286d16.png",
+		"CaseName": "Prisma Case"
+	},
+	{
+		"Name": "XM1014 | Incinegator",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_xm1014_cu_xm1014_incinerator_light_large.7649f64bbfea49d6f0d951320e0bdd98d6bee088.png",
+		"CaseName": "Prisma Case"
+	},
+	{
+		"Name": "R8 Revolver | Skull Crusher",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_revolver_cu_revolver_oppressor_light_large.59414a184bcf3310d43528701292ba4f68ba55a0.png",
+		"CaseName": "Prisma Case"
+	},
+	{
+		"Name": "AWP | Atheris",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_awp_cu_awp_viper_light_large.2de75408a7c595312d58203f53c73a3a18faa4a3.png",
+		"CaseName": "Prisma Case"
+	},
+	{
+		"Name": "Desert Eagle | Light Rail",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_deagle_gs_deagle_exo_light_large.8bdc93f1b45efba187748065deff967eef8f2f2d.png",
+		"CaseName": "Prisma Case"
+	},
+	{
+		"Name": "UMP-45 | Moonrise",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ump45_aa_ump45_moonrise_sunset_light_large.63cf279a66d95757f4fefe498b89480966887083.png",
+		"CaseName": "Prisma Case"
+	},
+	{
+		"Name": "Tec-9 | Bamboozle",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_tec9_cu_tec9_bamboo_light_large.24d8986c41f344d8c1e9167a935c7b904757f85e.png",
+		"CaseName": "Prisma Case"
+	},
+	{
+		"Name": "MP5-SD | Gauss",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mp5sd_gs_mp5sd_astromatic_light_large.d7acba118f13e4b7b0d9146dddd32cf71da9210d.png",
+		"CaseName": "Prisma Case"
+	},
+	{
+		"Name": "AK-47 | Uncharted",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_cu_ak47_aztec_light_large.368d90ba7bc01aa56489792a8962df5343238c5c.png",
+		"CaseName": "Prisma Case"
+	},
+	{
+		"Name": "Galil AR | Akoben",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_galilar_sp_galil_akoben_light_large.35a9e7a0fa943ac20d1b145d36bf3d4ccf33cc84.png",
+		"CaseName": "Prisma Case"
+	},
+	{
+		"Name": "P90 | Off World",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_p90_cu_p90_offworld_light_large.45f1db5b8b435574f46fffe77960d8ef29519eca.png",
+		"CaseName": "Prisma Case"
+	},
+	{
+		"Name": "FAMAS | Crypsis",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_famas_sp_famas_ghost_insects_light_large.727c7db3f6df4aae8b692f6966dba460acafb07f.png",
+		"CaseName": "Prisma Case"
+	},
+	{
+		"Name": "P250 | Verdigris",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_p250_aq_p250_verdigris_light_large.379d19af038211ca3bf7d20c4c75726e9be36856.png",
+		"CaseName": "Prisma Case"
+	},
+	{
+		"Name": "MAC-10 | Whitefish",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mac10_gs_mac10_fish_bait_light_large.31a855282029b915748b21c11521b5f111b05e67.png",
+		"CaseName": "Prisma Case"
+	},
+	{
+		"Name": "MP7 | Mischief",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mp7_cu_mp7_racketeer_light_large.ba5b3641b7b309cdd16d9f54fc2bc2331e738929.png",
+		"CaseName": "Prisma Case"
+	},
+	{
+		"Name": "AK-47 | Asiimov",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_cu_ak47_asiimov_light_large.665fc3b83c8046398787a57d2ef7a9d938244820.png",
+		"CaseName": "Danger Zone Case"
+	},
+	{
+		"Name": "AWP | Neo-Noir",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_awp_cu_awp_neonoir_light_large.c5dd57f8555d13c41f08024f27a9314074b698af.png",
+		"CaseName": "Danger Zone Case"
+	},
+	{
+		"Name": "Desert Eagle | Mecha Industries",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_deagle_gs_deagle_mecha_light_large.e08c1fd8709f6b368956c41c68b17c15ff635635.png",
+		"CaseName": "Danger Zone Case"
+	},
+	{
+		"Name": "MP5-SD | Phosphor",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mp5sd_gs_mp5_festival_drip_light_large.c71af0a784e5ecd6e5d5f2f71961be155e283cde.png",
+		"CaseName": "Danger Zone Case"
+	},
+	{
+		"Name": "UMP-45 | Momentum",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ump45_cu_ump_arrows_light_large.83f1e692bdafa92f29ce15aebb02502c9e70f276.png",
+		"CaseName": "Danger Zone Case"
+	},
+	{
+		"Name": "USP-S | Flashback",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_usp_silencer_cu_usp_flashback_light_large.47e10129af33303bac557560400c33e4fe555680.png",
+		"CaseName": "Danger Zone Case"
+	},
+	{
+		"Name": "P250 | Nevermore",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_p250_aa_p250_gravediggers_light_large.df680e4648f5e08ec6e92ed36a5b9c05ae8bc5f4.png",
+		"CaseName": "Danger Zone Case"
+	},
+	{
+		"Name": "Galil AR | Signal",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_galilar_hy_galil_signal_red_light_large.d7c26f54fd72ec451094ea7791e921346e013197.png",
+		"CaseName": "Danger Zone Case"
+	},
+	{
+		"Name": "MAC-10 | Pipe Down",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mac10_gs_mac10_exo_pipes_light_large.355aad3fa1602f8e682a5663f72b12feba0d4cf2.png",
+		"CaseName": "Danger Zone Case"
+	},
+	{
+		"Name": "G3SG1 | Scavenger",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_g3sg1_gs_g3sg1_savage_light_large.e452574f580f51b1da6312c0f80a0dc07e073d8b.png",
+		"CaseName": "Danger Zone Case"
+	},
+	{
+		"Name": "M4A4 | Magnesium",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_gs_m4a4_chopper_ghost_light_large.374913da49233223de4ca1ff09a20cc2a7a94288.png",
+		"CaseName": "Danger Zone Case"
+	},
+	{
+		"Name": "Glock-18 | Oxide Blaze",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_glock_cu_glock18_corroden_light_large.68906a0523399b599555746b51db2ffac29c5db5.png",
+		"CaseName": "Danger Zone Case"
+	},
+	{
+		"Name": "Tec-9 | Fubar",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_tec9_gs_tec9_fubar_light_large.00f64007983561f57c808b23e9260ebea6437bc7.png",
+		"CaseName": "Danger Zone Case"
+	},
+	{
+		"Name": "SG 553 | Danger Close",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_sg556_gs_sg553_over_heated_light_large.aba3188360b2a87b8687d73af6c2e3034290402c.png",
+		"CaseName": "Danger Zone Case"
+	},
+	{
+		"Name": "MP9 | Modest Threat",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mp9_gs_mp9_colony01_light_large.f8d9792131b786025a960ddeda2eeb77f97c55e3.png",
+		"CaseName": "Danger Zone Case"
+	},
+	{
+		"Name": "Sawed-Off | Black Sand",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_sawedoff_cu_sawedoff_black_sand_light_large.7ed9ce5083489c0fdf92814f0ebf6945ec6f29d4.png",
+		"CaseName": "Danger Zone Case"
+	},
+	{
+		"Name": "Nova | Wood Fired",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_nova_gs_nova_hunter_brute_light_large.8e2520f25098056ccd03b679859458fdc006c0a7.png",
+		"CaseName": "Danger Zone Case"
+	},
+	{
+		"Name": "AK-47 | Neon Rider",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_cu_ak_neon_rider_light_large.9209192b514c4ec98146b4747dec8ce407a977c8.png",
+		"CaseName": "Horizon Case"
+	},
+	{
+		"Name": "Desert Eagle | Code Red",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_deagle_gs_deagle_aggressor_light_large.51ffb87f03ae0d3c467d4412f3c246067748e61d.png",
+		"CaseName": "Horizon Case"
+	},
+	{
+		"Name": "M4A1-S | Nightmare",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_silencer_cu_m4a1s_nightmare_light_large.68e892eb4dedad809205a5fd06f175297d1be1cb.png",
+		"CaseName": "Horizon Case"
+	},
+	{
+		"Name": "FAMAS | Eye of Athena",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_famas_cu_famas_owl_orange_light_large.7cb3a86d36317530964f40d66b755789de7ca88a.png",
+		"CaseName": "Horizon Case"
+	},
+	{
+		"Name": "Sawed-Off | Devourer",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_sawedoff_cu_sawedoff_devourer_light_large.d8365e13320f20eb532a2d5109e1fc35562bc376.png",
+		"CaseName": "Horizon Case"
+	},
+	{
+		"Name": "AWP | PAW",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_awp_am_awp_pawpaw_light_large.0ff115c31307cc3122536c44a9aef7e64277dc19.png",
+		"CaseName": "Horizon Case"
+	},
+	{
+		"Name": "CZ75-Auto | Eco",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_cz75a_cu_cz75_eco_light_large.19aa7b914ac71968e73ac48b112b9f4c8116c767.png",
+		"CaseName": "Horizon Case"
+	},
+	{
+		"Name": "G3SG1 | High Seas",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_g3sg1_gs_g3sg1_buccaneer_light_large.68c69e9856fd43f17a4165d1f27116496657fd00.png",
+		"CaseName": "Horizon Case"
+	},
+	{
+		"Name": "Nova | Toy Soldier",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_nova_cu_nova_toy_soldier_light_large.e35320d18405b77fb9dd5e495fe4f625b8ab6c82.png",
+		"CaseName": "Horizon Case"
+	},
+	{
+		"Name": "MP7 | Powercore",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mp7_gs_powercore_mp7_light_large.cff12134204aef1ddc67e142088a2b7cec911960.png",
+		"CaseName": "Horizon Case"
+	},
+	{
+		"Name": "Glock-18 | Warhawk",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_glock_gs_glock_thunder_dust_light_large.0e26afdd95bac17ce01c6e097ca0b97db3cffee4.png",
+		"CaseName": "Horizon Case"
+	},
+	{
+		"Name": "P90 | Traction",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_p90_gs_p90_tread_light_large.0acb87de3db60e1c07aa159fd5b8238b11bb8f8f.png",
+		"CaseName": "Horizon Case"
+	},
+	{
+		"Name": "MP9 | Capillary",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mp9_cu_mp9_vein_light_large.d0189b21fba4603ff88d407d6af0e63093f22ba7.png",
+		"CaseName": "Horizon Case"
+	},
+	{
+		"Name": "Tec-9 | Snek-9",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_tec9_cu_tec9_snake_light_large.9065015e55daa4190b97a8bc033925ed0aeb1abd.png",
+		"CaseName": "Horizon Case"
+	},
+	{
+		"Name": "AUG | Amber Slipstream",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_aug_hy_aug_torn_orange_light_large.53b51a022d38ea39eff5ffbed92551dc741e17c3.png",
+		"CaseName": "Horizon Case"
+	},
+	{
+		"Name": "Dual Berettas | Shred",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_elite_sp_elites_winter_raider_light_large.eddc2e91d0081e57588b745589209094a6b3e9b6.png",
+		"CaseName": "Horizon Case"
+	},
+	{
+		"Name": "R8 Revolver | Survivalist",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_revolver_cu_r8_survivalist_light_large.cda482f11a63c89c574211b8d5ea9a60703e3cd2.png",
+		"CaseName": "Horizon Case"
+	},
+	{
+		"Name": "M4A4 | Neo-Noir",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_cu_m4a4_neo_noir_light_large.b03bd6902c1d714af0bd4795dce8e653dd12dcc9.png",
+		"CaseName": "Clutch Case"
+	},
+	{
+		"Name": "MP7 | Bloodsport",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mp7_gs_mp7_bloodsport_light_large.ab5c304901ceb320482742b041815e7b5e3ccb95.png",
+		"CaseName": "Clutch Case"
+	},
+	{
+		"Name": "USP-S | Cortex",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_usp_silencer_cu_usp_cut_light_large.573fc8c594667e378f3ed9890ce48bbb586e8de0.png",
+		"CaseName": "Clutch Case"
+	},
+	{
+		"Name": "AWP | Mortis",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_awp_gs_awp_death_light_large.19bdee04e6a0b4a3b8f832fd8ea18fea1e558f2e.png",
+		"CaseName": "Clutch Case"
+	},
+	{
+		"Name": "AUG | Stymphalian",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_aug_gs_aug_stymphalian_birds_light_large.0840c45db138a07275c2250a0881fe752f27c601.png",
+		"CaseName": "Clutch Case"
+	},
+	{
+		"Name": "Glock-18 | Moonrise",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_glock_aa_glock_18_urban_moon_fever_light_large.a0227f81e44dba68abbe595d427d62f9f90da99d.png",
+		"CaseName": "Clutch Case"
+	},
+	{
+		"Name": "UMP-45 | Arctic Wolf",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ump45_cu_ump45_white_fang_light_large.f63a10d5ee18e3045adfdcf963b9067b3b0a6b48.png",
+		"CaseName": "Clutch Case"
+	},
+	{
+		"Name": "MAG-7 | SWAG-7",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mag7_aq_mag7_swag7_light_large.20341e396db88a5ecde84f8b803a500f4aec3b55.png",
+		"CaseName": "Clutch Case"
+	},
+	{
+		"Name": "Nova | Wild Six",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_nova_gs_nova_anchorite_light_large.419b869b5316b67a6ed673edafd088a9d16c066c.png",
+		"CaseName": "Clutch Case"
+	},
+	{
+		"Name": "Negev | Lionfish",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_negev_sp_negev_lionfish_light_large.f8326a67617c5138ab8b6f6afc81375fbd091033.png",
+		"CaseName": "Clutch Case"
+	},
+	{
+		"Name": "SG 553 | Aloha",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_sg556_sp_sg533_aloha_light_large.03aa863680ab2223924ae9cbe8b7662a84fb162c.png",
+		"CaseName": "Clutch Case"
+	},
+	{
+		"Name": "R8 Revolver | Grip",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_revolver_gs_revolver_tread_light_large.7c3bd1302f62853e5694aec2d70cf1c7140b3fc0.png",
+		"CaseName": "Clutch Case"
+	},
+	{
+		"Name": "MP9 | Black Sand",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mp9_cu_mp9_black_sand_light_large.37dce08f403ec73c1e16b3dc46068b22293e9514.png",
+		"CaseName": "Clutch Case"
+	},
+	{
+		"Name": "P2000 | Urban Hazard",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_hkp2000_cu_p2000_urban_hazard_light_large.17657c4e9c3379f634c78e4d02ca9e9facbe9edb.png",
+		"CaseName": "Clutch Case"
+	},
+	{
+		"Name": "Five-SeveN | Flame Test",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_fiveseven_gs_fiveseven_hot_rod_violet_light_large.66cb3d6336f4ea07a7f4ebbd3192c59f0afca3fc.png",
+		"CaseName": "Clutch Case"
+	},
+	{
+		"Name": "PP-Bizon | Night Riot",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_bizon_cu_bizon_riot_light_large.2f0848b27a917287062306f49870cf9ec06bbbbe.png",
+		"CaseName": "Clutch Case"
+	},
+	{
+		"Name": "XM1014 | Oxide Blaze",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_xm1014_cu_xm1014_oxide_blaze_light_large.691be80b706e1ea4faf9b5c9bec40b3611b1d440.png",
+		"CaseName": "Clutch Case"
+	},
+	{
+		"Name": "AK-47 | The Empress",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_gs_ak47_empress_light_large.f81d0b07dca381635c89f74bcdb6b64a6da6e81c.png",
+		"CaseName": "Spectrum 2 Case"
+	},
+	{
+		"Name": "P250 | See Ya Later",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_p250_cu_p250_cybercroc_light_large.396de1d53797f8875d242d1eb33d5b81dce2bb8e.png",
+		"CaseName": "Spectrum 2 Case"
+	},
+	{
+		"Name": "M4A1-S | Leaded Glass",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_silencer_gs_m4a1_shatter_light_large.f4d487cbf956eb13a505b8926c8f0f63cb3604b3.png",
+		"CaseName": "Spectrum 2 Case"
+	},
+	{
+		"Name": "R8 Revolver | Llama Cannon",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_revolver_gs_r8_llamacannon_light_large.ae4ce84764b4892a2ea2d3f9f0afc57023f7bdc8.png",
+		"CaseName": "Spectrum 2 Case"
+	},
+	{
+		"Name": "PP-Bizon | High Roller",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_bizon_cu_bizon_all_in_light_large.d31ae97fe448b550cfe06d617daa3575c77e8c2a.png",
+		"CaseName": "Spectrum 2 Case"
+	},
+	{
+		"Name": "SG 553 | Phantom",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_sg556_gs_sg553_phantom_light_large.51fc477c1024614f6f52080d3b7200408c9d2881.png",
+		"CaseName": "Spectrum 2 Case"
+	},
+	{
+		"Name": "CZ75-Auto | Tacticat",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_cz75a_gs_cz75_tacticat_light_large.ed9ba2f6cb8fd5e2a2b6cfb1b9a0ba4c87c93ec3.png",
+		"CaseName": "Spectrum 2 Case"
+	},
+	{
+		"Name": "MP9 | Goo",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mp9_cu_mp9_goo_light_large.3cab8ecb356ee5f2549c1b148f5961fdf5d9cd76.png",
+		"CaseName": "Spectrum 2 Case"
+	},
+	{
+		"Name": "UMP-45 | Exposure",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ump45_cu_ump45_x-ray_machine_light_large.a4563e015fd33d1874cc220458db2754a15dd08a.png",
+		"CaseName": "Spectrum 2 Case"
+	},
+	{
+		"Name": "XM1014 | Ziggy",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_xm1014_aq_xm1014_ziggy_anarchy_light_large.7042642ba5043be6e1cb82d6bb9a05678402dea1.png",
+		"CaseName": "Spectrum 2 Case"
+	},
+	{
+		"Name": "Glock-18 | Off World",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_glock_cu_glock_indigo_light_large.3786c7c3be7d03ee053050af2f7a8427782742e1.png",
+		"CaseName": "Spectrum 2 Case"
+	},
+	{
+		"Name": "AUG | Triqua",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_aug_cu_aug_orange_triangle_light_large.793eb05ec841c2664b8482565e5d080c731d6ecd.png",
+		"CaseName": "Spectrum 2 Case"
+	},
+	{
+		"Name": "Tec-9 | Cracked Opal",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_tec9_cu_tec9_cracked_opal_light_large.d6e9cc1c31550faeac9c55341be170abf07245b7.png",
+		"CaseName": "Spectrum 2 Case"
+	},
+	{
+		"Name": "MAC-10 | Oceanic",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mac10_am_mac10_oceani_light_large.25e5d3d5e249e11fe32971fa7bcdc0e5a1c777bd.png",
+		"CaseName": "Spectrum 2 Case"
+	},
+	{
+		"Name": "G3SG1 | Hunter",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_g3sg1_gs_g3sg1_cetme_redux_light_large.18ad1afdb32fca22879dcdd22e579c5afaef6ad8.png",
+		"CaseName": "Spectrum 2 Case"
+	},
+	{
+		"Name": "Sawed-Off | Morris",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_sawedoff_aq_sawed-off_flower_light_large.0d98b08ce8023d49dac2f76b10ef2f3cd7a33350.png",
+		"CaseName": "Spectrum 2 Case"
+	},
+	{
+		"Name": "SCAR-20 | Jungle Slipstream",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_scar20_hy_scar20_jungle_slipstream_light_large.d49f99ac854c1a25fc46bde5dd32f438bdd587f1.png",
+		"CaseName": "Spectrum 2 Case"
+	},
+	{
+		"Name": "AWP | Oni Taiji",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_awp_cu_awp_hannya_light_large.dc87e0f1aeeabe6c1c840f2a9e756ea261ef9d81.png",
+		"CaseName": "Operation Hydra Case"
+	},
+	{
+		"Name": "Five-SeveN | Hyper Beast",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_fiveseven_cu_fiveseven_hyperbeast_light_large.d2ef18b57b0b821624e42830ee4c47e241ed4476.png",
+		"CaseName": "Operation Hydra Case"
+	},
+	{
+		"Name": "M4A4 | Hellfire",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_cu_m4a4_hellfire_light_large.d3675840da1d60e19ba26fc11539e9351a0ec892.png",
+		"CaseName": "Operation Hydra Case"
+	},
+	{
+		"Name": "Galil AR | Sugar Rush",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_galilar_cu_galil_candychaos_light_large.70c1dba6c2de996ec666a260b604c760e01bb20d.png",
+		"CaseName": "Operation Hydra Case"
+	},
+	{
+		"Name": "Dual Berettas | Cobra Strike",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_elite_gs_dualberettas_cobra_light_large.0c2576234d95cb12089d9fdad47d1f7eed7f56c8.png",
+		"CaseName": "Operation Hydra Case"
+	},
+	{
+		"Name": "AK-47 | Orbit Mk01",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_gs_ak_colony01_red_light_large.b688da7615b6e76fa34f775e200914dc44d5336c.png",
+		"CaseName": "Operation Hydra Case"
+	},
+	{
+		"Name": "P90 | Death Grip",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_p90_hy_p90_barebones_blue_light_large.c908d6fc6d53cb2f4168a64b9a32e4b6b5479fc8.png",
+		"CaseName": "Operation Hydra Case"
+	},
+	{
+		"Name": "SSG 08 | Death's Head",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ssg08_cu_ssg08_deathshead_light_large.78676bc5fce74af519abdccae4d119727c392faf.png",
+		"CaseName": "Operation Hydra Case"
+	},
+	{
+		"Name": "P250 | Red Rock",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_p250_cu_p250_axiom_light_large.a9b34e0a93dbaa8fa60dfdb080827b919938d9f6.png",
+		"CaseName": "Operation Hydra Case"
+	},
+	{
+		"Name": "P2000 | Woodsman",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_hkp2000_cu_p2000_hunter_light_large.57f4ea5be4f9bece6a3b71521a370d9afb4abb1f.png",
+		"CaseName": "Operation Hydra Case"
+	},
+	{
+		"Name": "USP-S | Blueprint",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_usp_silencer_cu_usps_blueprint_light_large.e4195098bb3a105e6545d32c4d72888f673bd761.png",
+		"CaseName": "Operation Hydra Case"
+	},
+	{
+		"Name": "M4A1-S | Briefing",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_silencer_cu_m4a1s_metritera_light_large.ec9c5f86d6788402519be7bd51b849355fbf93ee.png",
+		"CaseName": "Operation Hydra Case"
+	},
+	{
+		"Name": "Tec-9 | Cut Out",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_tec9_aq_tec9_chalk_pattern_light_large.e0425d0a56ca5a2240b71495a5ef2bc4af0e9331.png",
+		"CaseName": "Operation Hydra Case"
+	},
+	{
+		"Name": "MAC-10 | Aloha",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mac10_am_mac10_aloha_light_large.bde81a20851cfd9f788d66745f69a288e57ea319.png",
+		"CaseName": "Operation Hydra Case"
+	},
+	{
+		"Name": "MAG-7 | Hard Water",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mag7_am_mag7_caustic_light_large.133bbfa9f3cf8220f8eb5556d4d54a766cf1c9e0.png",
+		"CaseName": "Operation Hydra Case"
+	},
+	{
+		"Name": "FAMAS | Macabre",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_famas_sp_famas_macabre_light_large.7582150e24a69922b814d6b56004327e2219890d.png",
+		"CaseName": "Operation Hydra Case"
+	},
+	{
+		"Name": "UMP-45 | Metal Flowers",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ump45_aq_ump45_flameflower_light_large.9c5aedb21ad6461f0761375c53b50f030fa0e10c.png",
+		"CaseName": "Operation Hydra Case"
+	},
+	{
+		"Name": "AK-47 | Bloodsport",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_gs_ak47_bloodsport_light_large.40f076f6b92e08acc37860923533aa9768795b2b.png",
+		"CaseName": "Spectrum Case"
+	},
+	{
+		"Name": "USP-S | Neo-Noir",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_usp_silencer_cu_usps_noir_light_large.ed0f4245c1b9031c6d410300ce6de1f1efb75481.png",
+		"CaseName": "Spectrum Case"
+	},
+	{
+		"Name": "M4A1-S | Decimator",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_silencer_gs_m4a1_decimator_light_large.5af82e99273fcc0a4ad35b2971b63787ee989d6a.png",
+		"CaseName": "Spectrum Case"
+	},
+	{
+		"Name": "AWP | Fever Dream",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_awp_cu_awp_psychopath_light_large.11e54a670b779e1757cce18ea252d70eb35c6a75.png",
+		"CaseName": "Spectrum Case"
+	},
+	{
+		"Name": "CZ75-Auto | Xiangliu",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_cz75a_gs_cz_snakes_purple_light_large.a06599fab1d73352fd970fc0356c215c50ca7e9a.png",
+		"CaseName": "Spectrum Case"
+	},
+	{
+		"Name": "UMP-45 | Scaffold",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ump45_gs_ump_abyss_light_large.55910298a6be9b071156ef176a31d26007d92d0f.png",
+		"CaseName": "Spectrum Case"
+	},
+	{
+		"Name": "M249 | Emerald Poison Dart",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m249_sp_m249_frog_original_light_large.7331eb3d676ebdf8df71adb58b43aea63660f785.png",
+		"CaseName": "Spectrum Case"
+	},
+	{
+		"Name": "MAC-10 | Last Dive",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mac10_aa_mac10_the_last_dive_light_large.d0039a83384acbe26f9337c8a83e81f6410b7dc9.png",
+		"CaseName": "Spectrum Case"
+	},
+	{
+		"Name": "XM1014 | Seasons",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_xm1014_aq_xm_leaf_fade_light_large.f753b1b710a8023e299d1918ca150b42483ca1cd.png",
+		"CaseName": "Spectrum Case"
+	},
+	{
+		"Name": "Galil AR | Crimson Tsunami",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_galilar_sp_galil_wave_light_large.0a4761ebb660428a77a622885054e1c44cf03959.png",
+		"CaseName": "Spectrum Case"
+	},
+	{
+		"Name": "Desert Eagle | Oxide Blaze",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_deagle_cu_desert_eagle_corroden_light_large.5fde2cc1c9b82b0e9823445c7fb2be334bc286af.png",
+		"CaseName": "Spectrum Case"
+	},
+	{
+		"Name": "Five-SeveN | Capillary",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_fiveseven_cu_fiveseven_vein_light_large.464ec691b3c3c9c828aa1a8d4e2b076daa4b7a4f.png",
+		"CaseName": "Spectrum Case"
+	},
+	{
+		"Name": "P250 | Ripple",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_p250_am_p250_sputnik_light_large.38766530975aaa4006dda7a24533ac1b05a6b6a8.png",
+		"CaseName": "Spectrum Case"
+	},
+	{
+		"Name": "SCAR-20 | Blueprint",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_scar20_cu_blueprint_scar_light_large.9a71e8191c2b2081f5fd3884f57f919663b26ee5.png",
+		"CaseName": "Spectrum Case"
+	},
+	{
+		"Name": "MP7 | Akoben",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mp7_sp_mp7_tribal_yellow_light_large.1c05d27487feb5d82e8165721942ea3a67e6ba33.png",
+		"CaseName": "Spectrum Case"
+	},
+	{
+		"Name": "Sawed-Off | Zander",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_sawedoff_aq_sawedoff_zander2_light_large.514f7c6c606296838f56020877d7762c594dc4bd.png",
+		"CaseName": "Spectrum Case"
+	},
+	{
+		"Name": "PP-Bizon | Jungle Slipstream",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_bizon_hy_bizon_torn_green_light_large.1aa076ede6a2511bf676ffb1c5a3eafca71c58a6.png",
+		"CaseName": "Spectrum Case"
+	},
+	{
+		"Name": "M4A4 | Buzz Kill",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_gs_m4a4_sector_light_large.43ec111ef558f74c49e31621d455f93ba414714e.png",
+		"CaseName": "Glove Case"
+	},
+	{
+		"Name": "SSG 08 | Dragonfire",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ssg08_cu_ssg08_dragonfire_scope_light_large.482858c9d088454b42e53f02d927a8203c69dfc2.png",
+		"CaseName": "Glove Case"
+	},
+	{
+		"Name": "FAMAS | Mecha Industries",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_famas_gs_famas_mecha_light_large.c26d3fccc156fe26ba3325ed73b29092b3e18093.png",
+		"CaseName": "Glove Case"
+	},
+	{
+		"Name": "P90 | Shallow Grave",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_p90_gs_p90_shallow_grave_light_large.948019f5ffb76bcc24cfede19c992ffb34e3ecaf.png",
+		"CaseName": "Glove Case"
+	},
+	{
+		"Name": "Sawed-Off | Wasteland Princess",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_sawedoff_cu_wp_sawedoff_light_large.5c3f71cb929e5d2922b25c7644d0ff1981d92fa0.png",
+		"CaseName": "Glove Case"
+	},
+	{
+		"Name": "USP-S | Cyrex",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_usp_silencer_cu_usp_cyrex_light_large.caef5e9fa7e19c3a4fd6f135d7ae122459b348d0.png",
+		"CaseName": "Glove Case"
+	},
+	{
+		"Name": "M4A1-S | Flashback",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_silencer_cu_m4a1_flashback_light_large.5e6c2d582d33006425b61dc0e0e8c28ecda9f853.png",
+		"CaseName": "Glove Case"
+	},
+	{
+		"Name": "Nova | Gila",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_nova_am_nova_sand_light_large.0dcb0fc065477e01afda8ecbc83208551a5f2e97.png",
+		"CaseName": "Glove Case"
+	},
+	{
+		"Name": "Dual Berettas | Royal Consorts",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_elite_gs_dual_berettas_golden_venice_light_large.23d73db6cf2b2a7af26414d26373171dd3be06b1.png",
+		"CaseName": "Glove Case"
+	},
+	{
+		"Name": "G3SG1 | Stinger",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_g3sg1_gs_g3sg1_viper_yellow_light_large.5a77c59b8c295d2e10f27b8372a146e973ddfb25.png",
+		"CaseName": "Glove Case"
+	},
+	{
+		"Name": "Glock-18 | Ironwork",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_glock_aq_glock_dark-fall_light_large.ac35c22bc50660c89ecfe7654ee93bb9f00bd6f4.png",
+		"CaseName": "Glove Case"
+	},
+	{
+		"Name": "MP7 | Cirrus",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mp7_gs_final_pooldeadv2_light_large.30ea2c8c934b49fa0a5e2b8c50ec880c10e2f295.png",
+		"CaseName": "Glove Case"
+	},
+	{
+		"Name": "Galil AR | Black Sand",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_galilar_cu_galil_ar-camo_light_large.63272b54e93d40433f8ceec41efec2004d51941d.png",
+		"CaseName": "Glove Case"
+	},
+	{
+		"Name": "P2000 | Turf",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_hkp2000_gs_p2000-sport_light_large.96ad9b76130cea95ec2f1bc61ee428e6a998a398.png",
+		"CaseName": "Glove Case"
+	},
+	{
+		"Name": "MP9 | Sand Scale",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mp9_aa_hide-mp9_light_large.77be0c0ed8276383c6a2d42842df3108bbdd173b.png",
+		"CaseName": "Glove Case"
+	},
+	{
+		"Name": "MAG-7 | Sonar",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mag7_am_mag7_malform_light_large.8a87c99550a4f609e7357bb4f63facf86279afca.png",
+		"CaseName": "Glove Case"
+	},
+	{
+		"Name": "CZ75-Auto | Polymer",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_cz75a_am_czv2_mf_light_large.e99dde293e56f61d77908b8326d2a89155389783.png",
+		"CaseName": "Glove Case"
+	},
+	{
+		"Name": "AK-47 | Neon Revolution",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_cu_ak47_anarchy_light_large.6e98f0c6fcb81aaeca03c56eed68962f50c9ef94.png",
+		"CaseName": "Gamma 2 Case"
+	},
+	{
+		"Name": "FAMAS | Roll Cage",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_famas_gs_famas_rally_light_large.538baee44eb772de95029e4267ea9c41101bbc94.png",
+		"CaseName": "Gamma 2 Case"
+	},
+	{
+		"Name": "AUG | Syd Mead",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_aug_gs_aug_syd_mead_light_large.333597e0555639f5d77541c363a9bb38d95055f3.png",
+		"CaseName": "Gamma 2 Case"
+	},
+	{
+		"Name": "Tec-9 | Fuel Injector",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_tec9_gs_tec9_supercharged_light_large.e3ebc20f10eae02790fe95703b6099acca1d1809.png",
+		"CaseName": "Gamma 2 Case"
+	},
+	{
+		"Name": "MP9 | Airlock",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mp9_cu_mp9_narcis_light_large.c63eaf3fab8c65ec3ab22da8205cbe3c51366d7a.png",
+		"CaseName": "Gamma 2 Case"
+	},
+	{
+		"Name": "Desert Eagle | Directive",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_deagle_aq_desert_eagle_constable_light_large.fb2f2673dd3997a21bff9129e0d2e294c03095e8.png",
+		"CaseName": "Gamma 2 Case"
+	},
+	{
+		"Name": "Glock-18 | Weasel",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_glock_cu_glock18_weasel_light_large.e02e6e5196ebdee47c595799ff011dd645147505.png",
+		"CaseName": "Gamma 2 Case"
+	},
+	{
+		"Name": "SG 553 | Triarch",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_sg556_cu_sg556_triarch_light_large.3ea74bea530adda100d25911372ca313ea99453a.png",
+		"CaseName": "Gamma 2 Case"
+	},
+	{
+		"Name": "MAG-7 | Petroglyph",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mag7_cu_mag7_tribal_light_large.c226728af447f07808ea5954eb9a24528092d972.png",
+		"CaseName": "Gamma 2 Case"
+	},
+	{
+		"Name": "SCAR-20 | Powercore",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_scar20_gs_scar20_powercore_light_large.74bcd65b1a4a52dd397ede5aa59b860ca4c38939.png",
+		"CaseName": "Gamma 2 Case"
+	},
+	{
+		"Name": "P90 | Grim",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_p90_cu_p90_grimm_light_large.59514d7b54f637f314329bb3fef1c7ffd1b153ba.png",
+		"CaseName": "Gamma 2 Case"
+	},
+	{
+		"Name": "Negev | Dazzle",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_negev_hy_negev_dazzle_light_large.3558ece2a70252dcaa8ea9e324539ae1a4fc1bc0.png",
+		"CaseName": "Gamma 2 Case"
+	},
+	{
+		"Name": "UMP-45 | Briefing",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ump45_cu_ump45_metritera_light_large.46ac4388a9651c555ec6849358b85f60a87c328d.png",
+		"CaseName": "Gamma 2 Case"
+	},
+	{
+		"Name": "CZ75-Auto | Imprint",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_cz75a_gs_cz75_tread_light_large.8c276db730bb33477aaa52f7a23825f295e14364.png",
+		"CaseName": "Gamma 2 Case"
+	},
+	{
+		"Name": "XM1014 | Slipstream",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_xm1014_hy_xm1014_fractal_blue_light_large.e9720fb7b5928db8bcf79d62850af5bf475b9ec5.png",
+		"CaseName": "Gamma 2 Case"
+	},
+	{
+		"Name": "Five-SeveN | Scumbria",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_fiveseven_aq_five_seven_scumbria_light_large.bc05fc6435b84525a0ab140bc72e032a98dab710.png",
+		"CaseName": "Gamma 2 Case"
+	},
+	{
+		"Name": "G3SG1 | Ventilator",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_g3sg1_gs_g3sg1_ventilator_light_large.5cd3643d4d9cd0599e25a1302e788611bd9a0023.png",
+		"CaseName": "Gamma 2 Case"
+	},
+	{
+		"Name": "M4A1-S | Mecha Industries",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_silencer_gs_m4a1_mecha_industries_light_large.2973cf5ca9d1592d6652bf14ac89bcd8593d4f0a.png",
+		"CaseName": "Gamma Case"
+	},
+	{
+		"Name": "Glock-18 | Wasteland Rebel",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_glock_cu_glock_wasteland_rebel_light_large.284899ab35e5a29c6edb64b2af194cee19a0ed89.png",
+		"CaseName": "Gamma Case"
+	},
+	{
+		"Name": "M4A4 | Desolate Space",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_cu_m4a4_desolate_space_light_large.1fcbd5e124ae7c54cf12e6f76c431e6671a73845.png",
+		"CaseName": "Gamma Case"
+	},
+	{
+		"Name": "P2000 | Imperial Dragon",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_hkp2000_gs_p2000_imperial_dragon_light_large.cc82bc6353a0e8ce963f6b0b600905d4dc37bf4a.png",
+		"CaseName": "Gamma Case"
+	},
+	{
+		"Name": "SCAR-20 | Bloodsport",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_scar20_gs_scar20_bloodsport_light_large.dd99feccb31d2ec296bcd620abd885e6fe50d44e.png",
+		"CaseName": "Gamma Case"
+	},
+	{
+		"Name": "AWP | Phobos",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_awp_gs_awp_phobos_light_large.fca961cc99c704f09c44e6e82378434ef0e22087.png",
+		"CaseName": "Gamma Case"
+	},
+	{
+		"Name": "R8 Revolver | Reboot",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_revolver_cu_r8_cybersport_light_large.d5eb827f99a401915b8377eda7b81a0bc9cae4bf.png",
+		"CaseName": "Gamma Case"
+	},
+	{
+		"Name": "P90 | Chopper",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_p90_gs_p90_full_throttle_light_large.70ef68d70617eb318e2df05e09f780448a1baf0d.png",
+		"CaseName": "Gamma Case"
+	},
+	{
+		"Name": "AUG | Aristocrat",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_aug_gs_aug_aristocrat_light_large.4004dbb20c03d1a210ff9a98968ddb251bdfddc6.png",
+		"CaseName": "Gamma Case"
+	},
+	{
+		"Name": "Sawed-Off | Limelight",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_sawedoff_cu_sawed_off_lime_light_large.87fbbe1597ea04a51b56f3b0f7c3fc6a5ff6553c.png",
+		"CaseName": "Gamma Case"
+	},
+	{
+		"Name": "Five-SeveN | Violent Daimyo",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_fiveseven_cu_five_seven_daimyo_light_large.d394398cae1977546887145dcf6a4892d2ed29aa.png",
+		"CaseName": "Gamma Case"
+	},
+	{
+		"Name": "SG 553 | Aerial",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_sg556_cu_sg553_aerial_light_large.a123874095a96a92aaacd0f64a4fef54fa455e82.png",
+		"CaseName": "Gamma Case"
+	},
+	{
+		"Name": "Tec-9 | Ice Cap",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_tec9_am_tec_9_sea_salt_light_large.726f78fd872aa2ccfcab9a051b4b79c314d50a4e.png",
+		"CaseName": "Gamma Case"
+	},
+	{
+		"Name": "P250 | Iron Clad",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_p250_gs_p250_metal_panels_light_large.a104ce12e50fa24711708782e5d7b23e1bcb7d1b.png",
+		"CaseName": "Gamma Case"
+	},
+	{
+		"Name": "MAC-10 | Carnivore",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mac10_aq_mac_10_alien_camo_light_large.10568510ec37ec8515546e5ac03455391bb9ec2d.png",
+		"CaseName": "Gamma Case"
+	},
+	{
+		"Name": "PP-Bizon | Harvester",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_bizon_gs_pp_bizon_harvester_light_large.654d26d43d7e4583a0ede5e0ea6bb697858698dc.png",
+		"CaseName": "Gamma Case"
+	},
+	{
+		"Name": "Nova | Exo",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_nova_aq_nova_sci_fi_light_large.9cf268816cad5bdbe33bd4d1ddce1eb81f905164.png",
+		"CaseName": "Gamma Case"
+	},
+	{
+		"Name": "M4A1-S | Chantico's Fire",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_silencer_cu_m4a1s_soultaker_light_large.4939d69bd691d421ca9c7d6558b46088c8ac5317.png",
+		"CaseName": "Chroma 3 Case"
+	},
+	{
+		"Name": "PP-Bizon | Judgement of Anubis",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_bizon_cu_bizon_curse_light_large.c19cf584d3e28db4914d1559cd387999457944d8.png",
+		"CaseName": "Chroma 3 Case"
+	},
+	{
+		"Name": "P250 | Asiimov",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_p250_cu_p250_asiimov_light_large.7ccf465f7dc55d2d960465d404c10cbc8c442cee.png",
+		"CaseName": "Chroma 3 Case"
+	},
+	{
+		"Name": "AUG | Fleet Flock",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_aug_cu_aug_swallows_light_large.29e48baa4086b20e4a5f714b5f8cc6350de7c758.png",
+		"CaseName": "Chroma 3 Case"
+	},
+	{
+		"Name": "UMP-45 | Primal Saber",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ump45_cu_ump45_primalsaber_light_large.67bef91a43734d654516f65c4288711b257d2049.png",
+		"CaseName": "Chroma 3 Case"
+	},
+	{
+		"Name": "SSG 08 | Ghost Crusader",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ssg08_gs_ssg08_armacore_light_large.043342869c64e1a08107055a4e1b332ad9c763c0.png",
+		"CaseName": "Chroma 3 Case"
+	},
+	{
+		"Name": "XM1014 | Black Tie",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_xm1014_cu_xm1014_spectrum_light_large.6318ee51c405fb5e8a40aedfc3d98d530f789a5b.png",
+		"CaseName": "Chroma 3 Case"
+	},
+	{
+		"Name": "Galil AR | Firefight",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_galilar_gs_galilar_incenerator_light_large.669901b842361b46108ced0a555f5575839d093e.png",
+		"CaseName": "Chroma 3 Case"
+	},
+	{
+		"Name": "Tec-9 | Re-Entry",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_tec9_am_tec9_redblast_light_large.0f8de75737cc35ac1d14cf74924838da4d7ab849.png",
+		"CaseName": "Chroma 3 Case"
+	},
+	{
+		"Name": "CZ75-Auto | Red Astor",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_cz75a_gs_cz75a_redastor_light_large.e00e688986c50877a103fe66d70fdf1fc13bbe8b.png",
+		"CaseName": "Chroma 3 Case"
+	},
+	{
+		"Name": "MP9 | Bioleak",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mp9_am_mp9_bioleak_light_large.d9b0d0e9fea2104871e0510bd704bfa03cdd6056.png",
+		"CaseName": "Chroma 3 Case"
+	},
+	{
+		"Name": "SG 553 | Atlas",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_sg556_cu_sg553_atlas_light_large.536218f8160485fa927e19fa06fedae43d9c04e6.png",
+		"CaseName": "Chroma 3 Case"
+	},
+	{
+		"Name": "P2000 | Oceanic",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_hkp2000_hy_p2000_oceani_light_large.8f64654c5964975c85201b1dbbdf7b8ffab768be.png",
+		"CaseName": "Chroma 3 Case"
+	},
+	{
+		"Name": "Dual Berettas | Ventilators",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_elite_gs_dualberettas_ventilators_light_large.45cb1ffd25de1ed5b90ba104b1f8e0a8eb2eb255.png",
+		"CaseName": "Chroma 3 Case"
+	},
+	{
+		"Name": "M249 | Spectre",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m249_cu_m249_spectre_light_large.b0a23c44e56390b4bbdc2c389911f6cc2b42da3d.png",
+		"CaseName": "Chroma 3 Case"
+	},
+	{
+		"Name": "G3SG1 | Orange Crash",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_g3sg1_sp_g3sg1_militiaorange_light_large.215d54d5c86185e61d65694899bf029f6e070cab.png",
+		"CaseName": "Chroma 3 Case"
+	},
+	{
+		"Name": "Sawed-Off | Fubar",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_sawedoff_gs_sawedoff_fubar_light_large.0673d87171fccc0fc98e77806da7259e283283ea.png",
+		"CaseName": "Chroma 3 Case"
+	},
+	{
+		"Name": "AK-47 | Fuel Injector",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_gs_ak47_supercharged_light_large.8a0d53e84b7049366a3e3dbb25d29f473d76dceb.png",
+		"CaseName": "Operation Wildfire Case"
+	},
+	{
+		"Name": "M4A4 | The Battlestar",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_gs_m4a4_pioneer_light_large.2dcc4c93ad184179e34b9359090d7398718d36e4.png",
+		"CaseName": "Operation Wildfire Case"
+	},
+	{
+		"Name": "Desert Eagle | Kumicho Dragon",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_deagle_aq_deserteagle_kumichodragon_light_large.19874e9a20cfac49efbe1f1557b995e453633ffe.png",
+		"CaseName": "Operation Wildfire Case"
+	},
+	{
+		"Name": "AWP | Elite Build",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_awp_cu_awp_mastery_light_large.617e335043f250cdb9d6a4c798e075be9560cdd4.png",
+		"CaseName": "Operation Wildfire Case"
+	},
+	{
+		"Name": "Nova | Hyper Beast",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_nova_cu_nova_hyperbeast_light_large.ec64e1aa22dc78fa692a2269a99669842b91cc6f.png",
+		"CaseName": "Operation Wildfire Case"
+	},
+	{
+		"Name": "Glock-18 | Royal Legion",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_glock_gs_glock18_award_light_large.198c0dc5630970b1f3bbcb307a1318745ca006e7.png",
+		"CaseName": "Operation Wildfire Case"
+	},
+	{
+		"Name": "FAMAS | Valence",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_famas_aq_famas_contour_light_large.65d515ab34a6f50c8a5296b562a81da42663b819.png",
+		"CaseName": "Operation Wildfire Case"
+	},
+	{
+		"Name": "MP7 | Impire",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mp7_sp_mp7_impire_light_large.aee431bcc2114fbc9f5cf46ca9735c86ddb450ba.png",
+		"CaseName": "Operation Wildfire Case"
+	},
+	{
+		"Name": "MAG-7 | Praetorian",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mag7_gs_mag7_praetorian_light_large.55d96fbd30315911a2397ef950887e8fda43a3ec.png",
+		"CaseName": "Operation Wildfire Case"
+	},
+	{
+		"Name": "Five-SeveN | Triumvirate",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_fiveseven_cu_fiveseven_augmented_light_large.eb79857bc2e4b80f4edf61a0c5a72fbae80f3a20.png",
+		"CaseName": "Operation Wildfire Case"
+	},
+	{
+		"Name": "USP-S | Lead Conduit",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_usp_silencer_gs_usp_voltage_light_large.11e40b4d4fc09043d4fa513f3913ca65ffcfbb41.png",
+		"CaseName": "Operation Wildfire Case"
+	},
+	{
+		"Name": "SSG 08 | Necropos",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ssg08_cu_ssg08_necropos_light_large.cd2f32aa0349edcad3aefae80b509fc5962a2b30.png",
+		"CaseName": "Operation Wildfire Case"
+	},
+	{
+		"Name": "PP-Bizon | Photic Zone",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_bizon_cu_bizon_citizen_light_large.c33a99fe761fc52535224e73d2af91b92ac77637.png",
+		"CaseName": "Operation Wildfire Case"
+	},
+	{
+		"Name": "Dual Berettas | Cartel",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_elite_aq_dualberettas_cartel_light_large.52ed24116db8a7254a366ea9f4f49b3ceff9eed3.png",
+		"CaseName": "Operation Wildfire Case"
+	},
+	{
+		"Name": "Tec-9 | Jambiya",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_tec9_gs_tec9_jambiya_light_large.d1f42521bb774564f80a512c3990e768179cf111.png",
+		"CaseName": "Operation Wildfire Case"
+	},
+	{
+		"Name": "MAC-10 | Lapis Gator",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mac10_am_mac10_electricity_light_large.88207515fce5ebad84df16d60ff2203a5d4a2702.png",
+		"CaseName": "Operation Wildfire Case"
+	},
+	{
+		"Name": "M4A4 | Royal Paladin",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_gs_m4a4_royal_squire_light_large.f802ec3cf9c1c6837d841384f6d112367340880b.png",
+		"CaseName": "Revolver Case"
+	},
+	{
+		"Name": "R8 Revolver | Fade",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_revolver_aa_fade_revolver_light_large.af77aee9f82936e7510b89e7f0c1bbf6bfaaff45.png",
+		"CaseName": "Revolver Case"
+	},
+	{
+		"Name": "AK-47 | Point Disarray",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_cu_ak47_point_disarray_light_large.ba0f6ccdcb917aa2bde2ef0312c57d763a61d341.png",
+		"CaseName": "Revolver Case"
+	},
+	{
+		"Name": "G3SG1 | The Executioner",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_g3sg1_cu_g3sg1_executioner_light_large.36071be17a266f28d8631b0fd73a9be6767ce399.png",
+		"CaseName": "Revolver Case"
+	},
+	{
+		"Name": "P90 | Shapewood",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_p90_cu_p90_shapewood_light_large.e7744840c89b1b83be82d2f64beb5a6719c47bd3.png",
+		"CaseName": "Revolver Case"
+	},
+	{
+		"Name": "SG 553 | Tiger Moth",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_sg556_gs_sg553_tiger_moth_light_large.18de0e5e029741a67330038e646fab1596fcfe88.png",
+		"CaseName": "Revolver Case"
+	},
+	{
+		"Name": "Negev | Power Loader",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_negev_cu_negev_impact_light_large.3315f6272c9bb790f96731643232008b4b8c7296.png",
+		"CaseName": "Revolver Case"
+	},
+	{
+		"Name": "Tec-9 | Avalanche",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_tec9_cu_tec9_avalanche_light_large.eb6726a24084bf5f3c8c8c70cd8ea37425a708e3.png",
+		"CaseName": "Revolver Case"
+	},
+	{
+		"Name": "PP-Bizon | Fuel Rod",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_bizon_cu_bizon_noxious_light_large.dc3af57fa024448b24e4ddb8838a0a339cee46ce.png",
+		"CaseName": "Revolver Case"
+	},
+	{
+		"Name": "Five-SeveN | Retrobution",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_fiveseven_cu_fiveseven_retrobution_light_large.7ef4b20b8c9aed4d6461861c9d93b81630f6ac71.png",
+		"CaseName": "Revolver Case"
+	},
+	{
+		"Name": "XM1014 | Teclu Burner",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_xm1014_aq_xm1014_hot_rod_light_large.f664b036e9b4ec638574f17a9b7ea0905e8c57e0.png",
+		"CaseName": "Revolver Case"
+	},
+	{
+		"Name": "R8 Revolver | Crimson Web",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_revolver_hy_webs_light_large.2a0bbba44388502060a910b5a18f5b64b5be0b3d.png",
+		"CaseName": "Revolver Case"
+	},
+	{
+		"Name": "Desert Eagle | Corinthian",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_deagle_aq_deagle_corinthian_light_large.1a694892a1953a131775451d0542508b4b3d9e77.png",
+		"CaseName": "Revolver Case"
+	},
+	{
+		"Name": "AUG | Ricochet",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_aug_am_aug_jumble_light_large.d86901a42f239ddc39cd645d2a17281881fe37d5.png",
+		"CaseName": "Revolver Case"
+	},
+	{
+		"Name": "P2000 | Imperial",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_hkp2000_am_p2000_imperial_red_light_large.c47e207307725ed1f9e8cf6d1478dbfd3523c7a7.png",
+		"CaseName": "Revolver Case"
+	},
+	{
+		"Name": "Sawed-Off | Yorick",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_sawedoff_gs_sawedoff_necromancer_light_large.8cead257afdfaf5b852a61d2358aa3fb84def860.png",
+		"CaseName": "Revolver Case"
+	},
+	{
+		"Name": "SCAR-20 | Outbreak",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_scar20_hy_scar20_jungler_light_large.4f6402fac5ca041aae7db17b214e5cfd55149c44.png",
+		"CaseName": "Revolver Case"
+	},
+	{
+		"Name": "USP-S | Kill Confirmed",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_usp_silencer_cu_usp_kill_confirmed_light_large.a3a7b8f19c9fb931b18c1edd7dd21d44e2c3c2e0.png",
+		"CaseName": "Shadow Case"
+	},
+	{
+		"Name": "M4A1-S | Golden Coil",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_silencer_gs_m4a1s_snakebite_gold_light_large.574ace77e1044dbf3a387f200b2867332e974f70.png",
+		"CaseName": "Shadow Case"
+	},
+	{
+		"Name": "AK-47 | Frontside Misty",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_cu_ak47_winter_sport_light_large.785a08aecd996dcffc6f38373fdc73697e601a6a.png",
+		"CaseName": "Shadow Case"
+	},
+	{
+		"Name": "SSG 08 | Big Iron",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ssg08_cu_ssg08_technicality_light_large.1a057a14ca191ce12629e06217cbe86097444b03.png",
+		"CaseName": "Shadow Case"
+	},
+	{
+		"Name": "G3SG1 | Flux",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_g3sg1_gs_g3sg1_flux_purple_light_large.6ed40e104625c9607e7df5ee60373a19d3dae634.png",
+		"CaseName": "Shadow Case"
+	},
+	{
+		"Name": "Galil AR | Stone Cold",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_galilar_gs_galil_nightwing_light_large.bc71fb0b9102f22348f39015b7de5affd60829e0.png",
+		"CaseName": "Shadow Case"
+	},
+	{
+		"Name": "P250 | Wingshot",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_p250_hy_p250_crackshot_light_large.538a33bb8d7af894f965257c39f699168e125cdd.png",
+		"CaseName": "Shadow Case"
+	},
+	{
+		"Name": "M249 | Nebula Crusader",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m249_gs_m249_nebula_crusader_light_large.60f60c9e8203575e3e3f5574db51132e2b2fe7c7.png",
+		"CaseName": "Shadow Case"
+	},
+	{
+		"Name": "MP7 | Special Delivery",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mp7_cu_mp7_classified_light_large.231ba61751c2976258bf96b3d1db5ae6ecb03b95.png",
+		"CaseName": "Shadow Case"
+	},
+	{
+		"Name": "Dual Berettas | Dualing Dragons",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_elite_cu_dualberretta_dragons_light_large.2742674cbf237d1ba5fb6ed9f0d90e00a03570f9.png",
+		"CaseName": "Shadow Case"
+	},
+	{
+		"Name": "Glock-18 | Wraiths",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_glock_gs_glock18_wrathys_light_large.8cf4aba20d193a1646b378a3d04a6fee3f66724c.png",
+		"CaseName": "Shadow Case"
+	},
+	{
+		"Name": "FAMAS | Survivor Z",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_famas_cu_famas_lenta_light_large.7ab508a407e56ab541dae127ef5fc64f09f6ae08.png",
+		"CaseName": "Shadow Case"
+	},
+	{
+		"Name": "MAC-10 | Rangeen",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mac10_cu_mac10_alekhya_duo_light_large.7173900a6b75cee250a55197483cba3c0204b955.png",
+		"CaseName": "Shadow Case"
+	},
+	{
+		"Name": "XM1014 | Scumbria",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_xm1014_aq_xm1014_scumbria_light_large.b8e79b3c4391784151d789edde360dbaaef7fd1f.png",
+		"CaseName": "Shadow Case"
+	},
+	{
+		"Name": "MAG-7 | Cobalt Core",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mag7_cu_mag7_myrcene_light_large.7cd0ed89db7accc44d3289f9f1529e0a75f4643e.png",
+		"CaseName": "Shadow Case"
+	},
+	{
+		"Name": "SCAR-20 | Green Marine",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_scar20_gs_scar20_peacemaker03_light_large.061f9ac2ff0a040f6fcc296c451c09fe2e198f83.png",
+		"CaseName": "Shadow Case"
+	},
+	{
+		"Name": "AWP | Hyper Beast",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_awp_cu_awp_hyper_beast_light_large.55efa5e3094af71ca6a56b6eac96cb022f7ecd8b.png",
+		"CaseName": "Falchion Case"
+	},
+	{
+		"Name": "AK-47 | Aquamarine Revenge",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_cu_ak47_courage_alt_light_large.27e4e7d38dc2ce36ffe86bd6ec65d6f525751eaa.png",
+		"CaseName": "Falchion Case"
+	},
+	{
+		"Name": "SG 553 | Cyrex",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_sg556_cu_sg553_cyrex_light_large.ef2fb1e4d88e8eb7c0efe12e231a773ca1792a4d.png",
+		"CaseName": "Falchion Case"
+	},
+	{
+		"Name": "MP7 | Nemesis",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mp7_cu_mp7_nemsis_light_large.72074e71a27827f41dc5d6f511d2f003c1b60d8a.png",
+		"CaseName": "Falchion Case"
+	},
+	{
+		"Name": "CZ75-Auto | Yellow Jacket",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_cz75a_cu_cz75a_chastizer_light_large.d3234c712c3c068adbbfd5718c468c778f2351dd.png",
+		"CaseName": "Falchion Case"
+	},
+	{
+		"Name": "M4A4 | Evil Daimyo",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_cu_m4a4_evil_daimyo_light_large.c208ba252c0d8902caa973a634cbfa945508a716.png",
+		"CaseName": "Falchion Case"
+	},
+	{
+		"Name": "Negev | Loudmouth",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_negev_cu_negev_annihilator_light_large.421039357ccbbcb9ba1456caa1ed2ae4829b5495.png",
+		"CaseName": "Falchion Case"
+	},
+	{
+		"Name": "P2000 | Handgun",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_hkp2000_aq_p2000_boom_light_large.39f01b0b86b795bea56300432fecfbf93415ee58.png",
+		"CaseName": "Falchion Case"
+	},
+	{
+		"Name": "MP9 | Ruby Poison Dart",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mp9_am_mp9_nitrogen_light_large.3a0b5a7cd31a7cfd5f0d90b9a0a1dbfcdb642cca.png",
+		"CaseName": "Falchion Case"
+	},
+	{
+		"Name": "FAMAS | Neural Net",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_famas_am_famas_dots_light_large.dc6f19278bac52ea06b8e3576fa324624f2f82b4.png",
+		"CaseName": "Falchion Case"
+	},
+	{
+		"Name": "Galil AR | Rocket Pop",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_galilar_cu_galilar_particles_light_large.8732f64d53dbc9b0c732641655d4f99124d8cacc.png",
+		"CaseName": "Falchion Case"
+	},
+	{
+		"Name": "USP-S | Torque",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_usp_silencer_cu_usp_progressiv_light_large.91cde781cd0c8502bbbb66f37cc7f1baf2a10c05.png",
+		"CaseName": "Falchion Case"
+	},
+	{
+		"Name": "P90 | Elite Build",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_p90_cu_p90_mastery_light_large.f58ff489c92ffa8c6e4c42814bad01c352df0ab6.png",
+		"CaseName": "Falchion Case"
+	},
+	{
+		"Name": "Glock-18 | Bunsen Burner",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_glock_aq_glock18_flames_blue_light_large.5fed23d5a32793c25914eeb99b45f1a2b0cb9d6c.png",
+		"CaseName": "Falchion Case"
+	},
+	{
+		"Name": "UMP-45 | Riot",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ump45_cu_ump45_uproar_light_large.04cd84320c4370bced14a3989b0e141cff67ec88.png",
+		"CaseName": "Falchion Case"
+	},
+	{
+		"Name": "Nova | Ranger",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_nova_cu_nova_ranger_light_large.e3e9d3d47d5707092223a268ef59adb53ce76278.png",
+		"CaseName": "Falchion Case"
+	},
+	{
+		"Name": "M4A1-S | Hyper Beast",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_silencer_cu_m4a1_hyper_beast_light_large.31850937661935a062d5f6faf5a1f02fdb90b861.png",
+		"CaseName": "Chroma 2 Case"
+	},
+	{
+		"Name": "MAC-10 | Neon Rider",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mac10_cu_mac10_neonrider_light_large.4ba82cf2ba2d9fdc694d707b563421bbcc20b174.png",
+		"CaseName": "Chroma 2 Case"
+	},
+	{
+		"Name": "Galil AR | Eco",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_galilar_cu_galil_eco_light_large.7f64e2d77423b3c4263a74caeda18383c2e487d5.png",
+		"CaseName": "Chroma 2 Case"
+	},
+	{
+		"Name": "Five-SeveN | Monkey Business",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_fiveseven_cu_fiveseven_banana_light_large.2d78a6614cb329ada893c8d028eb5c2b485f26f0.png",
+		"CaseName": "Chroma 2 Case"
+	},
+	{
+		"Name": "FAMAS | Djinn",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_famas_aq_famas_jinn_light_large.a0e1b8e2a572c5e3d6472181d4a0d6ce7f51139f.png",
+		"CaseName": "Chroma 2 Case"
+	},
+	{
+		"Name": "AWP | Worm God",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_awp_aq_awp_twine_light_large.f976c41b8f978d2b8d13734f14f6586982d859f1.png",
+		"CaseName": "Chroma 2 Case"
+	},
+	{
+		"Name": "MAG-7 | Heat",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mag7_cu_mag7_redhot_light_large.76087a836e8c98fd10765a4b56dca946ba5acb4d.png",
+		"CaseName": "Chroma 2 Case"
+	},
+	{
+		"Name": "CZ75-Auto | Pole Position",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_cz75a_cu_cz75_precision_light_large.a0d0ea9d92ff9c535cbdaa9c07a1a95a5181a82b.png",
+		"CaseName": "Chroma 2 Case"
+	},
+	{
+		"Name": "UMP-45 | Grand Prix",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ump45_am_ump_racer_light_large.6d935bf0d33ca90994b1dd9aec78a8938dcd94a2.png",
+		"CaseName": "Chroma 2 Case"
+	},
+	{
+		"Name": "AK-47 | Elite Build",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_cu_ak47_mastery_light_large.4305c0ba4b02ce531fc08c275fa6a9d87da2cf7e.png",
+		"CaseName": "Chroma 2 Case"
+	},
+	{
+		"Name": "Desert Eagle | Bronze Deco",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_deagle_am_bronze_sparkle_light_large.42dc1d2bae9e586f75d6425f94a195014891533b.png",
+		"CaseName": "Chroma 2 Case"
+	},
+	{
+		"Name": "P250 | Valence",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_p250_aq_p250_contour_light_large.faf5b305c68d8ea23814163b0a69dafa7318b818.png",
+		"CaseName": "Chroma 2 Case"
+	},
+	{
+		"Name": "Negev | Man-o'-war",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_negev_am_negev_glory_light_large.11ebbe525e92bd0a56dd4d3a7795a31a01823ba7.png",
+		"CaseName": "Chroma 2 Case"
+	},
+	{
+		"Name": "Sawed-Off | Origami",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_sawedoff_cu_sawedoff_origami_light_large.5f1b3cef6d518cda69daafddd9b2c240a29cf0cc.png",
+		"CaseName": "Chroma 2 Case"
+	},
+	{
+		"Name": "MP7 | Armor Core",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mp7_aq_mp7_ultramodern_light_large.5351e1926e4a9599d149c4941a8603f4143ff999.png",
+		"CaseName": "Chroma 2 Case"
+	},
+	{
+		"Name": "Galil AR | Chatterbox",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_galilar_cu_galil_abrasion_light_large.8398e4836a0c26add3514a6af2262704d85fec07.png",
+		"CaseName": "Chroma Case"
+	},
+	{
+		"Name": "AWP | Man-o'-war",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_awp_am_awp_glory_light_large.348eae0f5d4da8671886826648dd4197a9829090.png",
+		"CaseName": "Chroma Case"
+	},
+	{
+		"Name": "M4A4 | 龍王 (Dragon King)",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_cu_m4a4_ancestral_light_large.cbd9732689f42b7aec91bdb9166b1ee414974cb7.png",
+		"CaseName": "Chroma Case"
+	},
+	{
+		"Name": "AK-47 | Cartel",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_aq_ak47_cartel_light_large.2e7be9f4c7bda304f2a7c374260d95affca93f0b.png",
+		"CaseName": "Chroma Case"
+	},
+	{
+		"Name": "P250 | Muertos",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_p250_cu_p250_mandala_light_large.0acb51464cd72643c6a1fefaf8736288eb5d02f7.png",
+		"CaseName": "Chroma Case"
+	},
+	{
+		"Name": "Desert Eagle | Naga",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_deagle_aq_deagle_naga_light_large.b410ad835b1894a448676ae0590586298af2cb33.png",
+		"CaseName": "Chroma Case"
+	},
+	{
+		"Name": "MAC-10 | Malachite",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mac10_am_mac10_malachite_light_large.65b0eff12e655fb94ec9de545348178f1a5d60e0.png",
+		"CaseName": "Chroma Case"
+	},
+	{
+		"Name": "Sawed-Off | Serenity",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_sawedoff_cu_sawedoff_deva_light_large.9ffde04f2f082dce492b2fa6e250f69f538a50b5.png",
+		"CaseName": "Chroma Case"
+	},
+	{
+		"Name": "Dual Berettas | Urban Shock",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_elite_cu_elites_urbanstorm_light_large.d33c9dd65434d8b9f4e7b5092fcc2e07a874e625.png",
+		"CaseName": "Chroma Case"
+	},
+	{
+		"Name": "MP9 | Deadly Poison",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mp9_cu_mp9_deadly_poison_light_large.0776976e709ec7b503dd7e47b8c962338615b5da.png",
+		"CaseName": "Chroma Case"
+	},
+	{
+		"Name": "Glock-18 | Catacombs",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_glock_cu_glock_deathtoll_light_large.cfcc6a17037a33bbb524ca1856c07cf76dda449d.png",
+		"CaseName": "Chroma Case"
+	},
+	{
+		"Name": "M249 | System Lock",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m249_cu_m249_sektor_light_large.c957e70c656024b2c062f7af2031a76cb3c83f1c.png",
+		"CaseName": "Chroma Case"
+	},
+	{
+		"Name": "SCAR-20 | Grotto",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_scar20_aq_scar20_leak_light_large.06b9231638ba347e91c671ecf2c1364754794893.png",
+		"CaseName": "Chroma Case"
+	},
+	{
+		"Name": "XM1014 | Quicksilver",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_xm1014_aq_xm1014_sigla_light_large.71c180cd3b8bdea7d0b119ab2b9d54792c51b3aa.png",
+		"CaseName": "Chroma Case"
+	},
+	{
+		"Name": "AK-47 | Wasteland Rebel",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_cu_tribute_ak47_light_large.f0ccfeea8a432a82cf4fb7f0411a724dbb43459a.png",
+		"CaseName": "Operation Vanguard Weapon Case"
+	},
+	{
+		"Name": "P2000 | Fire Elemental",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_hkp2000_cu_p2000_fire_elemental_light_large.1e57d4d9f1c51e613c1923377aa55fab4b0ab1bc.png",
+		"CaseName": "Operation Vanguard Weapon Case"
+	},
+	{
+		"Name": "XM1014 | Tranquility",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_xm1014_cu_xm1014_caritas_light_large.060e6378f5b5ab6fc53a2db451f3d68b8033f304.png",
+		"CaseName": "Operation Vanguard Weapon Case"
+	},
+	{
+		"Name": "P250 | Cartel",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_p250_aq_p250_cartel_light_large.d63ea117934ac8f9a40afe027fa4a1438dbb1777.png",
+		"CaseName": "Operation Vanguard Weapon Case"
+	},
+	{
+		"Name": "SCAR-20 | Cardiac",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_scar20_cu_scar20_intervention_light_large.96d9a26cca617207208a836d424d676bcb2ce3b9.png",
+		"CaseName": "Operation Vanguard Weapon Case"
+	},
+	{
+		"Name": "M4A4 | Griffin",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_cu_m4a4_griffin_light_large.255bd83fd343ea8e8d84a1d5c94959d0b26cafae.png",
+		"CaseName": "Operation Vanguard Weapon Case"
+	},
+	{
+		"Name": "M4A1-S | Basilisk",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_silencer_aq_m4a1s_basilisk_light_large.18370d6557500376e137c7f6b07c7ed46c9dccf2.png",
+		"CaseName": "Operation Vanguard Weapon Case"
+	},
+	{
+		"Name": "Glock-18 | Grinder",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_glock_aq_glock_coiled_light_large.d4dcbf0d27479b95a4ad43c36f3b3f3dc87bbd84.png",
+		"CaseName": "Operation Vanguard Weapon Case"
+	},
+	{
+		"Name": "Sawed-Off | Highwayman",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_sawedoff_aq_sawedoff_blackgold_light_large.4a8c3a27c780c2a5ec3e4b6686498dce439d5a73.png",
+		"CaseName": "Operation Vanguard Weapon Case"
+	},
+	{
+		"Name": "MAG-7 | Firestarter",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mag7_sp_mag7_firebitten_light_large.640af2edb52a7f170620e175ddaa5f5cf763325b.png",
+		"CaseName": "Operation Vanguard Weapon Case"
+	},
+	{
+		"Name": "UMP-45 | Delusion",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ump45_sp_ump45_d-visions_light_large.33ae7e9e8bf24ee97f4f3d3ee113e51782a756fa.png",
+		"CaseName": "Operation Vanguard Weapon Case"
+	},
+	{
+		"Name": "Five-SeveN | Urban Hazard",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_fiveseven_cu_fiveseven_urban_hazard_light_large.456966d23faf1034c51b8130b7a70294af087026.png",
+		"CaseName": "Operation Vanguard Weapon Case"
+	},
+	{
+		"Name": "MP9 | Dart",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mp9_cu_mp9_chevron_light_large.698ab583537e3ed4b7661d3fcf75be62f0cdfab9.png",
+		"CaseName": "Operation Vanguard Weapon Case"
+	},
+	{
+		"Name": "G3SG1 | Murky",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_g3sg1_am_g3sg1_murky_light_large.bc4e8d0e70d2952576d5c9653da71f21bc02b810.png",
+		"CaseName": "Operation Vanguard Weapon Case"
+	},
+	{
+		"Name": "AK-47 | Jaguar",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_cu_panther_ak47_light_large.6b7c82083b5fbb71631ad7961ac1543d1fc2a5cd.png",
+		"CaseName": "eSports 2014 Summer Case"
+	},
+	{
+		"Name": "M4A4 | Bullet Rain",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_cu_bullet_rain_m4a1_light_large.4b359387b8abcdb0ae92134ba0f2106c405d9222.png",
+		"CaseName": "eSports 2014 Summer Case"
+	},
+	{
+		"Name": "AUG | Bengal Tiger",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_aug_hy_tiger_light_large.d2fe957d3903dc5779403ed1c95947e18fa7e6fd.png",
+		"CaseName": "eSports 2014 Summer Case"
+	},
+	{
+		"Name": "AWP | Corticera",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_awp_cu_favela_awp_light_large.4329c047ea1899f3846a1a81539ba2a27665a54e.png",
+		"CaseName": "eSports 2014 Summer Case"
+	},
+	{
+		"Name": "Nova | Bloomstick",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_nova_cu_spring_nova_light_large.0be95a01dd54b579186464d0533c5195ffb14a8f.png",
+		"CaseName": "eSports 2014 Summer Case"
+	},
+	{
+		"Name": "P2000 | Corticera",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_hkp2000_cu_favela_p2000_light_large.cc40db4d5048c7ddcfb52642d954e91400e59290.png",
+		"CaseName": "eSports 2014 Summer Case"
+	},
+	{
+		"Name": "Desert Eagle | Crimson Web",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_deagle_hy_webs_darker_light_large.7b9cb19bac52ebe7c49e3abdfb0c400ea252fef8.png",
+		"CaseName": "eSports 2014 Summer Case"
+	},
+	{
+		"Name": "MP7 | Ocean Foam",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mp7_am_ossify_blue_light_large.b2c077afc23ddb48381629155713816dbf09fb84.png",
+		"CaseName": "eSports 2014 Summer Case"
+	},
+	{
+		"Name": "PP-Bizon | Blue Streak",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_bizon_hy_splatter_light_large.7a7417d95485ceb2148bdd3d228219307082ea8a.png",
+		"CaseName": "eSports 2014 Summer Case"
+	},
+	{
+		"Name": "Glock-18 | Steel Disruption",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_glock_am_ddpatdense_silver_light_large.4d83c0a0b958bb15f694c7047996ece59f4be05a.png",
+		"CaseName": "eSports 2014 Summer Case"
+	},
+	{
+		"Name": "P90 | Virus",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_p90_hy_zombie_light_large.7f66b30e6902ae7722b7951fd7446ae7e9b3880e.png",
+		"CaseName": "eSports 2014 Summer Case"
+	},
+	{
+		"Name": "MAC-10 | Ultraviolet",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mac10_so_purple_light_large.c4e2252fe50aab42b6dcd871f33786f68e6261ea.png",
+		"CaseName": "eSports 2014 Summer Case"
+	},
+	{
+		"Name": "USP-S | Blood Tiger",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_usp_silencer_hy_redtiger_light_large.5d778f6030de49296f349081781d84ef215a9b90.png",
+		"CaseName": "eSports 2014 Summer Case"
+	},
+	{
+		"Name": "Negev | Bratatat",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_negev_cu_bratatat_negev_light_large.b7589c335fb7066d53b1897e000f031d316641e6.png",
+		"CaseName": "eSports 2014 Summer Case"
+	},
+	{
+		"Name": "CZ75-Auto | Hexane",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_cz75a_hy_bluehex_light_large.032e4b0999830a45d7439d07faef66b8299a105f.png",
+		"CaseName": "eSports 2014 Summer Case"
+	},
+	{
+		"Name": "SSG 08 | Dark Water",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ssg08_am_zebra_dark_light_large.5636371696eee32d9a3e588ff3b42f6b33776d99.png",
+		"CaseName": "eSports 2014 Summer Case"
+	},
+	{
+		"Name": "XM1014 | Red Python",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_xm1014_hy_snakeskin_red_light_large.d019a25e10fe53f2edf2958fb322c59621abc4de.png",
+		"CaseName": "eSports 2014 Summer Case"
+	},
+	{
+		"Name": "P90 | Asiimov",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_p90_cu_p90-asiimov_light_large.0ca7f7fc032c98c5cc506ccde92b33e5836a8a88.png",
+		"CaseName": "Operation Breakout Weapon Case"
+	},
+	{
+		"Name": "M4A1-S | Cyrex",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_silencer_cu_m4a1s_cyrex_light_large.144b4053eb73b4a47f8128ebb0e808d8e28f5b9c.png",
+		"CaseName": "Operation Breakout Weapon Case"
+	},
+	{
+		"Name": "Glock-18 | Water Elemental",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_glock_cu_glock-liquescent_light_large.151e954ed4aef28ccc55d0ca4b43a7d9644f36ac.png",
+		"CaseName": "Operation Breakout Weapon Case"
+	},
+	{
+		"Name": "Desert Eagle | Conspiracy",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_deagle_cu_deagle_aureus_light_large.7fa76057cb05f2cab829be448f120ae540715d0e.png",
+		"CaseName": "Operation Breakout Weapon Case"
+	},
+	{
+		"Name": "Five-SeveN | Fowl Play",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_fiveseven_aq_57_feathers_light_large.aa942f28d5fd868643b54ba0c317703d8b615754.png",
+		"CaseName": "Operation Breakout Weapon Case"
+	},
+	{
+		"Name": "P250 | Supernova",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_p250_cu_bittersweet_light_large.83cd48968d79412e0cf2233b8e18602ff2790ad4.png",
+		"CaseName": "Operation Breakout Weapon Case"
+	},
+	{
+		"Name": "Nova | Koi",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_nova_cu_nova_koi_light_large.28c3fe03f736b48dee10e1e88e77ac02132dcba6.png",
+		"CaseName": "Operation Breakout Weapon Case"
+	},
+	{
+		"Name": "CZ75-Auto | Tigris",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_cz75a_cu_c75a-tiger_light_large.b754b5a73c8f2b207942eb046efdbd4cade04513.png",
+		"CaseName": "Operation Breakout Weapon Case"
+	},
+	{
+		"Name": "PP-Bizon | Osiris",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_bizon_cu_bizon-osiris_light_large.269e03e1ad598b76adb884704c4f48d725beb5fc.png",
+		"CaseName": "Operation Breakout Weapon Case"
+	},
+	{
+		"Name": "SSG 08 | Abyss",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ssg08_aq_leviathan_light_large.0d0ce425b5374642d0d1fbfd0c0ec634eb8570fb.png",
+		"CaseName": "Operation Breakout Weapon Case"
+	},
+	{
+		"Name": "P2000 | Ivory",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_hkp2000_cu_p2000_ivory_light_large.2a47b14b59ce796956958ce13cb60617148f7711.png",
+		"CaseName": "Operation Breakout Weapon Case"
+	},
+	{
+		"Name": "UMP-45 | Labyrinth",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ump45_hy_lines_orange_light_large.d004ea389236e6fa5da2f0555ab5b3723bdf36d1.png",
+		"CaseName": "Operation Breakout Weapon Case"
+	},
+	{
+		"Name": "MP7 | Urban Hazard",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mp7_cu_mp7-commander_light_large.260d3f2765c83f75eadac5abd6ef4187ea2c2089.png",
+		"CaseName": "Operation Breakout Weapon Case"
+	},
+	{
+		"Name": "Negev | Desert-Strike",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_negev_cu_negev_titanstorm_light_large.eb7badc75ecbb1b4cdf35bfb53088731bbe11cb0.png",
+		"CaseName": "Operation Breakout Weapon Case"
+	},
+	{
+		"Name": "M4A4 | Desert-Strike",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_cu_titanstorm_light_large.a161ff6ea23af2d9bbdc0a757f5163fa1ad87a30.png",
+		"CaseName": "Huntsman Weapon Case"
+	},
+	{
+		"Name": "AK-47 | Vulcan",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_cu_ak47_rubber_light_large.5836c38d3037a5a1f90ffdc8c9d0b94367ca8efd.png",
+		"CaseName": "Huntsman Weapon Case"
+	},
+	{
+		"Name": "USP-S | Caiman",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_usp_silencer_cu_kaiman_light_large.8ed168478e306bd382a90afb1b71ad9f7551b342.png",
+		"CaseName": "Huntsman Weapon Case"
+	},
+	{
+		"Name": "M4A1-S | Atomic Alloy",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_silencer_am_m4a1-s_alloy_orange_light_large.82bd272d0256f17eb86029a8d1411c4e5bf2bc9c.png",
+		"CaseName": "Huntsman Weapon Case"
+	},
+	{
+		"Name": "SCAR-20 | Cyrex",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_scar20_cu_scar_cyrex_light_large.ee4da13e2d74d0fd1fdbaa8f2ca49eb1c7f0acca.png",
+		"CaseName": "Huntsman Weapon Case"
+	},
+	{
+		"Name": "MAC-10 | Tatter",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mac10_cu_korupt_light_large.e1efdcab099278a147fe2f07405214218e74e705.png",
+		"CaseName": "Huntsman Weapon Case"
+	},
+	{
+		"Name": "XM1014 | Heaven Guard",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_xm1014_cu_xm1014_heaven_guard_light_large.c7f3f8815f9caa92daa5ffe4390880c1606f4a81.png",
+		"CaseName": "Huntsman Weapon Case"
+	},
+	{
+		"Name": "AUG | Torque",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_aug_cu_aug_progressiv_light_large.f712baf9253bd357c71a1525dac51e30298c9535.png",
+		"CaseName": "Huntsman Weapon Case"
+	},
+	{
+		"Name": "PP-Bizon | Antique",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_bizon_cu_bizon_antique_light_large.06467175511976dae4219e9cb2fc8ab20df0e653.png",
+		"CaseName": "Huntsman Weapon Case"
+	},
+	{
+		"Name": "P90 | Module",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_p90_an_royalbleed_light_large.58dfb4851908d78c31e205477793a620923737db.png",
+		"CaseName": "Huntsman Weapon Case"
+	},
+	{
+		"Name": "CZ75-Auto | Twist",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_cz75a_am_gyrate_light_large.90f97369a79695a7fdcb633a9c9a9e56f29a05d5.png",
+		"CaseName": "Huntsman Weapon Case"
+	},
+	{
+		"Name": "P2000 | Pulse",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_hkp2000_cu_p2000_pulse_light_large.a79fcfcd59202495573abfddc1e7627be62b4e1c.png",
+		"CaseName": "Huntsman Weapon Case"
+	},
+	{
+		"Name": "Tec-9 | Isaac",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_tec9_cu_tec9_asiimov_light_large.9a4fb9bbf6f01209b8fd3effeda1eecfc1e5a9a3.png",
+		"CaseName": "Huntsman Weapon Case"
+	},
+	{
+		"Name": "SSG 08 | Slashed",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ssg08_cu_ssg08_immortal_light_large.294156dbab19f645942fe9cbafed88165aa70044.png",
+		"CaseName": "Huntsman Weapon Case"
+	},
+	{
+		"Name": "Galil AR | Kami",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_galilar_hy_galil_kami_light_large.f1783721b5318ea51bcb7890bf9cd0084afcd3e3.png",
+		"CaseName": "Huntsman Weapon Case"
+	},
+	{
+		"Name": "AWP | Asiimov",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_awp_cu_awp_asimov_light_large.32d9045f8a2bcd13ca18390cc9fd82026e7195ab.png",
+		"CaseName": "Operation Phoenix Weapon Case"
+	},
+	{
+		"Name": "AUG | Chameleon",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_aug_cu_aug_chameleonaire_light_large.ad1d2f62d1481931d8e23e0ab0fbd4e7a61135f7.png",
+		"CaseName": "Operation Phoenix Weapon Case"
+	},
+	{
+		"Name": "AK-47 | Redline",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_cu_ak47_cobra_light_large.7494bfdf4855fd4e6a2dbd983ed0a243c80ef830.png",
+		"CaseName": "Operation Phoenix Weapon Case"
+	},
+	{
+		"Name": "Nova | Antique",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_nova_cu_nova_antique_light_large.3391e20bf69d1a630ab0551fd0c2fa196d028e44.png",
+		"CaseName": "Operation Phoenix Weapon Case"
+	},
+	{
+		"Name": "P90 | Trigon",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_p90_cu_p90_trigon_light_large.9f93f859fe1d03dfced62e52c4cab39ae2f8a9f3.png",
+		"CaseName": "Operation Phoenix Weapon Case"
+	},
+	{
+		"Name": "USP-S | Guardian",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_usp_silencer_cu_usp_elegant_light_large.416f607cc5faeb52be0f22e1b98450391f452ac2.png",
+		"CaseName": "Operation Phoenix Weapon Case"
+	},
+	{
+		"Name": "SG 553 | Pulse",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_sg556_cu_sg553_pulse_light_large.d564900d05df0ee1da737cde6144eb55fa36684f.png",
+		"CaseName": "Operation Phoenix Weapon Case"
+	},
+	{
+		"Name": "MAC-10 | Heat",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mac10_cu_mac10_redhot_light_large.d5e1e0b433e3340266635970ca45cbbf810216f2.png",
+		"CaseName": "Operation Phoenix Weapon Case"
+	},
+	{
+		"Name": "FAMAS | Sergeant",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_famas_an_famas_sgt_light_large.5a9241d41a3c35a3fbb20aebcd22253a6a85f72f.png",
+		"CaseName": "Operation Phoenix Weapon Case"
+	},
+	{
+		"Name": "Tec-9 | Sandstorm",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_tec9_cu_tec9_sandstorm_light_large.e38b0daacb3aa5d8f692a5ee05ad4bc0885808cd.png",
+		"CaseName": "Operation Phoenix Weapon Case"
+	},
+	{
+		"Name": "MAG-7 | Heaven Guard",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mag7_cu_mag7_heaven_light_large.ea002eaa1f984e278f59a934ca9016f038d06120.png",
+		"CaseName": "Operation Phoenix Weapon Case"
+	},
+	{
+		"Name": "Negev | Terrain",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_negev_sp_negev_turq_terrain_light_large.9c6c678b0e6bc949c0688f3e1cf39ca73e0a44ae.png",
+		"CaseName": "Operation Phoenix Weapon Case"
+	},
+	{
+		"Name": "UMP-45 | Corporal",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ump45_cu_ump_corporal_light_large.ae233b4fabc9ff5fef6d25a87175ce5ad8f2ee6e.png",
+		"CaseName": "Operation Phoenix Weapon Case"
+	},
+	{
+		"Name": "CZ75-Auto | Victoria",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_cz75a_aq_etched_cz75_light_large.5fa7e4f56600efeaceb99a948c6fa5dc3648a3b9.png",
+		"CaseName": "CS:GO Weapon Case 3"
+	},
+	{
+		"Name": "P250 | Undertow",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_p250_am_p250_beaded_paint_light_large.2ddd1d4b6dd6fa2082001802a60acfa9daba722d.png",
+		"CaseName": "CS:GO Weapon Case 3"
+	},
+	{
+		"Name": "CZ75-Auto | The Fuschia Is Now",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_cz75a_am_fuschia_light_large.9ca4218835426c791482a3d7cc3b00d00c958d40.png",
+		"CaseName": "CS:GO Weapon Case 3"
+	},
+	{
+		"Name": "Desert Eagle | Heirloom",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_deagle_aq_engraved_deagle_light_large.804a1a01a29bf80673b739f3eb220272a6838193.png",
+		"CaseName": "CS:GO Weapon Case 3"
+	},
+	{
+		"Name": "Five-SeveN | Copper Galaxy",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_fiveseven_am_copper_flecks_light_large.d2af814b76763880470bc7039d5569eb74b26978.png",
+		"CaseName": "CS:GO Weapon Case 3"
+	},
+	{
+		"Name": "CZ75-Auto | Tread Plate",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_cz75a_am_diamond_plate_light_large.ef425c82bae5d971bd5e1e9c54b9cd2f992e4e16.png",
+		"CaseName": "CS:GO Weapon Case 3"
+	},
+	{
+		"Name": "Tec-9 | Titanium Bit",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_tec9_am_fluted_tec9_light_large.bfb4506150a675b24d3178f457507db2903364d6.png",
+		"CaseName": "CS:GO Weapon Case 3"
+	},
+	{
+		"Name": "USP-S | Stainless",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_usp_silencer_aq_usp_stainless_light_large.3f6edb8ebd4138742504859e0d3e7c51a23c39db.png",
+		"CaseName": "CS:GO Weapon Case 3"
+	},
+	{
+		"Name": "CZ75-Auto | Crimson Web",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_cz75a_hy_webs_light_large.2093b43aefa82ee6713c472384ea283fdd44f023.png",
+		"CaseName": "CS:GO Weapon Case 3"
+	},
+	{
+		"Name": "Glock-18 | Blue Fissure",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_glock_hy_craquelure_light_large.8e97eb17a01e73c47a8987685d740b344aeb2cb8.png",
+		"CaseName": "CS:GO Weapon Case 3"
+	},
+	{
+		"Name": "Dual Berettas | Panther",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_elite_so_panther_light_large.019431b3fca18b027d07fe29d0ee7bf88df75576.png",
+		"CaseName": "CS:GO Weapon Case 3"
+	},
+	{
+		"Name": "P2000 | Red FragCam",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_hkp2000_hy_poly_camo_light_large.e4c6576e012974ba60e6dbc70fe5cd1cacc30011.png",
+		"CaseName": "CS:GO Weapon Case 3"
+	},
+	{
+		"Name": "M4A4 | Asiimov",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_cu_m4_asimov_light_large.af03179f3d43ff55b0c3d114c537eac77abdb6cf.png",
+		"CaseName": "Winter Offensive Weapon Case"
+	},
+	{
+		"Name": "Sawed-Off | The Kraken",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_sawedoff_cu_sawedoff_octopump_light_large.761df5911efc6a96061c7b34e41a2ff6ec61e58b.png",
+		"CaseName": "Winter Offensive Weapon Case"
+	},
+	{
+		"Name": "AWP | Redline",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_awp_cu_awp_cobra_light_large.cf20ce6ac1151b4a30d8a84081ec4373cbfad4a4.png",
+		"CaseName": "Winter Offensive Weapon Case"
+	},
+	{
+		"Name": "M4A1-S | Guardian",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_silencer_cu_m4a1-s_elegant_light_large.1acbb0060648091ac532de68cfd720b7ad980564.png",
+		"CaseName": "Winter Offensive Weapon Case"
+	},
+	{
+		"Name": "P250 | Mehndi",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_p250_cu_p250_refined_light_large.9da38bc561b6576555b1700e9e10ddbc52994c67.png",
+		"CaseName": "Winter Offensive Weapon Case"
+	},
+	{
+		"Name": "MP9 | Rose Iron",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mp9_am_thorny_rose_mp9_light_large.a187f13404eba96de622f4c94e85078fb18d8d7c.png",
+		"CaseName": "Winter Offensive Weapon Case"
+	},
+	{
+		"Name": "Dual Berettas | Marina",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_elite_hy_marina_sunrise_light_large.bcdf31f5af4a5b9bef2bb0d5336715a3a0407b92.png",
+		"CaseName": "Winter Offensive Weapon Case"
+	},
+	{
+		"Name": "FAMAS | Pulse",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_famas_cu_famas_pulse_light_large.fad5dfcd7b0ccfe655c7c3903d091140904959ec.png",
+		"CaseName": "Winter Offensive Weapon Case"
+	},
+	{
+		"Name": "Nova | Rising Skull",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_nova_cu_skull_nova_light_large.558d42424adda8cc3383b05d5388f75837b07efa.png",
+		"CaseName": "Winter Offensive Weapon Case"
+	},
+	{
+		"Name": "Galil AR | Sandstorm",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_galilar_cu_sandstorm_light_large.008937727e75bf840d2b511d3d8493a12b5ed2ac.png",
+		"CaseName": "Winter Offensive Weapon Case"
+	},
+	{
+		"Name": "PP-Bizon | Cobalt Halftone",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_bizon_am_turqoise_halftone_light_large.e34dc4bab2f1da66b04bd2d3cadb51339ce81f4d.png",
+		"CaseName": "Winter Offensive Weapon Case"
+	},
+	{
+		"Name": "Five-SeveN | Kami",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_fiveseven_hy_kami_light_large.ce4939fe41b30c6143f487879a57e4f5f227e811.png",
+		"CaseName": "Winter Offensive Weapon Case"
+	},
+	{
+		"Name": "M249 | Magma",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m249_aq_obsidian_light_large.c8a38c9354c2f4531f0802eaa49caa9878bbf9ed.png",
+		"CaseName": "Winter Offensive Weapon Case"
+	},
+	{
+		"Name": "M4A4 | X-Ray",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_cu_xray_m4_light_large.e929bb3998df4902c2bd6f6fbb775cec071558ba.png",
+		"CaseName": "eSports 2013 Winter Case"
+	},
+	{
+		"Name": "Desert Eagle | Cobalt Disruption",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_deagle_am_ddpatdense_peacock_light_large.a486db3160bcdcf6bc5a1d8179c450b02f620151.png",
+		"CaseName": "eSports 2013 Winter Case"
+	},
+	{
+		"Name": "AWP | Electric Hive",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_awp_hy_hive_light_large.2189958e2afa2c69cfcdd807124c279a0e645625.png",
+		"CaseName": "eSports 2013 Winter Case"
+	},
+	{
+		"Name": "FAMAS | Afterimage",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_famas_cu_broken_path_famas_light_large.5d45539735d838ffefd26467a8c767b71807c785.png",
+		"CaseName": "eSports 2013 Winter Case"
+	},
+	{
+		"Name": "AK-47 | Blue Laminate",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_hy_ak47lam_blue_light_large.9f8ec5103efa5b7a0b3919a13b4de78e1bd612a0.png",
+		"CaseName": "eSports 2013 Winter Case"
+	},
+	{
+		"Name": "P90 | Blind Spot",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_p90_hy_modspots_light_large.a702b8feaf0e2568e60efb2ab722819b0521ea4b.png",
+		"CaseName": "eSports 2013 Winter Case"
+	},
+	{
+		"Name": "Galil AR | Blue Titanium",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_galilar_an_titanium30v_light_large.4264e8ec1cedb3bce31a89c934c630bd56d480c1.png",
+		"CaseName": "eSports 2013 Winter Case"
+	},
+	{
+		"Name": "G3SG1 | Azure Zebra",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_g3sg1_sp_zebracam_blue_light_large.42199f9c4c0bd1ff9f569d6e7348c5cedf4630f5.png",
+		"CaseName": "eSports 2013 Winter Case"
+	},
+	{
+		"Name": "P250 | Steel Disruption",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_p250_am_ddpatdense_silver_light_large.36220b384099ed61c2b9ba64af899b892e4a4c58.png",
+		"CaseName": "eSports 2013 Winter Case"
+	},
+	{
+		"Name": "Nova | Ghost Camo",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_nova_sp_camo_wood_blue_light_large.d63e06a38ef396a945defd7c1ad9da9ba79fe60d.png",
+		"CaseName": "eSports 2013 Winter Case"
+	},
+	{
+		"Name": "PP-Bizon | Water Sigil",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_bizon_hy_water_crest_light_large.c4d0aad9cb87870f84f3709ff3b8ecc9fe489d89.png",
+		"CaseName": "eSports 2013 Winter Case"
+	},
+	{
+		"Name": "Five-SeveN | Nightshade",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_fiveseven_hy_flowers_light_large.4f94edf6ac032c15fedafa6ba1f2425a4ca8bded.png",
+		"CaseName": "eSports 2013 Winter Case"
+	},
+	{
+		"Name": "SSG 08 | Blood in the Water",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ssg08_cu_shark_light_large.00812c20a896847013b0a2913a166f6ba220a258.png",
+		"CaseName": "CS:GO Weapon Case 2"
+	},
+	{
+		"Name": "P90 | Cold Blooded",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_p90_am_slither_p90_light_large.583a90c66858cf0cc20253d2f4a0be1168eadbca.png",
+		"CaseName": "CS:GO Weapon Case 2"
+	},
+	{
+		"Name": "USP-S | Serum",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_usp_silencer_am_electric_red_light_large.ef8005beba74458fabbe8f664e0b210b2ef3a007.png",
+		"CaseName": "CS:GO Weapon Case 2"
+	},
+	{
+		"Name": "Five-SeveN | Case Hardened",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_fiveseven_aq_oiled_light_large.fdaa095453965b2be93f8aa90ae469d926fac4e7.png",
+		"CaseName": "CS:GO Weapon Case 2"
+	},
+	{
+		"Name": "MP9 | Hypnotic",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mp9_aa_vertigo_light_large.41a7195e0a6ba44c2fc64d64bee0635444b0c569.png",
+		"CaseName": "CS:GO Weapon Case 2"
+	},
+	{
+		"Name": "Dual Berettas | Hemoglobin",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_elite_am_ossify_red_light_large.9da21d3dc7b64952d853818075f524a9e4c1dfd3.png",
+		"CaseName": "CS:GO Weapon Case 2"
+	},
+	{
+		"Name": "Nova | Graphite",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_nova_am_crumple_light_large.e46bab0dc8f8fe10b83c18ed9f9d9945352781af.png",
+		"CaseName": "CS:GO Weapon Case 2"
+	},
+	{
+		"Name": "M4A1-S | Blood Tiger",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_silencer_hy_redtiger_light_large.0b40a51b0020fa1781ddb7368e3b39c03263b2dd.png",
+		"CaseName": "CS:GO Weapon Case 2"
+	},
+	{
+		"Name": "SCAR-20 | Crimson Web",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_scar20_hy_webs_darker_light_large.8e06e878c22b82c6bb1045f26e1bbc1926faecf2.png",
+		"CaseName": "CS:GO Weapon Case 2"
+	},
+	{
+		"Name": "Tec-9 | Blue Titanium",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_tec9_an_titanium30v_light_large.76078065235a996df8184b684159dfee7efcd530.png",
+		"CaseName": "CS:GO Weapon Case 2"
+	},
+	{
+		"Name": "FAMAS | Hexane",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_famas_hy_bluehex_light_large.fe87763b33ea8963cf87e9b8fd7b9bfc9014d747.png",
+		"CaseName": "CS:GO Weapon Case 2"
+	},
+	{
+		"Name": "P250 | Hive",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_p250_hy_redhex_light_large.099092ccf56439b922b51569ce87f2f908abcc19.png",
+		"CaseName": "CS:GO Weapon Case 2"
+	},
+	{
+		"Name": "AK-47 | Fire Serpent",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_cu_fireserpent_ak47_bravo_light_large.9390e7fd091ea8a0434fd2143e0acf0d5d1bbc97.png",
+		"CaseName": "Operation Bravo Case"
+	},
+	{
+		"Name": "Desert Eagle | Golden Koi",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_deagle_am_scales_bravo_light_large.6cba46695e74a8bee932ea90cea24e146cbef5e7.png",
+		"CaseName": "Operation Bravo Case"
+	},
+	{
+		"Name": "P90 | Emerald Dragon",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_p90_cu_dragon_p90_bravo_light_large.200ef513ae29ae7651ad3f31e68b5b186279572f.png",
+		"CaseName": "Operation Bravo Case"
+	},
+	{
+		"Name": "AWP | Graphite",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_awp_am_crumple_bravo_light_large.5f59de227d280f3c3b39fae7e49ac143338ca5b2.png",
+		"CaseName": "Operation Bravo Case"
+	},
+	{
+		"Name": "P2000 | Ocean Foam",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_hkp2000_am_ossify_blue_p2000_bravo_light_large.91f225635f7e4a986b51e09bba106ca6a4bf7dbb.png",
+		"CaseName": "Operation Bravo Case"
+	},
+	{
+		"Name": "USP-S | Overgrowth",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_usp_silencer_hy_siege_bravo_light_large.517b89e78bfe8bad7ca1aab7edf1d02a56b2da26.png",
+		"CaseName": "Operation Bravo Case"
+	},
+	{
+		"Name": "MAC-10 | Graven",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mac10_aq_etched_mac10_bravo_light_large.ec4cf2f7748ac5318292630c8c7e3c2d016723e3.png",
+		"CaseName": "Operation Bravo Case"
+	},
+	{
+		"Name": "M4A4 | Zirka",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_sp_star_bravo_light_large.d4a56abe885a1a03ea173a6aaeb4f10bcec6a0c2.png",
+		"CaseName": "Operation Bravo Case"
+	},
+	{
+		"Name": "M4A1-S | Bright Water",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_silencer_hy_ocean_bravo_light_large.7a942449926153575269af174733edc7bed5faeb.png",
+		"CaseName": "Operation Bravo Case"
+	},
+	{
+		"Name": "SG 553 | Wave Spray",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_sg556_sp_spray_waves_bravo_light_large.5d4e0e3977bf9f1fa8dd1576b5576b429546f98d.png",
+		"CaseName": "Operation Bravo Case"
+	},
+	{
+		"Name": "Galil AR | Shattered",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_galilar_hy_crumple_bravo_light_large.fcf25827c0ef88bac7e5b0567ecd5a7dbee01791.png",
+		"CaseName": "Operation Bravo Case"
+	},
+	{
+		"Name": "UMP-45 | Bone Pile",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ump45_sp_skull_diagram_bravo_light_large.f3bf563f6e0274f55377e4fe0422905586a3d19b.png",
+		"CaseName": "Operation Bravo Case"
+	},
+	{
+		"Name": "Nova | Tempest",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_nova_hy_seaside_bravo_light_large.bad13bb67e67ee02b782a574376df5e7e4ff766d.png",
+		"CaseName": "Operation Bravo Case"
+	},
+	{
+		"Name": "Dual Berettas | Black Limba",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_elite_cu_season_elites_bravo_light_large.03b5f4afcbffb80f73ce009da240f4aa1455c15f.png",
+		"CaseName": "Operation Bravo Case"
+	},
+	{
+		"Name": "G3SG1 | Demeter",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_g3sg1_hy_bluepolygon_bravo_light_large.6638623a4979512bb048fa22f9ec06a5c1172c7e.png",
+		"CaseName": "Operation Bravo Case"
+	},
+	{
+		"Name": "P90 | Death by Kitty",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_p90_cu_catskulls_p90_light_large.0ff2c5c53a691e28de02cd7b40e395d53d8c6826.png",
+		"CaseName": "eSports 2013 Case"
+	},
+	{
+		"Name": "AK-47 | Red Laminate",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_hy_ak47lam_light_large.199620e808579639264cf753d0650721b4bc1f37.png",
+		"CaseName": "eSports 2013 Case"
+	},
+	{
+		"Name": "AWP | BOOM",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_awp_hy_blam_simple_light_large.ed114947481e0366b2cde092a8ddac4d7250775b.png",
+		"CaseName": "eSports 2013 Case"
+	},
+	{
+		"Name": "Galil AR | Orange DDPAT",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_galilar_hy_ddpat_orange_light_large.8499a023e61f6d3f7d03012521422bedaedd6c2b.png",
+		"CaseName": "eSports 2013 Case"
+	},
+	{
+		"Name": "P250 | Splash",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_p250_sp_splash_p250_light_large.9270d8d14c39aef83407ea50e51f0eb89c17263d.png",
+		"CaseName": "eSports 2013 Case"
+	},
+	{
+		"Name": "Sawed-Off | Orange DDPAT",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_sawedoff_hy_ddpat_orange_light_large.04fe163870ad65e17d8e4dd9403180ed3c5a218d.png",
+		"CaseName": "eSports 2013 Case"
+	},
+	{
+		"Name": "M4A4 | Faded Zebra",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_sp_zebracam_bw_light_large.de08ef2a6d7524e682118cef5d12124c5156dfa8.png",
+		"CaseName": "eSports 2013 Case"
+	},
+	{
+		"Name": "MAG-7 | Memento",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mag7_hy_icosahedron_light_large.f7ea8cca0b48a0463d0877af9c94e7f54d0f1d79.png",
+		"CaseName": "eSports 2013 Case"
+	},
+	{
+		"Name": "FAMAS | Doomkitty",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_famas_hy_doomkitty_light_large.c9dd7b8fb1a44d5691684aae406d360433550468.png",
+		"CaseName": "eSports 2013 Case"
+	},
+	{
+		"Name": "AWP | Lightning Strike",
+		"Rarity": 3,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_awp_am_lightning_awp_light_large.3761894103ee0fec90af459928635933ba27e36d.png",
+		"CaseName": "CS:GO Weapon Case"
+	},
+	{
+		"Name": "AK-47 | Case Hardened",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_aq_oiled_light_large.92c8d125e4e54758d37e946496030e9a18833b58.png",
+		"CaseName": "CS:GO Weapon Case"
+	},
+	{
+		"Name": "Desert Eagle | Hypnotic",
+		"Rarity": 2,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_deagle_aa_vertigo_light_large.85a16e4bfb8b1cc6393ca5d0c6d3a1e6e6023323.png",
+		"CaseName": "CS:GO Weapon Case"
+	},
+	{
+		"Name": "Glock-18 | Dragon Tattoo",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_glock_am_dragon_glock_light_large.e42a72a19a2239c992573b88179897af37c7f849.png",
+		"CaseName": "CS:GO Weapon Case"
+	},
+	{
+		"Name": "M4A1-S | Dark Water",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_silencer_am_zebra_dark_light_large.f484368a478f5e02d1b9d5e2816354fe705503f3.png",
+		"CaseName": "CS:GO Weapon Case"
+	},
+	{
+		"Name": "USP-S | Dark Water",
+		"Rarity": 1,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_usp_silencer_am_zebra_dark_light_large.add709b2eb683853f9508ddf9c22503d7efb9925.png",
+		"CaseName": "CS:GO Weapon Case"
+	},
+	{
+		"Name": "SG 553 | Ultraviolet",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_sg556_so_purple_light_large.44483356b334466acb6e781057d8f96a73cb376f.png",
+		"CaseName": "CS:GO Weapon Case"
+	},
+	{
+		"Name": "AUG | Wings",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_aug_hy_feathers_aug_light_large.e1419b52a3ddd4bed5328f438ea5dea07b0ba248.png",
+		"CaseName": "CS:GO Weapon Case"
+	},
+	{
+		"Name": "MP7 | Skulls",
+		"Rarity": 0,
+		"ImageUrl": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mp7_hy_skulls_light_large.3e38912bdbea8a2b03b149e619f9f141e54facfd.png",
+		"CaseName": "CS:GO Weapon Case"
+	}
+]
