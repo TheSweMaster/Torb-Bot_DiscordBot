@@ -42,8 +42,8 @@ namespace DiscordBotTest
             _client.UserJoined += UserJoinedEvent;
 
             CheckForUpdateTimer.Enabled = true;
-            CheckForUpdateTimer.Elapsed += new ElapsedEventHandler(UpdateTotalLevelEvent);
-            CheckForUpdateTimer.Elapsed += new ElapsedEventHandler(LevelUpNotificationsEvent);
+            //CheckForUpdateTimer.Elapsed += new ElapsedEventHandler(UpdateTotalLevelEvent);
+            //CheckForUpdateTimer.Elapsed += new ElapsedEventHandler(LevelUpNotificationsEvent);
 
             await SetBotGameStatus();
 
