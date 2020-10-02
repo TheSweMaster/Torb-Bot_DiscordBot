@@ -1,6 +1,8 @@
 ﻿using Discord;
 using Discord.Commands;
+using DiscordBotTest.Helpers;
 using DiscordBotTest.Models;
+using DiscordBotTest.Runners;
 using HtmlAgilityPack;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,6 +21,14 @@ namespace DiscordBotTest.Modules
             var builder = BuildMessage(floorBallTableList);
 
             await ReplyAsync("", embed: builder.Build());
+        }
+
+        [Command("floorballrunner")]
+        public async Task FloorBallRunnerCommand()
+        {
+            new UpdateFloorballSheetRunner().Run();
+
+            await ReplyAsync("Runner completed!");
         }
 
         private static async Task<List<FloorBallTable>> GetFloorballData()

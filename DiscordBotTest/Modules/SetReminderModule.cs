@@ -21,7 +21,7 @@ namespace DiscordBotTest.Modules
             TimeSpan timeSpan = TimeSpan.TryParse(time, out timeSpan) ? timeSpan : TimeSpan.Zero;
             if (timeSpan.Minutes < 1 && timeSpan.Hours > 24)
             {
-                await ReplyAsync("Unvalid time, please choose a time between 1 min (00:01:00) and 24 hours (24:00:00).");
+                await ReplyAsync("Invalid time, please choose a time between 1 min (00:01:00) and 24 hours (24:00:00).");
                 return;
             }
 
@@ -50,7 +50,7 @@ namespace DiscordBotTest.Modules
             TimeSpan timeSpan = TimeSpan.TryParse(time, out timeSpan) ? timeSpan : TimeSpan.Zero;
             if (timeSpan.Minutes < 1 || timeSpan.Hours > 24)
             {
-                await ReplyAsync("Unvalid time, please choose a time between 1 min (00:01:00) and 24 hours (24:00:00).");
+                await ReplyAsync("Invalid time, please choose a time between 1 min (00:01:00) and 24 hours (24:00:00).");
                 return;
             }
 

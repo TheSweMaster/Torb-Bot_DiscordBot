@@ -2,6 +2,7 @@
 using Discord.Commands;
 using Discord.WebSocket;
 using DiscordBotTest.Helpers;
+using DiscordBotTest.Runners;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Net.Http;
@@ -44,6 +45,7 @@ namespace DiscordBotTest
             CheckForUpdateTimer.Enabled = true;
             //CheckForUpdateTimer.Elapsed += new ElapsedEventHandler(UpdateTotalLevelEvent);
             //CheckForUpdateTimer.Elapsed += new ElapsedEventHandler(LevelUpNotificationsEvent);
+            //CheckForUpdateTimer.Elapsed += new ElapsedEventHandler(UpdateFloorBallSheetEvent);
 
             await SetBotGameStatus();
 
@@ -54,6 +56,11 @@ namespace DiscordBotTest
             await _client.StartAsync();
 
             await Task.Delay(-1);
+        }
+
+        private void UpdateFloorBallSheetEvent(object sender, ElapsedEventArgs e)
+        {
+            new UpdateFloorballSheetRunner().Run();
         }
 
         private void LevelUpNotificationsEvent(object sender, ElapsedEventArgs e)
