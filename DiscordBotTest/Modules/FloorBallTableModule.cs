@@ -24,16 +24,19 @@ namespace DiscordBotTest.Modules
         }
 
         [Command("floorballrunner")]
-        public async Task FloorBallRunnerCommand()
+        public async Task FloorBallRunnerCommand(string input)
         {
-            new UpdateFloorballSheetRunner().Run();
+            if (int.TryParse(input, out int selectedRound))
+            {
+                new UpdateFloorballSheetRunner().Run(selectedRound);
+            }
 
             await ReplyAsync("Runner completed!");
         }
 
         private static async Task<List<FloorBallTable>> GetFloorballData()
         {
-            var url = "http://statistik.innebandy.se/ft.aspx?scr=table&ftid=11565";
+            var url = "http://statistik.innebandy.se/ft.aspx?scr=table&ftid=28330";
 
             var web = new HtmlWeb();
             var doc = await web.LoadFromWebAsync(url);

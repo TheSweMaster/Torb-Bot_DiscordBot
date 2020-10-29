@@ -78,12 +78,12 @@ namespace DiscordBotTest.Services
             return gameRoundsList;
         }
 
-        public static List<PlayerLineup> GetPlayerLineupList(List<GameRounds> gameRoundsList)
+        public static List<PlayerLineup> GetPlayerLineupList(List<GameRounds> gameRoundsList, int selectedRound)
         {
             var web = new HtmlWeb();
 
             var playerLineupList = new List<PlayerLineup>();
-            foreach (var round in gameRoundsList.Where(x => x.Round == 1 || x.Round == 2 || x.Round == 3))
+            foreach (var round in gameRoundsList.Where(x => x.Round == selectedRound))
             {
                 Console.WriteLine(round.TeamHome + "-" + round.TeamAway);
                 Thread.Sleep(1000); // Do not spam the server plz

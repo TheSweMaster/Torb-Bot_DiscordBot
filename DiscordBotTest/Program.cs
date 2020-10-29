@@ -60,7 +60,7 @@ namespace DiscordBotTest
 
         private void UpdateFloorBallSheetEvent(object sender, ElapsedEventArgs e)
         {
-            new UpdateFloorballSheetRunner().Run();
+            new UpdateFloorballSheetRunner().Run(0);
         }
 
         private void LevelUpNotificationsEvent(object sender, ElapsedEventArgs e)
