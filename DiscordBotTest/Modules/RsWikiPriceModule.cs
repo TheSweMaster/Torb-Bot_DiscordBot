@@ -23,7 +23,6 @@ namespace DiscordBotTest.Modules
         [Command("rsprice")]
         public async Task CurrentRSPriceCommand([Remainder] string itemName = "Old School Bond")
         {
-            var success = _httpClient.DefaultRequestHeaders.UserAgent.TryParseAdd("Torbot_Discord_Bot - @TheSweMaster#8595");
             var jsonWikiItemResult = await _httpClient.GetStringAsync($"{RsWikiPriceApiBaseUrl}/mapping");
             var jsonPriceResult = await _httpClient.GetStringAsync($"{RsWikiPriceApiBaseUrl}/latest");
 
