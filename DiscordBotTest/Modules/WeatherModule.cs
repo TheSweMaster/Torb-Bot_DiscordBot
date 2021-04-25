@@ -29,7 +29,7 @@ namespace DiscordBotTest.Modules
                 .WithColor(Color.Blue)
                 .WithImageUrl(result.Current.Weather_icons.FirstOrDefault());
 
-            await ReplyAsync("", false, builder.Build());
+            await ReplyAsync(embed: builder.Build());
         }
 
         public async Task<WeatherModel> GetCurrentWeather(string city)

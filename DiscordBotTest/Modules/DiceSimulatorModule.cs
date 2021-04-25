@@ -26,7 +26,7 @@ namespace DiscordBotTest.Modules
                 builder.AddField("Dice:", dice);
             }
 
-            await ReplyAsync("", false, builder.Build());
+            await ReplyAsync(embed: builder.Build());
         }
 
         [Command("rolldice")]
@@ -39,7 +39,7 @@ namespace DiscordBotTest.Modules
             builder.WithTitle($"@{Context.User.Username} Rolled a dice with value {dice}!")
                 .WithColor(Color.LightOrange);
 
-            await ReplyAsync("", false, builder.Build());
+            await ReplyAsync(embed: builder.Build());
         }
 
         private List<int> RollDices(int amountValue)

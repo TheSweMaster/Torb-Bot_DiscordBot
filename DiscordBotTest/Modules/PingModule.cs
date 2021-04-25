@@ -65,7 +65,7 @@ namespace DiscordBotTest.Modules
                 .WithDescription($"The latency is {latency}ms.")
                 .WithColor(color);
 
-            await ReplyAsync("", embed: builder.Build());
+            await ReplyAsync(embed: builder.Build());
         }
     }
 }

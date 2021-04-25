@@ -30,7 +30,7 @@ namespace DiscordBotTest.Modules
                 .WithFooter("Created and Hosted by @TheSweMaster#8595")
                 .WithColor(Color.Orange);
 
-            await ReplyAsync("", false, builder.Build());
+            await ReplyAsync(embed: builder.Build());
         }
     }
 }

@@ -7,7 +7,7 @@ namespace DiscordBotTest.Models.Floorball
         public Player(string playerPosition, string playerNumber, string playerName)
         {
             PlayerPosition = playerPosition;
-            PlayerNumber = int.Parse(playerNumber);
+            PlayerNumber = int.TryParse(playerNumber, out int number) ? number : 0;
             PlayerName = playerName;
         }
 

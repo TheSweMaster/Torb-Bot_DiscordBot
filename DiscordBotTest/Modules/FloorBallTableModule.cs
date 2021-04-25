@@ -20,7 +20,7 @@ namespace DiscordBotTest.Modules
 
             var builder = BuildMessage(floorBallTableList);
 
-            await ReplyAsync("", embed: builder.Build());
+            await ReplyAsync(embed: builder.Build());
         }
 
         [Command("floorballrunner")]
@@ -74,8 +74,8 @@ namespace DiscordBotTest.Modules
 
             foreach (var item in floorBallTableList)
             {
-                builder.AddField(title: $"{item.Rank} {GetTeamEmoji(item.Team)} {item.Team}",
-                    text: $"Played: {item.Played}, Wins: {item.Wins}, Draws: {item.Draws}, Losses: {item.Losses}, Goal Diff: {item.GoalDifferens}, Points: {item.Points}");
+                builder.AddField(name: $"{item.Rank} {GetTeamEmoji(item.Team)} {item.Team}",
+                    value: $"Played: {item.Played}, Wins: {item.Wins}, Draws: {item.Draws}, Losses: {item.Losses}, Goal Diff: {item.GoalDifferens}, Points: {item.Points}");
             }
 
             return builder;

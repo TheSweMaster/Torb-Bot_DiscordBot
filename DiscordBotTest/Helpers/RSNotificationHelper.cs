@@ -58,7 +58,7 @@ namespace DiscordBotTest.Helpers
                         continue;
                     }
 
-                    channel.SendMessageAsync("", embed: GetMessage(rsUsername, skillDataList, oldAccountData.SkillDataList, totalLevel, oldTotalLevel)).Wait();
+                    channel.SendMessageAsync(embed: GetMessage(rsUsername, skillDataList, oldAccountData.SkillDataList, totalLevel, oldTotalLevel).Build()).Wait();
                 }
             };
             _ListToUpdate.Add(new KeyValuePair<string, RSAccountData>(rsUsername, new RSAccountData(oldAccountData.ServerIds, skillDataList)));

@@ -41,7 +41,7 @@ namespace DiscordBotTest.Modules
 
             var overwatchData = OverwatchStats.FromJson(responseString);
 
-            if (string.IsNullOrEmpty(overwatchData.Name))
+            if (string.IsNullOrEmpty(overwatchData?.Name))
             {
                 await ReplyAsync($"Could not get any profile stats on platform '{platform}' in region '{region}' with the battletag '{battletag}'");
                 return;
@@ -49,7 +49,7 @@ namespace DiscordBotTest.Modules
             
             var builder = GetMessage(overwatchData);
 
-            await ReplyAsync("", embed: builder.Build());
+            await ReplyAsync(embed: builder.Build());
         }
 
 

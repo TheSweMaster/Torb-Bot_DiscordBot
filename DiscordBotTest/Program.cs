@@ -80,27 +80,9 @@ namespace DiscordBotTest
 
         private async Task UserJoinedEvent(SocketGuildUser user)
         {
-            //if (KickedBotUser(user))
-            //    return;
-
             var guild = user.Guild;
             var channel = guild.DefaultChannel;
             await channel.SendMessageAsync($":wave: Welcome {user.Mention} to {guild.Name}!");
-        }
-
-        private bool KickedBotUser(SocketGuildUser user)
-        {
-            var pattern = @"(twitch.tv\/)|(youtube.com\/)|(discord.gg\/)|(twitter.com\/)|(facebook.com\/)";
-            
-            if (Regex.IsMatch(user.Username, pattern, RegexOptions.IgnoreCase))
-            {
-                user.KickAsync("Kicked a user for advertising.");
-                return true;
-            }
-            else
-            {
-                return false;
-            }
         }
 
         private Task LogEvent(LogMessage arg)
@@ -113,7 +95,7 @@ namespace DiscordBotTest
         public async Task RegisterCommandsAsync()
         {
             _client.MessageReceived += HandleCommandAsync;
-            await _commands.AddModulesAsync(Assembly.GetEntryAssembly());
+            await _commands.AddModulesAsync(Assembly.GetEntryAssembly(), _services);
         }
 
         private async Task HandleCommandAsync(SocketMessage arg)

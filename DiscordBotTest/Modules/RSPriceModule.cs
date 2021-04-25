@@ -47,7 +47,7 @@ namespace DiscordBotTest.Modules
                 .WithColor(Color.DarkOrange)
                 .WithCurrentTimestamp();
 
-            await ReplyAsync("", false, builder.Build());
+            await ReplyAsync(embed: builder.Build());
         }
 
         private async Task<Dictionary<string, RsExchangeData>> GetExchangeDataList()

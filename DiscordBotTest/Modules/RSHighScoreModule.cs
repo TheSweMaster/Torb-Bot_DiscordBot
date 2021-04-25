@@ -25,7 +25,7 @@ namespace DiscordBotTest.Modules
 
             var builder = GetMessage(rsUsername, skillDataList, false);
 
-            await ReplyAsync("", embed: builder.Build());
+            await ReplyAsync(embed: builder.Build());
         }
 
         [Command("rshighscoreall")]
@@ -38,7 +38,7 @@ namespace DiscordBotTest.Modules
 
             var builder = GetMessage(rsUsername, skillDataList, true);
 
-            await ReplyAsync("", embed: builder.Build());
+            await ReplyAsync(embed: builder.Build());
         }
 
         [Command("rstotallevel")]
@@ -76,7 +76,6 @@ namespace DiscordBotTest.Modules
         {
             EmbedBuilder builder = new EmbedBuilder()
                 .WithTitle($"OSRS Highscores - {rsUsername} ")
-                //.WithUrl("http://services.runescape.com/m=hiscore_oldschool/hiscorepersonal.ws?user1=" + rsUsername)
                 .WithFooter($"Official Old-School Runescape Highscore Data")
                 .WithCurrentTimestamp()
                 .WithColor(Color.DarkOrange);
@@ -87,14 +86,23 @@ namespace DiscordBotTest.Modules
                 {
                     var displayRank = item.Rank == -1 ? "Unranked" : $"{item.Rank} Rank";
                     var displayXp = item.Xp == -1 ? 0 : item.Xp;
-                    builder.AddInlineField($"{item.EmojiCode} {item.Skill}", $"{item.Level} Levels | {displayXp} Xp | {displayRank}");
+                    builder.WithFields(new EmbedFieldBuilder()
+                    {
+                        Name = $"{item.EmojiCode} {item.Skill}",
+                        Value = $"{item.Level} Levels | {displayXp} Xp | {displayRank}",
+                        IsInline = true
+                    });
                 }
                 else
                 {
                     var displayXp = item.Xp == -1 ? 0 : item.Xp;
-                    builder.AddInlineField($"{item.EmojiCode} {item.Skill}", $"{item.Level} Levels | {displayXp} Xp");
+                    builder.WithFields(new EmbedFieldBuilder()
+                    {
+                        Name = $"{item.EmojiCode} {item.Skill}",
+                        Value = $"{item.Level} Levels | {displayXp} Xp",
+                        IsInline = true
+                    });
                 }
-                //.AddInlineField($"{item.Level}", item.Xp.ToString());
             }
 
             return builder;

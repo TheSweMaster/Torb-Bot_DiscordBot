@@ -12,9 +12,10 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Discord.Net" Version="1.0.2" />
-    <PackageReference Include="Google.Apis.Sheets.v4" Version="1.49.0.2087" />
-    <PackageReference Include="HtmlAgilityPack" Version="1.11.16" />
+    <PackageReference Include="Discord.Net" Version="2.3.1" />
+    <PackageReference Include="Google.Apis.Sheets.v4" Version="1.51.0.2272" />
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.33" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.1" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="AppSettings.json">
