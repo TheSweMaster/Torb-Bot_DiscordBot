@@ -36,6 +36,7 @@ namespace DiscordBotTest
             _services = new ServiceCollection()
                 .AddSingleton(_client)
                 .AddSingleton(_commands)
+                .AddSingleton(_httpClient)
                 .BuildServiceProvider();
 
             // Event subsciptions
