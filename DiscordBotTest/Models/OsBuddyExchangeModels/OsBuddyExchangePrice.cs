@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Text;
 
-namespace DiscordBotTest.RsExchangeModels.Price
+namespace DiscordBotTest.OsBuddyExchangeModels.Price
 {
-    public partial class RSExchangePrice
+    public partial class OsBuddyExchangePrice
     {
         [JsonProperty("overall")]
         [DisplayName("Overall Price")]
@@ -29,14 +29,14 @@ namespace DiscordBotTest.RsExchangeModels.Price
         public long SellingQuantity { get; set; }
     }
 
-    public partial class RSExchangePrice
+    public partial class OsBuddyExchangePrice
     {
-        public static RSExchangePrice FromJson(string json) => JsonConvert.DeserializeObject<RSExchangePrice>(json, Converter.Settings);
+        public static OsBuddyExchangePrice FromJson(string json) => JsonConvert.DeserializeObject<OsBuddyExchangePrice>(json, Converter.Settings);
     }
 
     public static class Serialize
     {
-        public static string ToJson(this RSExchangePrice self) => JsonConvert.SerializeObject(self, Converter.Settings);
+        public static string ToJson(this OsBuddyExchangePrice self) => JsonConvert.SerializeObject(self, Converter.Settings);
     }
 
     public class Converter

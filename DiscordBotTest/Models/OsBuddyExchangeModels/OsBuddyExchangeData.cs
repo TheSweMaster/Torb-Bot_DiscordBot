@@ -3,9 +3,9 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace DiscordBotTest.RsExchangeModels
+namespace DiscordBotTest.OsBuddyExchangeModels
 {
-    public partial class RsExchangeData
+    public partial class OsBuddyExchangeData
     {
         [JsonProperty("members")]
         public bool Members { get; set; }
@@ -29,14 +29,14 @@ namespace DiscordBotTest.RsExchangeModels
         public long Sp { get; set; }
     }
 
-    public partial class RsExchangeData
+    public partial class OsBuddyExchangeData
     {
-        public static Dictionary<string, RsExchangeData> FromJson(string json) => JsonConvert.DeserializeObject<Dictionary<string, RsExchangeData>>(json, Converter.Settings);
+        public static Dictionary<string, OsBuddyExchangeData> FromJson(string json) => JsonConvert.DeserializeObject<Dictionary<string, OsBuddyExchangeData>>(json, Converter.Settings);
     }
 
     public static class Serialize
     {
-        public static string ToJson(this Dictionary<string, RsExchangeData> self) => JsonConvert.SerializeObject(self, Converter.Settings);
+        public static string ToJson(this Dictionary<string, OsBuddyExchangeData> self) => JsonConvert.SerializeObject(self, Converter.Settings);
     }
 
     public class Converter
