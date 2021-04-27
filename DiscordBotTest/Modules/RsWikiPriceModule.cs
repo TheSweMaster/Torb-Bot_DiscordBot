@@ -1,6 +1,7 @@
 ﻿using Discord;
 using Discord.Commands;
 using DiscordBotTest.Models.RsWikiPrices;
+using HtmlAgilityPack;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -41,9 +42,11 @@ namespace DiscordBotTest.Modules
                 await ReplyAsync($"Can't find any item with that name.");
                 return;
             }
+
             var priceData = latestPriceData.Data.TryGetValue(foundItem.Id.ToString(), out PriceData value) ? value : new PriceData();
 
-            var imageIconUrl = new Uri($"https://secure.runescape.com/m=itemdb_oldschool/a=142/1619001006055_obj_big.gif?id={foundItem.Id}");
+            string imageUrl = await GetRsBaseImageUrl();
+            var imageIconUrl = new Uri($"{imageUrl}{foundItem.Id}");
             var builder = new EmbedBuilder()
                     .WithTitle($"Runescape Current Price Data")
                     .AddField($"{foundItem.Name}",
@@ -54,6 +57,19 @@ namespace DiscordBotTest.Modules
                     .WithCurrentTimestamp();
 
             await ReplyAsync(embed: builder.Build());
+        }
+
+        private async Task<string> GetRsBaseImageUrl()
+        {
+            const string itemUrl = "https://secure.runescape.com/m=itemdb_oldschool/Old+school+bond/viewitem?obj=13190";
+            var web = new HtmlWeb();
+            var htmlDocument = await web.LoadFromWebAsync(itemUrl);
+            const string xpathImageUrl = "//*[@id='grandexchange']/div/div/main/div[2]/div[1]/img";
+            var imageSourceUrl = htmlDocument.DocumentNode.SelectSingleNode(xpathImageUrl)?.GetAttributeValue("src", string.Empty) ?? string.Empty;
+            // Example: src="https://secure.runescape.com/m=itemdb_oldschool/1619431325318_obj_big.gif?id=13190"
+            var rsBaseImageUrl = imageSourceUrl.TrimEnd("13190".ToArray());
+
+            return rsBaseImageUrl;
         }
 
         private string GetDisplayPrice(int? price)
