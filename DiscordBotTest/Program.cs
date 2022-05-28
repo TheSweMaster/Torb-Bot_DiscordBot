@@ -2,6 +2,7 @@
 using Discord.Commands;
 using Discord.WebSocket;
 using DiscordBotTest.Helpers;
+using DiscordBotTest.Modules;
 using DiscordBotTest.Runners;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -20,18 +21,21 @@ namespace DiscordBotTest
         private DiscordSocketClient _client;
         private static readonly HttpClient _httpClient = new HttpClient();
         private CommandService _commands;
+        private TrackManiaMapLeaderboardModelCache _trackManiaMapLeaderboardCache;
         private IServiceProvider _services;
         private readonly string _botToken = Configuration.GetAppSettings().Keys.BotToken;
         private readonly Timer CheckForUpdateTimer = new Timer(30 * 60 * 1000);
-        private readonly ulong _myServerId = 199189022894063627;
+        private readonly Timer CheckForUpdate1mTimer = new Timer(60 * 1000);
+        public const ulong MyServerId = 199189022894063627;
         private readonly ulong _testServerId = 430643719880835072;
-        public static readonly ulong MyUserId = 198806112852508672;
+        public const ulong MyUserId = 198806112852508672;
         private static readonly string _testUser = "TheSweMasterX#5203";
 
         public async Task RunBotAsync()
         {
             _client = new DiscordSocketClient();
             _commands = new CommandService();
+            _trackManiaMapLeaderboardCache = new TrackManiaMapLeaderboardModelCache();
 
             _services = new ServiceCollection()
                 .AddSingleton(_client)
@@ -43,7 +47,9 @@ namespace DiscordBotTest
             _client.Log += LogEvent;
             _client.UserJoined += UserJoinedEvent;
 
-            CheckForUpdateTimer.Enabled = true;
+            CheckForUpdate1mTimer.Enabled = true;
+
+            CheckForUpdate1mTimer.Elapsed += new ElapsedEventHandler(TmNewRecordNotification);
             //CheckForUpdateTimer.Elapsed += new ElapsedEventHandler(UpdateTotalLevelEvent);
             //CheckForUpdateTimer.Elapsed += new ElapsedEventHandler(LevelUpNotificationsEvent);
             //CheckForUpdateTimer.Elapsed += new ElapsedEventHandler(UpdateFloorBallSheetEvent);
@@ -57,6 +63,11 @@ namespace DiscordBotTest
             await _client.StartAsync();
 
             await Task.Delay(-1);
+        }
+
+        private async void TmNewRecordNotification(object sender, ElapsedEventArgs e)
+        {
+            await TrackManiaNewRecordNotification.TrySendNotification(_client, _httpClient, _trackManiaMapLeaderboardCache);
         }
 
         private void UpdateFloorBallSheetEvent(object sender, ElapsedEventArgs e)

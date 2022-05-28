@@ -8,7 +8,7 @@ namespace DiscordBotTest.Helpers
         private static readonly Dictionary<string, RSAccountData> RunescapeAccountWatchingList;
         static RunescapeAccountWatchList()
         {
-            const ulong MyServerId = 199189022894063627ul;
+            const ulong MyServerId = Program.MyServerId;
             const ulong ScrubsServerId = 202956682932912129ul;
             const ulong TestServerId = 430643719880835072ul;
             const ulong CynicalAngelsServerId = 365977640806514689ul;
