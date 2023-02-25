@@ -63,10 +63,10 @@ namespace DiscordBotTest.Modules
                     ? await httpResponse.Content.ReadAsStringAsync() 
                     : "";
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 await ReplyAsync($"Unexpected error, Something went wrong!");
-                throw ex;
+                throw;
             }
         }
 

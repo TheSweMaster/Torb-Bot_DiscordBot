@@ -29,7 +29,7 @@ namespace DiscordBotTest
         public const ulong MyServerId = 199189022894063627;
         private readonly ulong _testServerId = 430643719880835072;
         public const ulong MyUserId = 198806112852508672;
-        private static readonly string _testUser = "TheSweMasterX#5203";
+        // private static readonly string _testUser = "TheSweMasterX#5203";
 
         public async Task RunBotAsync()
         {

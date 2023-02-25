@@ -18,12 +18,11 @@ namespace DiscordBotTest
 
         private static string SearchAndReadFile(string filename)
         {
-            string text = "";
             string path = @"..\..\..\";
 
             var filePaths = Directory.GetFiles(path, filename, SearchOption.AllDirectories);
 
-            return text = (filePaths.Count() == 1)
+            return (filePaths.Length == 1)
                 ? File.ReadAllText(filePaths.First())
                 : throw new IOException($"Could not find the specified file '{filename}'");
         }
